@@ -4,7 +4,7 @@
         "species_ID":"AA",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1-2",
             "female":"1-2"
         },
@@ -39,14 +39,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2FhcmR2YXJrLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"African Buffalo",
         "species_ID":"AB",
         "interactivity":"full",
         "social":{
-            "group size":"8-50",
+            "group_size":"8-50",
             "male":"5-8",
             "female":"8-12"
         },
@@ -81,14 +82,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0FmcmljYW5CdWZmYWxvLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"African Elephant",
         "species_ID":"AE",
         "interactivity":"full",
         "social":{
-            "group size":"3-15",
+            "group_size":"3-15",
             "male":"3-5",
             "female":"3-15"
         },
@@ -138,14 +140,15 @@
                     "biome":"desert"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0FmcmljYW5FbGVwaGFudC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"African Wild Dog",
         "species_ID":"AWD",
         "interactivity":"full",
         "social":{
-            "group size":"2-6",
+            "group_size":"2-6",
             "male":"2-27",
             "female":"2-27"
         },
@@ -177,14 +180,15 @@
                     "biome":"desert"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2FmcmljYW53aWxkZG9nLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Aldabra Giant Tortoise",
         "species_ID":"AGT",
         "interactivity":"full",
         "social":{
-            "group size":"1-4",
+            "group_size":"1-4",
             "male":"1-2",
             "female":"1-4"
         },
@@ -216,14 +220,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2FsZGFicmFnaWFudHRvcnRvaXNlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Amazonian Giant Centipede",
         "interactivity":"exhibit",
         "species_ID":"AGC",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"",
             "female":""
         },
@@ -261,14 +266,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0FtYXpvbkdpYW50Q2VudGlwZWRlXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"American Bison",
         "interactivity":"full",
         "species_ID":"AB",
         "social":{
-            "group size":"3-15",
+            "group_size":"3-15",
             "male":"3-15",
             "female":"3-15"
         },
@@ -303,14 +309,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0FtZXJpY2FuQmlzb24uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Artic Wolf",
         "interactivity":"full",
         "species_ID":"AW",
         "social":{
-            "group size":"2-8",
+            "group_size":"2-8",
             "male":"2-8",
             "female":"2-8"
         },
@@ -348,14 +355,15 @@
                     "biome":"tundra"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19hcmN0aWN3b2xmLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Bacterian Camel",
         "interactivity":"full",
         "species_ID":"BC",
         "social":{
-            "group size":"2-11",
+            "group_size":"2-11",
             "male":"2",
             "female":"2-11"
         },
@@ -399,14 +407,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0JhY3RyaWFuQ2FtZWwuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Baird's Tapir",
         "interactivity":"full",
         "species_ID":"BT",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1"
         },
@@ -462,14 +471,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0JhaXJkc1RhcGlyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Belgan Tiger",
         "species_ID":"BT",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":1,
             "female":1
         },
@@ -522,14 +532,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2JlbmdhbHRpZ2VyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Black Wildebeest",
         "species_ID":"BW",
         "interactivity":"full",
         "social":{
-            "group size":"7-21",
+            "group_size":"7-21",
             "male":"7-16",
             "female":"7-32"
         },
@@ -558,14 +569,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2JsYWNrd2lsZGViZWVzdC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Boa Constrictor",
         "species_ID":"BC",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"",
             "female":""
         },
@@ -630,14 +642,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0JvYUNvbnN0cmljdG9yXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Bongo",
         "species_ID":"BG",
         "interactivity":"full",
         "social":{
-            "group size":"1-5",
+            "group_size":"1-5",
             "male":1,
             "female":"1-5"
         },
@@ -699,14 +712,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0JvbmdvLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Bonobo",
         "species_ID":"BB",
         "interactivity":"full",
         "social":{
-            "group size":"3-10",
+            "group_size":"3-10",
             "male":"3-10",
             "female":"3-10"
         },
@@ -735,14 +749,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0Jvbm9iby5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Bornean Orangutan",
         "species_ID":"BO",
         "interactivity":"full",
         "social":{
-            "group size":"1-6",
+            "group_size":"1-6",
             "male":1,
             "female":"1-6"
         },
@@ -780,14 +795,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2Jvcm5lYW5vcmFuZ3V0YW4uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Brazilian Salmon Pink Tarantual",
         "species_ID":"BSPT",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-6",
+            "group_size":"1-6",
             "male":"",
             "female":""
         },
@@ -816,14 +832,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0JyYXppbGxpYW5TYWxtb25QaW5rVGFyYW50dWxhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Brazilian Wandering Spider",
         "species_ID":"BWS",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-6",
+            "group_size":"1-6",
             "male":"",
             "female":""
         },
@@ -876,14 +893,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0JyYXppbGlhbldhbmRlcmluZ1NwaWRlcl8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Cheetah",
         "species_ID":"CT",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1"
         },
@@ -915,14 +933,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NoZWV0YWguanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Chinese Pangolin",
         "species_ID":"CP",
         "interactivity":"full",
         "social":{
-            "group size":"1-3",
+            "group_size":"1-3",
             "male":"3",
             "female":"3"
         },
@@ -975,14 +994,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NoaW5lc2VwYW5nb2xpbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Colombian White-Faces Capuchin Monkey",
         "species_ID":"CWFCM",
         "interactivity":"full",
         "social":{
-            "group size":"8-40",
+            "group_size":"8-40",
             "male":"8-40",
             "female":"8-40"
         },
@@ -1023,14 +1043,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2NhcHVjaGluLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Common Death Adder",
         "species_ID":"CDA",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-5",
+            "group_size":"1-5",
             "male":"",
             "female":""
         },
@@ -1059,14 +1080,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0NvbW1vbkRlYXRoQWRkZXJfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Common Ostrich",
         "species_ID":"CO",
         "interactivity":"full",
         "social":{
-            "group size":"1-8",
+            "group_size":"1-8",
             "male":"1-2",
             "female":"1-2"
         },
@@ -1101,14 +1123,15 @@
                     "biome":"desert"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NvbW1vbm9zdHJpY2guanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Common Warthog",
         "species_ID":"CW",
         "interactivity":"full",
         "social":{
-            "group size":"1-10",
+            "group_size":"1-10",
             "male":"1-2",
             "female":"1-10"
         },
@@ -1140,14 +1163,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NvbW1vbndhcnRob2cuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Cuvier's Dwarf Caiman",
         "species_ID":"CDC",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1"
         },
@@ -1185,14 +1209,15 @@
                     "biome":"aquatic"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2R3YXJmY2FpbWFuLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Dall Sheep",
         "species_ID":"DS",
         "interactivity":"full",
         "social":{
-            "group size":"3-40",
+            "group_size":"3-40",
             "male":"3-15",
             "female":"3-40"
         },
@@ -1230,14 +1255,15 @@
                     "biome":"tundra"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19kYWxsc2hlZXAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Diamondback Terrapin",
         "species_ID":"DT",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-8",
+            "group_size":"1-8",
             "male":"",
             "female":""
         },
@@ -1272,14 +1298,15 @@
                     "biome":"aquatic"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL3RlcnJhcGluLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Dingo",
         "species_ID":"DG",
         "interactivity":"full",
         "social":{
-            "group size":"2-12",
+            "group_size":"2-12",
             "male":"2-12",
             "female":"2-12"
         },
@@ -1311,14 +1338,15 @@
                     "biome":"desert"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L0RpbmdvXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Eastern Blue Tongued Lizard",
         "species_ID":"EBTL",
         "interactivity":"exhibit",
         "social":{
-            "group size":"",
+            "group_size":"",
             "male":"",
             "female":""
         },
@@ -1356,14 +1384,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L0Vhc3Rlcm5CbHVlVG9uZ3VlZExpemFyZF8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Eastern Brown Snake",
         "species_ID":"EBS",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-5",
+            "group_size":"1-5",
             "male":"",
             "female":""
         },
@@ -1404,14 +1433,15 @@
                     "biome":"desert"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0Vhc3Rlcm5Ccm93blNuYWtlXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Formosan Black Bear",
         "species_ID":"FBB",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1"
         },
@@ -1449,14 +1479,15 @@
                     "biome":"taiga"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0Zvcm1vc2FuQmxhY2tCZWFyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Galapago Giant Tortoise",
         "species_ID":"GGT",
         "interactivity":"full",
         "social":{
-            "group size":"1-4",
+            "group_size":"1-4",
             "male":"1-2",
             "female":"1-4"
         },
@@ -1495,7 +1526,7 @@
         "species_ID":"GB",
         "interactivity":"full",
         "social":{
-            "group size":"10-40",
+            "group_size":"10-40",
             "male":"10",
             "female":"10-40"
         },
@@ -1524,14 +1555,15 @@
                     "biome":"desert"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2dlbXNib2suanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Gharial",
         "species_ID":"GR",
         "interactivity":"full",
         "social":{
-            "group size":"1-7",
+            "group_size":"1-7",
             "male":"1-30",
             "female":"1-30"
         },
@@ -1572,14 +1604,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2doYXJpYWwuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Giant Anteater",
         "species_ID":"GA",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1-2",
             "female":"1-2"
         },
@@ -1656,14 +1689,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2dpYW50YW50ZWF0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Giant Burrowing Cockroach",
         "species_ID":"GBC",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-6",
+            "group_size":"1-6",
             "male":"",
             "female":""
         },
@@ -1698,14 +1732,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50QnVycm93aW5nQ29ja3JvYWNoLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Giant Desert Hairy Scorpion",
         "species_ID":"GDHS",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-6",
+            "group_size":"1-6",
             "male":"",
             "female":""
         },
@@ -1734,14 +1769,15 @@
                     "biome":"desert"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50RGVzZXJ0SGFpcnlTY29ycGlvbl8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Giant Forest Scorpion",
         "species_ID":"GFS",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-6",
+            "group_size":"1-6",
             "male":"",
             "female":""
         },
@@ -1776,14 +1812,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50Rm9yZXN0U2NvcnBpb25fMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Giant Otter",
         "species_ID":"GO",
         "interactivity":"full",
         "social":{
-            "group size":"2-15",
+            "group_size":"2-15",
             "male":"2-9",
             "female":"2-6"
         },
@@ -1818,14 +1855,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2dpYW50b3R0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Giant Panda",
         "species_ID":"GP",
         "interactivity":"full",
         "social":{
-            "group size":"1-10",
+            "group_size":"1-10",
             "male":"1-10",
             "female":"1-10"
         },
@@ -1860,14 +1898,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0dpYW50UGFuZGEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Giant Tiger Land Snail",
         "species_ID":"GTLS",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-6",
+            "group_size":"1-6",
             "male":"",
             "female":""
         },
@@ -1902,14 +1941,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50VGlnZXJMYW5kU25haWxfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Gila Monster",
         "species_ID":"GM",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-4",
+            "group_size":"1-4",
             "male":"",
             "female":""
         },
@@ -1938,14 +1978,15 @@
                     "biome":"desert"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpbGFNb25zdGVyXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Golden Poison Frog",
         "species_ID":"GPF",
         "interactivity":"exhibit",
         "social":{
-            "group size":"4-11",
+            "group_size":"4-11",
             "male":"",
             "female":""
         },
@@ -1977,14 +2018,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGRlblBvaXNvbkZyb2dfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Goliath Beetle",
         "species_ID":"GBL",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-8",
+            "group_size":"1-8",
             "male":"",
             "female":""
         },
@@ -2037,14 +2079,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGlhdGhCZWV0bGVfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Goliath Birdeater",
         "species_ID":"GBE",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-3",
+            "group_size":"1-3",
             "male":"",
             "female":""
         },
@@ -2088,14 +2131,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGlhdGhCaXJkZWF0ZXJfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Goliath Frog",
         "species_ID":"GF",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"",
             "female":""
         },
@@ -2133,14 +2177,15 @@
                     "biome":"aquatic"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGlhdGhGcm9nXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Greater Flamingo",
         "species_ID":"GFG",
         "interactivity":"full",
         "social":{
-            "group size":"10-500",
+            "group_size":"10-500",
             "male":"10-500",
             "female":"10-500"
         },
@@ -2229,14 +2274,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2dyZWF0ZXJmbGFtaW5nby5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Green Iguana",
         "species_ID":"GI",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"",
             "female":""
         },
@@ -2268,14 +2314,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dyZWVuSWd1YW5hXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Grey Seal",
         "species_ID":"GS",
         "interactivity":"full",
         "social":{
-            "group size":"3-8",
+            "group_size":"3-8",
             "male":"3",
             "female":"3-8"
         },
@@ -2310,14 +2357,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2dyZXlzZWFsLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Grizzly Bear",
         "species_ID":"GBR",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1-2"
         },
@@ -2352,14 +2400,15 @@
                     "biome":"tundra"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0dyaXp6bHlCZWFyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Himalayan Brown Bear",
         "species_ID":"HBB",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1-2"
         },
@@ -2412,14 +2461,14 @@
                     "biome":"tundra"
                 }
             ]
-        }
+        },"url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0hpbWFsYXlhbkJyb3duQmVhci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Hippopotamus",
         "species_ID":"H",
         "interactivity":"full",
         "social":{
-            "group size":"3-30",
+            "group_size":"3-30",
             "male":"1-3",
             "female":"3-30"
         },
@@ -2454,14 +2503,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2hpcHBvcG90YW11cy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Indian Elephant",
         "species_ID":"IE",
         "interactivity":"full",
         "social":{
-            "group size":"5-30",
+            "group_size":"5-30",
             "male":"5",
             "female":"5-30"
         },
@@ -2529,14 +2579,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2luZGlhbmVsZXBoYW50LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Indian Peafowl",
         "species_ID":"IP",
         "interactivity":"full",
         "social":{
-            "group size":"5-20",
+            "group_size":"5-20",
             "male":"4-5",
             "female":"5-16"
         },
@@ -2574,14 +2625,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2luZGlhbnBlYWZvd2wuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Indian Rhinoceros",
         "species_ID":"IR",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1-2"
         },
@@ -2622,14 +2674,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2luZGlhbnJoaW5vY2Vyb3MuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Jaguar",
         "species_ID":"J",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1"
         },
@@ -2721,14 +2774,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2phZ3Vhci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Japanese Macaque",
         "species_ID":"JM",
         "interactivity":"full",
         "social":{
-            "group size":"8-50",
+            "group_size":"8-50",
             "male":"8-50",
             "female":"8-50"
         },
@@ -2763,14 +2817,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2phcGFuZXNlbWFjYXF1ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"King Penguin",
         "species_ID":"KP",
         "interactivity":"full",
         "social":{
-            "group size":"6-500",
+            "group_size":"6-500",
             "male":"6-500",
             "female":"16-500"
         },
@@ -2802,14 +2857,15 @@
                     "biome":"tundra"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2tpbmdwZW5ndWluLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Koala",
         "species_ID":"K",
         "interactivity":"full",
         "social":{
-            "group size":"1-4",
+            "group_size":"1-4",
             "male":"1-3",
             "female":"1-4"
         },
@@ -2844,14 +2900,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L0tvYWxhXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Komodo Dragon",
         "species_ID":"KD",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1-2",
             "female":"1-2"
         },
@@ -2886,14 +2943,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2tvbW9kb2RyYWdvbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Lehmann's Poison Frog",
         "species_ID":"LPF",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-6",
+            "group_size":"1-6",
             "male":"",
             "female":""
         },
@@ -2925,14 +2983,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0xlaG1hbm5zUG9pc29uRnJvZ18wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Lesser Antillean Iguana",
         "species_ID":"LAI",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"",
             "female":""
         },
@@ -2967,14 +3026,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0FudGlsbGVhbklndWFuYV8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Llama",
         "species_ID":"L",
         "interactivity":"full",
         "social":{
-            "group size":"2-30",
+            "group_size":"2-30",
             "male":"2-30",
             "female":"2-30"
         },
@@ -3024,14 +3084,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2xsYW1hLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Mandrill",
         "species_ID":"M",
         "interactivity":"full",
         "social":{
-            "group size":"5-10",
+            "group_size":"5-10",
             "male":"5",
             "female":"5-10"
         },
@@ -3060,14 +3121,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL01hbmRyaWxsLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Mexican Red Knee Tarantula",
         "species_ID":"MRKT",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-5",
+            "group_size":"1-5",
             "male":"",
             "female":""
         },
@@ -3099,14 +3161,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX01leGljYW5SZWRrbmVlVGFyYW50dWxhXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Nile Monitor",
         "species_ID":"NM",
         "interactivity":"full",
         "social":{
-            "group size":"1-3",
+            "group_size":"1-3",
             "male":"1-2",
             "female":"1-3"
         },
@@ -3138,14 +3201,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL25pbGVtb25pdG9yLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Nyala",
         "species_ID":"N",
         "interactivity":"full",
         "social":{
-            "group size":"1-5",
+            "group_size":"1-5",
             "male":"1",
             "female":"1-5"
         },
@@ -3177,14 +3241,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL055YWxhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Okapi",
         "species_ID":"O",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1-2"
         },
@@ -3216,14 +3281,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL09rYXBpLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Plains Zebra",
         "species_ID":"PZ",
         "interactivity":"full",
         "social":{
-            "group size":"3-15",
+            "group_size":"3-15",
             "male":"3-15",
             "female":"3-10"
         },
@@ -3258,14 +3324,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3BsYWluc3plYnJhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Polar Bear",
         "species_ID":"PB",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1-2"
         },
@@ -3315,14 +3382,15 @@
                     "biome":"tundra"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19wb2xhcmJlYXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Pronghorn Antelope",
         "species_ID":"PA",
         "interactivity":"full",
         "social":{
-            "group size":"3-13",
+            "group_size":"3-13",
             "male":"3-6",
             "female":"3-12"
         },
@@ -3354,14 +3422,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3Byb25naG9ybmFudGVsb3BlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Puff Adder",
         "species_ID":"PA",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-5",
+            "group_size":"1-5",
             "male":"",
             "female":""
         },
@@ -3390,14 +3459,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1B1ZmZBZGRlcl8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Pygmy Hippo",
         "species_ID":"PH",
         "interactivity":"full",
         "social":{
-            "group size":"2-3",
+            "group_size":"2-3",
             "male":"2-3",
             "female":"2-4"
         },
@@ -3441,14 +3511,15 @@
                     "biome":"aquatic"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1B5Z215SGlwcG8uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Red Kangaroo",
         "species_ID":"RK",
         "interactivity":"full",
         "social":{
-            "group size":"2-10",
+            "group_size":"2-10",
             "male":"2-4",
             "female":"2-10"
         },
@@ -3483,14 +3554,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L1JlZEthbmdhcm9vXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Red Panda",
         "species_ID":"RP",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1-2",
             "female":"1-2"
         },
@@ -3528,14 +3600,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3JlZHBhbmRhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Red Ruffed Lemur",
         "species_ID":"RRL",
         "interactivity":"full",
         "social":{
-            "group size":"3-30",
+            "group_size":"3-30",
             "male":"3-30",
             "female":"3-30"
         },
@@ -3564,14 +3637,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3JlZHJ1ZmZlZGxlbXVyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Red-Eyed Tree Frog",
         "species_ID":"RETF",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-8",
+            "group_size":"1-8",
             "male":"",
             "female":""
         },
@@ -3621,14 +3695,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L3JlZGV5ZWR0cmVlZnJvZy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Reindeer",
         "species_ID":"R",
         "interactivity":"full",
         "social":{
-            "group size":"3-12",
+            "group_size":"3-12",
             "male":"3-12",
             "female":"3-12"
         },
@@ -3681,14 +3756,15 @@
                     "biome":"tundra"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19yZWluZGVlci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Reticulated Giraffe",
         "species_ID":"RG",
         "interactivity":"full",
         "social":{
-            "group size":"2-44",
+            "group_size":"2-44",
             "male":"2-44",
             "female":"2-44"
         },
@@ -3720,14 +3796,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3JldGljdWxhdGVkZ2lyYWZmZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Ring Tailed Lemur",
         "species_ID":"RTL",
         "interactivity":"full",
         "social":{
-            "group size":"10-40",
+            "group_size":"10-40",
             "male":"10",
             "female":"10-40"
         },
@@ -3756,14 +3833,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3Jpbmd0YWlsZWRsZW11ci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Sable Antelope",
         "species_ID":"SA",
         "interactivity":"full",
         "social":{
-            "group size":"1-11",
+            "group_size":"1-11",
             "male":"1-5",
             "female":"1-10"
         },
@@ -3792,14 +3870,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3NhYmxlYW50ZWxvcGUuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Saltwater Crocodile",
         "species_ID":"SC",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1"
         },
@@ -3831,14 +3910,15 @@
                     "biome":"aquatic"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL3NhbHR3YXRlcmNyb2NvZGlsZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Siberian Tiger",
         "species_ID":"ST",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1"
         },
@@ -3882,14 +3962,15 @@
                     "biome":"temperate"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NpYmVyaWFuVGlnZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Snow Leopard",
         "species_ID":"SL",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1"
         },
@@ -3939,14 +4020,15 @@
                     "biome":"tundra"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3Nub3dsZW9wYXJkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Southern Cassowary",
         "species_ID":"SC",
         "interactivity":"full",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"1",
             "female":"1"
         },
@@ -3984,14 +4066,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L1NvdXRoZXJuQ2Fzc293YXJ5XzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Spotted Hyena",
         "species_ID":"SH",
         "interactivity":"full",
         "social":{
-            "group size":"2-4",
+            "group_size":"2-4",
             "male":"2-4",
             "female":"2-4"
         },
@@ -4020,14 +4103,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1Nwb3R0ZWRIeWVuYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Springbok",
         "species_ID":"S",
         "interactivity":"full",
         "social":{
-            "group size":"3-35",
+            "group_size":"3-35",
             "male":"3-35",
             "female":"3-35"
         },
@@ -4059,14 +4143,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwcmluZ2Jvay5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Thomson's Gazelle",
         "species_ID":"TG",
         "interactivity":"full",
         "social":{
-            "group size":"3-36",
+            "group_size":"3-36",
             "male":"3-36",
             "female":"3-36"
         },
@@ -4101,14 +4186,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3Rob21zb25zZ2F6ZWxsZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Timber Wolf",
         "species_ID":"TW",
         "interactivity":"full",
         "social":{
-            "group size":"2-12",
+            "group_size":"2-12",
             "male":"2-6",
             "female":"2-6"
         },
@@ -4146,14 +4232,15 @@
                     "biome":"taiga"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3RpbWJlcndvbGYuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"Titan Beetle",
         "species_ID":"TB",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-7",
+            "group_size":"1-7",
             "male":"",
             "female":""
         },
@@ -4200,14 +4287,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1RpdGFuQmVldGxlXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     },
     {
         "species":"West African Lion",
         "species_ID":"WAL",
         "interactivity":"full",
         "social":{
-            "group size":"3-30",
+            "group_size":"3-30",
             "male":"3-4",
             "female":"3-30"
         },
@@ -4236,14 +4324,15 @@
                     "biome":"grassland"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1dlc3RBZnJpY2FuTGlvbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Western Chimpanzee",
         "species_ID":"WC",
         "interactivity":"full",
         "social":{
-            "group size":"5-15",
+            "group_size":"5-15",
             "male":"5-10",
             "female":"5-15"
         },
@@ -4272,14 +4361,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1dlc3Rlcm5DaGltcGFuemVlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Western Diamondback Rattlesnake",
         "species_ID":"WDR",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"",
             "female":""
         },
@@ -4308,14 +4398,15 @@
                     "biome":"desert"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1dlc3Rlcm5EaWFtb25kQmFja1JhdHRsZXNuYWtlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
     },
     {
         "species":"Western Lowland Gorilla",
         "species_ID":"WLG",
         "interactivity":"full",
         "social":{
-            "group size":"3-6",
+            "group_size":"3-6",
             "male":"1-3",
             "female":"3-5"
         },
@@ -4344,14 +4435,15 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1dlc3Rlcm5Mb3dsYW5kR29yaWxsYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
     },
     {
         "species":"Yellow Anaconda",
         "species_ID":"YA",
         "interactivity":"exhibit",
         "social":{
-            "group size":"1-2",
+            "group_size":"1-2",
             "male":"",
             "female":""
         },
@@ -4380,7 +4472,8 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1llbGxvd0FuYWNvbmRhXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
     }
     
 ]

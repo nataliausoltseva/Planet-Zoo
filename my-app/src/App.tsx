@@ -1,30 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-
+import AnimalsInfo from './components/AnimalsInfo';
+import { IUserInput } from './components/interfaces';
+import Search from './components/Search';
 
 function App() {
-  
-  var data = require('./JSON components/animals.json');
-  console.log(data);
-
-  function showAnimals(){
-    var body;
-    for(var i=0;i<data.length;i++){
-      if(data[i].interactivity === "full"){
-        console.log("FULL",data[i].species);
-      }
-      if(data[i].interactivity === "exhibit"){
-        console.log("EXHIBIT",data[i].species);
-      }
-    }
-
-    return body;
+  // eslint-disable-next-line
+  const [UserInput, setUserInput] = useState<IUserInput>({
+    SearchQuery: "Aardvark",
+    
+  });
+  function SetUserInput(a: IUserInput) {
+    setUserInput(a);    
   }
+
   return (
     <div className="App">
-        <div>
-          {showAnimals()}
-        </div>
+      <Search SetUserInput={(a: IUserInput) => SetUserInput(a)}/>
+      <AnimalsInfo />
     </div>
   );
 }
