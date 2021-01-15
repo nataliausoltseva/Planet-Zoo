@@ -1,0 +1,12 @@
+CR = Critically Endangered Animals
+DD = Data Deficient Animals
+DM = Domesticated Animals
+EN = Endangered Animals
+EX = Extinct Animals
+LC = Least Concern Animals
+NT = Near Threatened Animals
+VU = Vulnerable Animals
+
+DD < LC < NT < VU < EN < CR < EX
+
+(Not sure where to put Domesticated Animals)
