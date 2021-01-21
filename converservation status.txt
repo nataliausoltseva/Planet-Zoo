@@ -7,6 +7,6 @@ LC = Least Concern Animals
 NT = Near Threatened Animals
 VU = Vulnerable Animals
 
-DD < LC < NT < VU < EN < CR < EX
+DD < DM < LC < NT < VU < EN < CR < EX
 
 (Not sure where to put Domesticated Animals)

@@ -1,13 +1,20 @@
+import { ColDef, DataGrid } from '@material-ui/data-grid';
 import React, { useEffect, useState } from 'react';
+import './Search.css';
 
 interface Animals {
     species:string,
     interactive:string,
     social:Social,
     reproduction:Reproduction,
-    origins:Origins,
     habbitat:Habbitat,
-    url:string
+    url:string,
+    id:number,
+    population:string,
+    edition:string,
+    shared_habitat:SharedHabitat[],
+    conversation_status:string,
+    continents:string
 }
 
 interface Social {
@@ -20,15 +27,6 @@ interface Reproduction {
     maturity: number,
     incubation: number,
     interbirth:number
-}
-
-interface Origins {
-    continents:string,
-    regions:Regions[]
-}
-
-interface Regions {
-    country:string
 }
 
 interface Habbitat {
@@ -46,23 +44,43 @@ interface Habbitat {
 interface Biomes {
     biome: string
 }
+
+interface SharedHabitat {
+    animal:string
+}
+
 function AnimalsInfo() {
-  
-    var data = require('../JSON components/animals.json');
-    const [animalInformation, setAnimalInformation] = useState<Animals[]>([{species:"", interactive:"",social:{group_size:"", male:"", female:""},reproduction:{maturity:0,incubation:0,interbirth:0},origins:{continents:"", regions:[{country:""}]},habbitat:{land_area:"", land_area_for_additional_animal:"", water_area:"", water_area_for_additional_animal:"", climbing_area:"", climbing_areay_for_additional_animal:"", temperature:"", humidity:"", biomes:[{biome:""}]}, url:""}]);
+    var JSON_data = require('../JSON components/animals.json');
+    const [animalInformation, setAnimalInformation] = useState<Animals[]>([{species:"", interactive:"",social:{group_size:"", male:"", female:""},reproduction:{maturity:0,incubation:0,interbirth:0},continents:"", conversation_status:"",habbitat:{land_area:"", land_area_for_additional_animal:"", water_area:"", water_area_for_additional_animal:"", climbing_area:"", climbing_areay_for_additional_animal:"", temperature:"", humidity:"", biomes:[{biome:""}]}, url:"", id:0, population:"", edition:"", shared_habitat:[{animal:""}] }]);
 
     useEffect(()=> {
-        setAnimalInformation(data);
+        setAnimalInformation(JSON_data);
         
     // eslint-disable-next-line
-    }, [data]);
+    }, [JSON_data]);
 
-    console.log(animalInformation);
+    const columns:ColDef[]=[
+        {
+            field:"species", headerName:"Species", width:150,headerAlign: 'center',
+        },
+        {
+            field:"conversation_status", headerName:"Conservative Status", width:200,headerAlign: 'center',
+        },
+        {
+            field:"continents", headerName:"Continents", width:150,headerAlign: 'center',
+        },
+        {
+            field:"edition", headerName:"Edition", width:100,headerAlign: 'center',
+        },
+        {
+            field:"population", headerName:"Population", width:150,headerAlign: 'center',
+        }
+    ];
+
     return (
         <div>
-            <div  style={{ listStyleType:"none"}}>
-            {animalInformation.map((item,i)=>
-            <li key={i}>{item.species}</li>)} 
+            <div style={{ flexGrow: 1 }}>
+                <DataGrid rows={animalInformation} columns={columns} hideFooter autoHeight density="standard" />
             </div>
         </div>
     );

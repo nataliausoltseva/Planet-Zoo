@@ -1,5 +1,6 @@
 [
     {
+        "id":1,
         "species":"Aardvark",
         "species_ID":"AA",
         "interactivity":"full",
@@ -13,15 +14,8 @@
             "incubation":0.583,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Sub Saharan Africa"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Africa",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"330.0",
             "land_area_for_additional_animal":"60",
@@ -40,9 +34,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2FhcmR2YXJrLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2FhcmR2YXJrLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"1000000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":2,
         "species":"African Buffalo",
         "species_ID":"AB",
         "interactivity":"full",
@@ -56,15 +55,8 @@
             "incubation":0.92,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Sub Saharan Africa"
-                }
-            ],
-            "conversation_status":"NT"
-        },
+        "continents":"Africa",
+        "conversation_status":"NT",
         "habbitat":{
             "land_area":"420.0",
             "land_area_for_additional_animal":"90",
@@ -83,9 +75,38 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0FmcmljYW5CdWZmYWxvLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0FmcmljYW5CdWZmYWxvLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"400000",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"Black Wildebeest"
+            },
+            {
+                "animal":"Common Ostrich"
+            },
+            {
+                "animal":"Common Warthog"
+            },
+            {
+                "animal":"Plains Zebra"
+            },
+            {
+                "animal":"Reticulated Giraffe"
+            },
+            {
+                "animal":"Sable Antelope"
+            },
+            {
+                "animal":"Springbok"
+            },
+            {
+                "animal":"Thomson's Gazelle"
+            }
+        ]
     },
     {
+        "id":3,
         "species":"African Elephant",
         "species_ID":"AE",
         "interactivity":"full",
@@ -99,30 +120,8 @@
             "incubation":1.83,
             "interbirth":9
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Kenya"
-                },
-                {
-                    "country":"Tanzania"
-                },
-                {
-                    "country":"Botswana"
-                },
-                {
-                    "country":"Zimbabwe"
-                },
-                {
-                    "country":"Nambia"
-                },
-                {
-                    "country":"Angola"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"Africa",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"2151",
             "land_area_for_additional_animal":"667",
@@ -141,9 +140,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0FmcmljYW5FbGVwaGFudC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0FmcmljYW5FbGVwaGFudC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"40000-50000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":4,
         "species":"African Wild Dog",
         "species_ID":"AWD",
         "interactivity":"full",
@@ -157,12 +161,8 @@
             "incubation":0.17,
             "interbirth":1.17
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Africa",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"1162",
             "land_area_for_additional_animal":"92",
@@ -181,9 +181,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2FmcmljYW53aWxkZG9nLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2FmcmljYW53aWxkZG9nLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"2000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":5,
         "species":"Aldabra Giant Tortoise",
         "species_ID":"AGT",
         "interactivity":"full",
@@ -197,15 +202,8 @@
             "incubation":0.67,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Seychelles"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"Africa",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"230",
             "land_area_for_additional_animal":"5",
@@ -221,9 +219,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2FsZGFicmFnaWFudHRvcnRvaXNlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2FsZGFicmFnaWFudHRvcnRvaXNlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"100000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":6,
         "species":"Amazonian Giant Centipede",
         "interactivity":"exhibit",
         "species_ID":"AGC",
@@ -237,18 +240,8 @@
             "incubation":0.33,
             "interbirth":0.17
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-                {
-                    "country":"Throught South America"
-                },
-                {
-                    "country":"Caribbean"
-                }
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"South America",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -267,9 +260,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0FtYXpvbkdpYW50Q2VudGlwZWRlXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0FtYXpvbkdpYW50Q2VudGlwZWRlXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":7,
         "species":"American Bison",
         "interactivity":"full",
         "species_ID":"AB",
@@ -283,18 +281,8 @@
             "incubation":0.83,
             "interbirth":1
         },
-        "origins":{
-            "continents":"North America",
-            "regions":[
-                {
-                    "country":"Canada"
-                },
-                {
-                    "country":"USA"
-                }
-            ],
-            "conversation_status":"NT"
-        },
+        "continents":"North America",
+        "conversation_status":"NT",
         "habbitat":{
             "land_area":"420",
             "land_area_for_additional_animal":"90",
@@ -310,9 +298,17 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0FtZXJpY2FuQmlzb24uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0FtZXJpY2FuQmlzb24uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"15000",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"Pronghorn Antelope"
+            }
+        ]
     },
     {
+        "id":8,
         "species":"Artic Wolf",
         "interactivity":"full",
         "species_ID":"AW",
@@ -326,18 +322,8 @@
             "incubation":0.17,
             "interbirth":1
         },
-        "origins":{
-            "continents":"North America",
-            "regions":[
-                {
-                    "country":"Canada"
-                },
-                {
-                    "country":"Greenland"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"North America",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"1162",
             "land_area_for_additional_animal":"92",
@@ -356,9 +342,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19hcmN0aWN3b2xmLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19hcmN0aWN3b2xmLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"~195000",
+        "edition":"arctic pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":9,
         "species":"Bacterian Camel",
         "interactivity":"full",
         "species_ID":"BC",
@@ -372,24 +363,8 @@
             "incubation":1.083,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"Mongolia"
-                },
-                {
-                    "country":"China"
-                },
-                {
-                    "country":"Himalayas"
-                },
-                {
-                    "country":"Siberia"
-                }
-            ],
-            "conversation_status":"DM"
-        },
+        "continents":"Asia",
+        "conversation_status":"DM",
         "habbitat":{
             "land_area":"650",
             "land_area_for_additional_animal":"100",
@@ -408,9 +383,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0JhY3RyaWFuQ2FtZWwuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0JhY3RyaWFuQ2FtZWwuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"1400",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":10,
         "species":"Baird's Tapir",
         "interactivity":"full",
         "species_ID":"BT",
@@ -424,33 +404,8 @@
             "incubation":1.083,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Souther America, Central America",
-            "regions":[
-                {
-                    "country":"Beliza"
-                },
-                {
-                    "country":"Guatemala"
-                },
-                {
-                    "country":"Honduras"
-                },
-                {
-                    "country":"Nicarague"
-                },
-                {
-                    "country":"Costa Rica"
-                },
-                {
-                    "country":"Panama"
-                },
-                {
-                    "country":"Northwestern Colombia"
-                }
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Souther America, Central America",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"430",
             "land_area_for_additional_animal":"56",
@@ -472,9 +427,20 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0JhaXJkc1RhcGlyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0JhaXJkc1RhcGlyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"4500",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"Colombian White-Faces Capuchin Monkey"
+            },
+            {
+                "animal":"Giant Anteater"
+            }
+        ]
     },
     {
+        "id":11,
         "species":"Belgan Tiger",
         "species_ID":"BT",
         "interactivity":"full",
@@ -488,30 +454,8 @@
             "incubation":0.25,
             "interbirth":3
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"India"
-                },
-                {
-                    "country":"Bangladesh"
-                },
-                {
-                    "country":"Nepal"
-                },
-                {
-                    "country":"Bhutan"
-                },
-                {
-                    "country":"China"
-                },
-                {
-                    "country":"Myanmar"
-                }
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Asia",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"705",
             "land_area_for_additional_animal":"111",
@@ -533,9 +477,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2JlbmdhbHRpZ2VyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2JlbmdhbHRpZ2VyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"450",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":12,
         "species":"Black Wildebeest",
         "species_ID":"BW",
         "interactivity":"full",
@@ -549,12 +498,8 @@
             "incubation":0.75,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Africa",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"410",
             "land_area_for_additional_animal":"40",
@@ -570,9 +515,38 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2JsYWNrd2lsZGViZWVzdC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2JsYWNrd2lsZGViZWVzdC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"18000",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"African Buffalo"
+            },
+            {
+                "animal":"Common Ostrich"
+            },
+            {
+                "animal":"Common Warthog"
+            },
+            {
+                "animal":"Plains Zebra"
+            },
+            {
+                "animal":"Reticulated Giraffe"
+            },
+            {
+                "animal":"Sable Antelope"
+            },
+            {
+                "animal":"Springbok"
+            },
+            {
+                "animal":"Thomson's Gazelle"
+            }
+        ]
     },
     {
+        "id":13,
         "species":"Boa Constrictor",
         "species_ID":"BC",
         "interactivity":"exhibit",
@@ -586,48 +560,8 @@
             "incubation":0.33,
             "interbirth":2
         },
-        "origins":{
-            "continents":"South America, Central America",
-            "regions":[
-                {
-                    "country":"Columbia"
-                },
-                {
-                    "country":"Ecuador"
-                },
-                {
-                    "country":"Peru"
-                },
-                {
-                    "country":"Venezuela"
-                },
-                {
-                    "country":"Trindad and Tobago"
-                },
-                {
-                    "country":"Guyana"
-                },
-                {
-                    "country":"Suriname"
-                },
-                {
-                    "country":"French Guiana"
-                },
-                {
-                    "country":"Brazil"
-                },
-                {
-                    "country":"Bolivia"
-                },
-                {
-                    "country":"Uruguay"
-                },
-                {
-                    "country":"Argentina"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"South America, Central America",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -643,9 +577,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0JvYUNvbnN0cmljdG9yXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0JvYUNvbnN0cmljdG9yXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":14,
         "species":"Bongo",
         "species_ID":"BG",
         "interactivity":"full",
@@ -659,45 +598,8 @@
             "incubation":0.75,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Cameroon"
-                },
-                {
-                    "country":"Central African Republic"
-                },
-                {
-                    "country":"Republic of Congo"
-                },
-                {
-                    "country":"Democratic Republic of Congo"
-                },
-                {
-                    "country":"Ivory Coast"
-                },
-                {
-                    "country":"Equatorial Guinea"
-                },
-                {
-                    "country":"Gabon"
-                },
-                {
-                    "country":"Ghana"
-                },
-                {
-                    "country":"Liberia"
-                },
-                {
-                    "country":"Sierra leone"
-                },
-                {
-                    "country":"South Sudan"
-                }
-            ],
-            "conversation_status":"NT"
-        },
+        "continents":"Africa",
+        "conversation_status":"NT",
         "habbitat":{
             "land_area":"240",
             "land_area_for_additional_animal":"30",
@@ -713,9 +615,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0JvbmdvLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0JvbmdvLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"900",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":15,
         "species":"Bonobo",
         "species_ID":"BB",
         "interactivity":"full",
@@ -729,12 +636,8 @@
             "incubation":0.67,
             "interbirth":5
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Africa",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"780",
             "land_area_for_additional_animal":"50",
@@ -750,9 +653,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0Jvbm9iby5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0Jvbm9iby5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"10000-20000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":16,
         "species":"Bornean Orangutan",
         "species_ID":"BO",
         "interactivity":"full",
@@ -766,21 +674,8 @@
             "incubation":0.67,
             "interbirth":8
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"Bornea"
-                },
-                {
-                    "country":"Malaysia"
-                },
-                {
-                    "country":"Indonesia"
-                }
-            ],
-            "conversation_status":"CR"
-        },
+        "continents":"Asia",
+        "conversation_status":"CR",
         "habbitat":{
             "land_area":"780",
             "land_area_for_additional_animal":"50",
@@ -796,9 +691,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2Jvcm5lYW5vcmFuZ3V0YW4uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2Jvcm5lYW5vcmFuZ3V0YW4uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"7000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":17,
         "species":"Brazilian Salmon Pink Tarantual",
         "species_ID":"BSPT",
         "interactivity":"exhibit",
@@ -812,12 +712,8 @@
             "incubation":0.083,
             "interbirth":0.917
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"South America",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -833,9 +729,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0JyYXppbGxpYW5TYWxtb25QaW5rVGFyYW50dWxhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0JyYXppbGxpYW5TYWxtb25QaW5rVGFyYW50dWxhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":18,
         "species":"Brazilian Wandering Spider",
         "species_ID":"BWS",
         "interactivity":"exhibit",
@@ -849,36 +750,8 @@
             "incubation":0.083,
             "interbirth":0.917
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-                {
-                    "country":"Brazil"
-                },
-                {
-                    "country":"Colombia"
-                },
-                {
-                    "country":"Venezuela"
-                },
-                {
-                    "country":"Ecuador"
-                },
-                {
-                    "country":"Peru"
-                },
-                {
-                    "country":"Bolivia"
-                },
-                {
-                    "country":"Paraguay"
-                },
-                {
-                    "country":"Argentina"
-                }
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"South America",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -894,9 +767,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0JyYXppbGlhbldhbmRlcmluZ1NwaWRlcl8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0JyYXppbGlhbldhbmRlcmluZ1NwaWRlcl8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":19,
         "species":"Cheetah",
         "species_ID":"CT",
         "interactivity":"full",
@@ -910,12 +788,8 @@
             "incubation":0.25,
             "interbirth":1.583
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"Africa",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"705",
             "land_area_for_additional_animal":"111",
@@ -934,9 +808,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NoZWV0YWguanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NoZWV0YWguanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"~ 7000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":20,
         "species":"Chinese Pangolin",
         "species_ID":"CP",
         "interactivity":"full",
@@ -950,33 +829,8 @@
             "incubation":0.67,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"India"
-                },
-                {
-                    "country":"Nepal"
-                },
-                {
-                    "country":"Bhutan"
-                },
-                {
-                    "country":"Bangladesh"
-                },
-                {
-                    "country":"Myanmar"
-                },
-                {
-                    "country":"Taiwan"
-                },
-                {
-                    "country":"Southern China"
-                }
-            ],
-            "conversation_status":"CR"
-        },
+        "continents":"Asia",
+        "conversation_status":"CR",
         "habbitat":{
             "land_area":"182",
             "land_area_for_additional_animal":"16",
@@ -995,9 +849,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NoaW5lc2VwYW5nb2xpbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NoaW5lc2VwYW5nb2xpbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"133",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":21,
         "species":"Colombian White-Faces Capuchin Monkey",
         "species_ID":"CWFCM",
         "interactivity":"full",
@@ -1011,21 +870,8 @@
             "incubation":0.5,
             "interbirth":2
         },
-        "origins":{
-            "continents":"South America, North America",
-            "regions":[
-                {
-                    "country":"Panama"
-                },
-                {
-                    "country":"Colombia"
-                },
-                {
-                    "country":"Ecuador"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"South America, North America",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"210",
             "land_area_for_additional_animal":"8",
@@ -1044,9 +890,20 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2NhcHVjaGluLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2NhcHVjaGluLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"54000",
+        "edition":"south america pack",
+        "shared_habitat":[
+            {
+                "animal":"Baird's Tapir"
+            },
+            {
+                "animal":"Giant Anteater"
+            }
+        ]
     },
     {
+        "id":22,
         "species":"Common Death Adder",
         "species_ID":"CDA",
         "interactivity":"exhibit",
@@ -1060,12 +917,8 @@
             "incubation":0.5,
             "interbirth":1.5
         },
-        "origins":{
-            "continents":"Oceania",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Oceania",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -1081,9 +934,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0NvbW1vbkRlYXRoQWRkZXJfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0NvbW1vbkRlYXRoQWRkZXJfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":23,
         "species":"Common Ostrich",
         "species_ID":"CO",
         "interactivity":"full",
@@ -1097,15 +955,8 @@
             "incubation":0.083,
             "interbirth":1.083
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"All of Africa except deserts and rainforests"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Africa",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"675",
             "land_area_for_additional_animal":"75",
@@ -1124,9 +975,38 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NvbW1vbm9zdHJpY2guanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NvbW1vbm9zdHJpY2guanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"150000",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"African Buffalo"
+            },
+            {
+                "animal":"Black Wildebeest"
+            },
+            {
+                "animal":"Common Warthog"
+            },
+            {
+                "animal":"Plains Zebra"
+            },
+            {
+                "animal":"Reticulated Giraffe"
+            },
+            {
+                "animal":"Sable Antelope"
+            },
+            {
+                "animal":"Springbok"
+            },
+            {
+                "animal":"Thomson's Gazelle"
+            }
+        ]
     },
     {
+        "id":24,
         "species":"Common Warthog",
         "species_ID":"CW",
         "interactivity":"full",
@@ -1140,12 +1020,8 @@
             "incubation":0.5,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Africa",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"290",
             "land_area_for_additional_animal":"10",
@@ -1164,9 +1040,38 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NvbW1vbndhcnRob2cuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2NvbW1vbndhcnRob2cuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"22500",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"African Buffalo"
+            },
+            {
+                "animal":"Black Wildebeest"
+            },
+            {
+                "animal":"Common Ostrich"
+            },
+            {
+                "animal":"Plains Zebra"
+            },
+            {
+                "animal":"Reticulated Giraffe"
+            },
+            {
+                "animal":"Sable Antelope"
+            },
+            {
+                "animal":"Springbok"
+            },
+            {
+                "animal":"Thomson's Gazelle"
+            }
+        ]
     },
     {
+        "id":25,
         "species":"Cuvier's Dwarf Caiman",
         "species_ID":"CDC",
         "interactivity":"full",
@@ -1180,12 +1085,8 @@
             "incubation":0.25,
             "interbirth":1
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"South America",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"182",
             "land_area_for_additional_animal":"18",
@@ -1210,9 +1111,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2R3YXJmY2FpbWFuLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2R3YXJmY2FpbWFuLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"1000000",
+        "edition":"aquatic pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":26,
         "species":"Dall Sheep",
         "species_ID":"DS",
         "interactivity":"full",
@@ -1226,18 +1132,8 @@
             "incubation":0.5,
             "interbirth":1
         },
-        "origins":{
-            "continents":"North America",
-            "regions":[
-                {
-                    "country":"USA (Alaska)"
-                },
-                {
-                    "country":"Canada"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"North America",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"425",
             "land_area_for_additional_animal":"55",
@@ -1256,9 +1152,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19kYWxsc2hlZXAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19kYWxsc2hlZXAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"45000",
+        "edition":"arctic pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":27,
         "species":"Diamondback Terrapin",
         "species_ID":"DT",
         "interactivity":"exhibit",
@@ -1272,15 +1173,8 @@
             "incubation":0.25,
             "interbirth":0.75
         },
-        "origins":{
-            "continents":"North America",
-            "regions":[
-                {
-                    "country":"Eastern and Southern territories in the USA"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"North America",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -1299,9 +1193,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL3RlcnJhcGluLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL3RlcnJhcGluLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"30000",
+        "edition":"aquatic pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":28,
         "species":"Dingo",
         "species_ID":"DG",
         "interactivity":"full",
@@ -1315,12 +1214,8 @@
             "incubation":0.17,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Oceania",
-            "regions":[
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"Oceania",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"1162",
             "land_area_for_additional_animal":"92",
@@ -1339,9 +1234,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L0RpbmdvXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L0RpbmdvXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"10000-50000",
+        "edition":"australia pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":29,
         "species":"Eastern Blue Tongued Lizard",
         "species_ID":"EBTL",
         "interactivity":"exhibit",
@@ -1355,15 +1255,8 @@
             "incubation":0.33,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Oceania",
-            "regions":[
-                {
-                    "country":"Australia"
-                }
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"Oceania",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -1385,9 +1278,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L0Vhc3Rlcm5CbHVlVG9uZ3VlZExpemFyZF8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L0Vhc3Rlcm5CbHVlVG9uZ3VlZExpemFyZF8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"5500",
+        "edition":"australia pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":30,
         "species":"Eastern Brown Snake",
         "species_ID":"EBS",
         "interactivity":"exhibit",
@@ -1401,18 +1299,8 @@
             "incubation":0.17,
             "interbirth":0.75
         },
-        "origins":{
-            "continents":"Oceania",
-            "regions":[
-                {
-                    "country":"Australia"
-                },
-                {
-                    "country":"New Guinea"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Oceania",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -1434,9 +1322,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0Vhc3Rlcm5Ccm93blNuYWtlXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0Vhc3Rlcm5Ccm93blNuYWtlXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":31,
         "species":"Formosan Black Bear",
         "species_ID":"FBB",
         "interactivity":"full",
@@ -1450,15 +1343,8 @@
             "incubation":0.583,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"Taiwan"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"Asia",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"950",
             "land_area_for_additional_animal":"140",
@@ -1480,9 +1366,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0Zvcm1vc2FuQmxhY2tCZWFyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0Zvcm1vc2FuQmxhY2tCZWFyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"200-300",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":32,
         "species":"Galapago Giant Tortoise",
         "species_ID":"GGT",
         "interactivity":"full",
@@ -1496,15 +1387,8 @@
             "incubation":0.67,
             "interbirth":2
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-                {
-                    "country":"Galapagos Islands"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"South America",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"230",
             "land_area_for_additional_animal":"5",
@@ -1519,9 +1403,14 @@
                     "biome":"tropical"
                 }
             ]
-        }
+        },
+        "population":"~1000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":33,
         "species":"Gemsbok",
         "species_ID":"GB",
         "interactivity":"full",
@@ -1535,12 +1424,8 @@
             "incubation":0.67,
             "interbirth":0.75
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Africa",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"270",
             "land_area_for_additional_animal":"40",
@@ -1556,9 +1441,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2dlbXNib2suanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2dlbXNib2suanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"373000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":34,
         "species":"Gharial",
         "species_ID":"GR",
         "interactivity":"full",
@@ -1572,18 +1462,8 @@
             "incubation":0.25,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"Nepal"
-                },
-                {
-                    "country":"India"
-                }
-            ],
-            "conversation_status":"CR"
-        },
+        "continents":"Asia",
+        "conversation_status":"CR",
         "habbitat":{
             "land_area":"370",
             "land_area_for_additional_animal":"16",
@@ -1605,9 +1485,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2doYXJpYWwuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2doYXJpYWwuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"650-1000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":35,
         "species":"Giant Anteater",
         "species_ID":"GA",
         "interactivity":"full",
@@ -1621,57 +1506,8 @@
             "incubation":0.75,
             "interbirth":1
         },
-        "origins":{
-            "continents":"South America, North America",
-            "regions":[
-                {
-                    "country":"Honduras"
-                },
-                {
-                    "country":"Nicarague"
-                },
-                {
-                    "country":"Costa Rica"
-                },
-                {
-                    "country":"Panama"
-                },
-                {
-                    "country":"Colombia"
-                },
-                {
-                    "country":"Venezuela"
-                },
-                {
-                    "country":"Ecuador"
-                },
-                {
-                    "country":"Guyana"
-                },
-                {
-                    "country":"Suriname"
-                },
-                {
-                    "country":"French Guiana"
-                },
-                {
-                    "country":"Brazil"
-                },
-                {
-                    "country":"Argentina"
-                },
-                {
-                    "country":"Peru"
-                },
-                {
-                    "country":"Bolivia"
-                },
-                {
-                    "country":"Paraguay"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"South America, North America",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"660",
             "land_area_for_additional_animal":"60",
@@ -1690,9 +1526,20 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2dpYW50YW50ZWF0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2dpYW50YW50ZWF0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"5000",
+        "edition":"south america pack",
+        "shared_habitat":[
+            {
+                "animal":"Baird's Tapir"
+            },
+            {
+                "animal":"Colombian White-Faces Capuchin Monkey"
+            }
+        ]
     },
     {
+        "id":36,
         "species":"Giant Burrowing Cockroach",
         "species_ID":"GBC",
         "interactivity":"exhibit",
@@ -1706,15 +1553,8 @@
             "incubation":0.75,
             "interbirth":0.25
         },
-        "origins":{
-            "continents":"Oecania",
-            "regions":[
-                {
-                    "country":"Australia"
-                }
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"Oecania",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -1733,9 +1573,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50QnVycm93aW5nQ29ja3JvYWNoLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50QnVycm93aW5nQ29ja3JvYWNoLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":37,
         "species":"Giant Desert Hairy Scorpion",
         "species_ID":"GDHS",
         "interactivity":"exhibit",
@@ -1749,12 +1594,8 @@
             "incubation":0.75,
             "interbirth":0.25
         },
-        "origins":{
-            "continents":"North America",
-            "regions":[
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"North America",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -1770,9 +1611,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50RGVzZXJ0SGFpcnlTY29ycGlvbl8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50RGVzZXJ0SGFpcnlTY29ycGlvbl8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":38,
         "species":"Giant Forest Scorpion",
         "species_ID":"GFS",
         "interactivity":"exhibit",
@@ -1786,18 +1632,8 @@
             "incubation":0.75,
             "interbirth":0.25
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"Sri Lanka"
-                },
-                {
-                    "country":"India"
-                }
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"Asia",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -1813,9 +1649,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50Rm9yZXN0U2NvcnBpb25fMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50Rm9yZXN0U2NvcnBpb25fMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":39,
         "species":"Giant Otter",
         "species_ID":"GO",
         "interactivity":"full",
@@ -1829,12 +1670,8 @@
             "incubation":0.17,
             "interbirth":1
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"South America",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"360",
             "land_area_for_additional_animal":"60",
@@ -1856,9 +1693,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2dpYW50b3R0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2dpYW50b3R0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"5001",
+        "edition":"aquatic pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":40,
         "species":"Giant Panda",
         "species_ID":"GP",
         "interactivity":"full",
@@ -1872,15 +1714,8 @@
             "incubation":0.42,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"China"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Asia",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"900",
             "land_area_for_additional_animal":"150",
@@ -1899,9 +1734,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0dpYW50UGFuZGEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0dpYW50UGFuZGEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"1864",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":41,
         "species":"Giant Tiger Land Snail",
         "species_ID":"GTLS",
         "interactivity":"exhibit",
@@ -1915,12 +1755,8 @@
             "incubation":0.083,
             "interbirth":3
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"Africa",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -1942,9 +1778,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50VGlnZXJMYW5kU25haWxfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpYW50VGlnZXJMYW5kU25haWxfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":42,
         "species":"Gila Monster",
         "species_ID":"GM",
         "interactivity":"exhibit",
@@ -1958,12 +1799,8 @@
             "incubation":0.75,
             "interbirth":0.25
         },
-        "origins":{
-            "continents":"North America",
-            "regions":[
-            ],
-            "conversation_status":"NT"
-        },
+        "continents":"North America",
+        "conversation_status":"NT",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -1979,9 +1816,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpbGFNb25zdGVyXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dpbGFNb25zdGVyXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":43,
         "species":"Golden Poison Frog",
         "species_ID":"GPF",
         "interactivity":"exhibit",
@@ -1995,15 +1837,8 @@
             "incubation":0,
             "interbirth":0.5
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-                {
-                    "country":"Colombia"
-                }
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"South America",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -2019,9 +1854,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGRlblBvaXNvbkZyb2dfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGRlblBvaXNvbkZyb2dfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":44,
         "species":"Goliath Beetle",
         "species_ID":"GBL",
         "interactivity":"exhibit",
@@ -2035,36 +1875,8 @@
             "incubation":0,
             "interbirth":10
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Cameroon"
-                },
-                {
-                    "country":"Central African Republic"
-                },
-                {
-                    "country":"The Congo"
-                },
-                {
-                    "country":"Gabon"
-                },
-                {
-                    "country":"Kenya"
-                },
-                {
-                    "country":"Nigeria"
-                },
-                {
-                    "country":"Tanzania"
-                },
-                {
-                    "country":"Uganda"
-                }
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"Africa",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -2080,9 +1892,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGlhdGhCZWV0bGVfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGlhdGhCZWV0bGVfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":45,
         "species":"Goliath Birdeater",
         "species_ID":"GBE",
         "interactivity":"exhibit",
@@ -2096,27 +1913,8 @@
             "incubation":0.17,
             "interbirth":0.83
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-                {
-                    "country":"Suriname"
-                },
-                {
-                    "country":"Guyana"
-                },
-                {
-                    "country":"French Guiana"
-                },
-                {
-                    "country":"Brazil"
-                },
-                {
-                    "country":"Venezuela"
-                }
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"South America",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -2132,9 +1930,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGlhdGhCaXJkZWF0ZXJfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGlhdGhCaXJkZWF0ZXJfMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":46,
         "species":"Goliath Frog",
         "species_ID":"GF",
         "interactivity":"exhibit",
@@ -2148,18 +1951,8 @@
             "incubation":0.25,
             "interbirth":0.75
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Cameroon"
-                },
-                {
-                    "country":"Equatorial Guinea"
-                }
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Africa",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -2178,9 +1971,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGlhdGhGcm9nXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dvbGlhdGhGcm9nXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":47,
         "species":"Greater Flamingo",
         "species_ID":"GFG",
         "interactivity":"full",
@@ -2194,63 +1992,8 @@
             "incubation":0.083,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Africa, Asia, Europe",
-            "regions":[
-                {
-                    "country":"Bangladesh"
-                },
-                {
-                    "country":"Pakistan"
-                },
-                {
-                    "country":"India"
-                },
-                {
-                    "country":"Sri Lanka"
-                },
-                {
-                    "country":"Turkey"
-                },
-                {
-                    "country":"Israel"
-                },
-                {
-                    "country":"Lebanon"
-                },
-                {
-                    "country":"United Arab Emirates"
-                },
-                {
-                    "country":"Kuwait"
-                },
-                {
-                    "country":"Bahrain"
-                },
-                {
-                    "country":"Spain"
-                },
-                {
-                    "country":"Albania"
-                },
-                {
-                    "country":"Macedonia"
-                },
-                {
-                    "country":"Greece"
-                },
-                {
-                    "country":"Cyprus"
-                },
-                {
-                    "country":"Portugal"
-                },
-                {
-                    "country":"Italy"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Africa, Asia, Europe",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"300",
             "land_area_for_additional_animal":"9",
@@ -2275,9 +2018,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2dyZWF0ZXJmbGFtaW5nby5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2dyZWF0ZXJmbGFtaW5nby5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"200000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":48,
         "species":"Green Iguana",
         "species_ID":"GI",
         "interactivity":"exhibit",
@@ -2291,12 +2039,8 @@
             "incubation":0.33,
             "interbirth":0.67
         },
-        "origins":{
-            "continents":"South America, Central America",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"South America, Central America",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -2315,9 +2059,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dyZWVuSWd1YW5hXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0dyZWVuSWd1YW5hXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":49,
         "species":"Grey Seal",
         "species_ID":"GS",
         "interactivity":"full",
@@ -2331,12 +2080,8 @@
             "incubation":0.92,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Europe, North America",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Europe, North America",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"200",
             "land_area_for_additional_animal":"12",
@@ -2358,9 +2103,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2dyZXlzZWFsLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2dyZXlzZWFsLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"290000-300000",
+        "edition":"aquatic pack 2",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":50,
         "species":"Grizzly Bear",
         "species_ID":"GBR",
         "interactivity":"full",
@@ -2374,12 +2124,8 @@
             "incubation":0.67,
             "interbirth":5
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Africa",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"750",
             "land_area_for_additional_animal":"50",
@@ -2401,9 +2147,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0dyaXp6bHlCZWFyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0dyaXp6bHlCZWFyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"55000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":51,
         "species":"Himalayan Brown Bear",
         "species_ID":"HBB",
         "interactivity":"full",
@@ -2417,33 +2168,8 @@
             "incubation":0.67,
             "interbirth":4
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"Northern Afganistan"
-                },
-                {
-                    "country":"Northern Pakistan"
-                },
-                {
-                    "country":"Northern India"
-                },
-                {
-                    "country":"West China"
-                },
-                {
-                    "country":"Nepal"
-                },
-                {
-                    "country":"Kazakhstan"
-                },
-                {
-                    "country":"Tibet"
-                }
-            ],
-            "conversation_status":"CR"
-        },
+        "continents":"Asia",
+        "conversation_status":"CR",
         "habbitat":{
             "land_area":"550",
             "land_area_for_additional_animal":"40",
@@ -2461,9 +2187,14 @@
                     "biome":"tundra"
                 }
             ]
-        },"url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0hpbWFsYXlhbkJyb3duQmVhci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        },"url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL0hpbWFsYXlhbkJyb3duQmVhci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"45",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":52,
         "species":"Hippopotamus",
         "species_ID":"H",
         "interactivity":"full",
@@ -2477,15 +2208,8 @@
             "incubation":0.67,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Sub Saharan Africa"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"Africa",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"1004",
             "land_area_for_additional_animal":"502",
@@ -2504,9 +2228,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2hpcHBvcG90YW11cy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2hpcHBvcG90YW11cy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"125000-148000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":53,
         "species":"Indian Elephant",
         "species_ID":"IE",
         "interactivity":"full",
@@ -2520,45 +2249,8 @@
             "incubation":1.83,
             "interbirth":8
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"India"
-                },
-                {
-                    "country":"Nepal"
-                },
-                {
-                    "country":"Bangladesh"
-                },
-                {
-                    "country":"Bhutan"
-                },
-                {
-                    "country":"Myanmar"
-                },
-                {
-                    "country":"Thailand"
-                },
-                {
-                    "country":"Malaysia"
-                },
-                {
-                    "country":"Laos"
-                },
-                {
-                    "country":"China"
-                },
-                {
-                    "country":"Cambodia"
-                },
-                {
-                    "country":"Vietnam"
-                }
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Asia",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"882",
             "land_area_for_additional_animal":"204",
@@ -2580,9 +2272,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2luZGlhbmVsZXBoYW50LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2luZGlhbmVsZXBoYW50LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"20000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":54,
         "species":"Indian Peafowl",
         "species_ID":"IP",
         "interactivity":"full",
@@ -2596,15 +2293,8 @@
             "incubation":0.083,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"Indian subcontinent"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Asia",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"312",
             "land_area_for_additional_animal":"12",
@@ -2626,9 +2316,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2luZGlhbnBlYWZvd2wuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2luZGlhbnBlYWZvd2wuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"10000-19999",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":55,
         "species":"Indian Rhinoceros",
         "species_ID":"IR",
         "interactivity":"full",
@@ -2642,21 +2337,8 @@
             "incubation":1.33,
             "interbirth":5
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"Nepal"
-                },
-                {
-                    "country":"India"
-                },
-                {
-                    "country":"Bhutan"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"Asia",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"1000",
             "land_area_for_additional_animal":"250",
@@ -2675,9 +2357,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2luZGlhbnJoaW5vY2Vyb3MuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2luZGlhbnJoaW5vY2Vyb3MuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"2600",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":56,
         "species":"Jaguar",
         "species_ID":"J",
         "interactivity":"full",
@@ -2691,69 +2378,8 @@
             "incubation":0.25,
             "interbirth":2
         },
-        "origins":{
-            "continents":"South America, North America",
-            "regions":[
-                {
-                    "country":"Mexico"
-                },
-                {
-                    "country":"Colombia"
-                },
-                {
-                    "country":"Venezuela"
-                },
-                {
-                    "country":"Ecuador"
-                },
-                {
-                    "country":"Peru"
-                },
-                {
-                    "country":"Bolivia"
-                },
-                {
-                    "country":"Paraguay"
-                },
-                {
-                    "country":"Uruguay"
-                },
-                {
-                    "country":"Brazil"
-                },
-                {
-                    "country":"Guyana"
-                },
-                {
-                    "country":"Suriname"
-                },
-                {
-                    "country":"Panama"
-                },
-                {
-                    "country":"Costa Rica"
-                },
-                {
-                    "country":"French Guiana"
-                },
-                {
-                    "country":"Nicarague"
-                },
-                {
-                    "country":"Honduras"
-                },
-                {
-                    "country":"El Salvador"
-                },
-                {
-                    "country":"Guatemala"
-                },
-                {
-                    "country":"Beliza"
-                }
-            ],
-            "conversation_status":"NT"
-        },
+        "continents":"South America, North America",
+        "conversation_status":"NT",
         "habbitat":{
             "land_area":"705",
             "land_area_for_additional_animal":"111",
@@ -2775,9 +2401,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2phZ3Vhci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2phZ3Vhci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"15000",
+        "edition":"south america pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":57,
         "species":"Japanese Macaque",
         "species_ID":"JM",
         "interactivity":"full",
@@ -2791,15 +2422,8 @@
             "incubation":0.42,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"Japan"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Asia",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"300",
             "land_area_for_additional_animal":"6",
@@ -2818,9 +2442,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2phcGFuZXNlbWFjYXF1ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX2phcGFuZXNlbWFjYXF1ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"100000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":58,
         "species":"King Penguin",
         "species_ID":"KP",
         "interactivity":"full",
@@ -2834,12 +2463,8 @@
             "incubation":0.17,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Antarctica, South America",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Antarctica, South America",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"200",
             "land_area_for_additional_animal":"144",
@@ -2858,9 +2483,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2tpbmdwZW5ndWluLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2tpbmdwZW5ndWluLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"4500000",
+        "edition":"aquatic pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":59,
         "species":"Koala",
         "species_ID":"K",
         "interactivity":"full",
@@ -2874,15 +2504,8 @@
             "incubation":0.67,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Oceania",
-            "regions":[
-                {
-                    "country":"Australia"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"Oceania",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"180",
             "land_area_for_additional_animal":"0",
@@ -2901,9 +2524,17 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L0tvYWxhXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L0tvYWxhXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"43000",
+        "edition":"australia pack",
+        "shared_habitat":[
+            {
+                "animal":"Red Kangaroo"
+            }
+        ]
     },
     {
+        "id":60,
         "species":"Komodo Dragon",
         "species_ID":"KD",
         "interactivity":"full",
@@ -2917,15 +2548,8 @@
             "incubation":0.67,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"Southern Indonesia"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Asia",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"600",
             "land_area_for_additional_animal":"0",
@@ -2944,9 +2568,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2tvbW9kb2RyYWdvbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL2tvbW9kb2RyYWdvbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"6000",
+        "edition":"deluxe",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":61,
         "species":"Lehmann's Poison Frog",
         "species_ID":"LPF",
         "interactivity":"exhibit",
@@ -2960,15 +2589,8 @@
             "incubation":0.083,
             "interbirth":0.92
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-                {
-                    "country":"Colombia"
-                }
-            ],
-            "conversation_status":"CR"
-        },
+        "continents":"South America",
+        "conversation_status":"CR",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -2984,9 +2606,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0xlaG1hbm5zUG9pc29uRnJvZ18wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0xlaG1hbm5zUG9pc29uRnJvZ18wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":62,
         "species":"Lesser Antillean Iguana",
         "species_ID":"LAI",
         "interactivity":"exhibit",
@@ -3000,15 +2627,8 @@
             "incubation":0.25,
             "interbirth":0.75
         },
-        "origins":{
-            "continents":"South America, Central America",
-            "regions":[
-                {
-                    "country":"Lesser Antilles"
-                }
-            ],
-            "conversation_status":"CR"
-        },
+        "continents":"South America, Central America",
+        "conversation_status":"CR",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -3027,9 +2647,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0FudGlsbGVhbklndWFuYV8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX0FudGlsbGVhbklndWFuYV8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"15000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":63,
         "species":"Llama",
         "species_ID":"L",
         "interactivity":"full",
@@ -3043,27 +2668,8 @@
             "incubation":1,
             "interbirth":2
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-                {
-                    "country":"Ecuador"
-                },
-                {
-                    "country":"Peru"
-                },
-                {
-                    "country":"Bolivia"
-                },
-                {
-                    "country":"Chile"
-                },
-                {
-                    "country":"Argentina"
-                }
-            ],
-            "conversation_status":"DM"
-        },
+        "continents":"South America",
+        "conversation_status":"DM",
         "habbitat":{
             "land_area":"550",
             "land_area_for_additional_animal":"40",
@@ -3085,9 +2691,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2xsYW1hLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L2xsYW1hLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"7000000",
+        "edition":"south america pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":64,
         "species":"Mandrill",
         "species_ID":"M",
         "interactivity":"full",
@@ -3101,12 +2712,8 @@
             "incubation":0.5,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"Africa",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"400",
             "land_area_for_additional_animal":"0",
@@ -3122,9 +2729,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL01hbmRyaWxsLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL01hbmRyaWxsLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"220",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":65,
         "species":"Mexican Red Knee Tarantula",
         "species_ID":"MRKT",
         "interactivity":"exhibit",
@@ -3138,15 +2750,8 @@
             "incubation":0.25,
             "interbirth":0.75
         },
-        "origins":{
-            "continents":"Central America",
-            "regions":[
-                {
-                    "country":"Mexico"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"Central America",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -3162,9 +2767,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX01leGljYW5SZWRrbmVlVGFyYW50dWxhXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX01leGljYW5SZWRrbmVlVGFyYW50dWxhXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":66,
         "species":"Nile Monitor",
         "species_ID":"NM",
         "interactivity":"full",
@@ -3178,12 +2788,8 @@
             "incubation":0.83,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"Africa",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"300",
             "land_area_for_additional_animal":"0",
@@ -3202,9 +2808,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL25pbGVtb25pdG9yLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL25pbGVtb25pdG9yLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"2000000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":67,
         "species":"Nyala",
         "species_ID":"N",
         "interactivity":"full",
@@ -3218,12 +2829,8 @@
             "incubation":0.58,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Africa",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"300",
             "land_area_for_additional_animal":"0",
@@ -3242,9 +2849,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL055YWxhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL055YWxhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"31000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":68,
         "species":"Okapi",
         "species_ID":"O",
         "interactivity":"full",
@@ -3258,15 +2870,8 @@
             "incubation":1.33,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Democratic Republic of Congo"
-                }
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Africa",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"1081",
             "land_area_for_additional_animal":"0",
@@ -3282,9 +2887,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL09rYXBpLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL09rYXBpLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"15000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":69,
         "species":"Plains Zebra",
         "species_ID":"PZ",
         "interactivity":"full",
@@ -3298,18 +2908,8 @@
             "incubation":1.083,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Eastern Africa"
-                },
-                {
-                    "country":"Southern Africa"
-                }
-            ],
-            "conversation_status":"NT"
-        },
+        "continents":"Africa",
+        "conversation_status":"NT",
         "habbitat":{
             "land_area":"510",
             "land_area_for_additional_animal":"0",
@@ -3325,9 +2925,38 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3BsYWluc3plYnJhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3BsYWluc3plYnJhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"500000",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"African Buffalo"
+            },
+            {
+                "animal":"Black Wildebeest"
+            },
+            {
+                "animal":"Common Ostrich"
+            },
+            {
+                "animal":"Common Warthog"
+            },
+            {
+                "animal":"Reticulated Giraffe"
+            },
+            {
+                "animal":"Sable Antelope"
+            },
+            {
+                "animal":"Springbok"
+            },
+            {
+                "animal":"Thomson's Gazelle"
+            }
+        ]
     },
     {
+        "id":70,
         "species":"Polar Bear",
         "species_ID":"PB",
         "interactivity":"full",
@@ -3341,30 +2970,8 @@
             "incubation":0.75,
             "interbirth":3
         },
-        "origins":{
-            "continents":"north America, Europe",
-            "regions":[
-                {
-                    "country":"Canada"
-                },
-                {
-                    "country":"USA (Alaska)"
-                },
-                {
-                    "country":"Greenland"
-                },
-                {
-                    "country":"Norway (Svalbard)"
-                },
-                {
-                    "country":"Russia"
-                },
-                {
-                    "country":"Iceland"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"north America, Europe",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"6000",
             "land_area_for_additional_animal":"4000",
@@ -3383,9 +2990,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19wb2xhcmJlYXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19wb2xhcmJlYXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"22000-30000",
+        "edition":"arctic pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":71,
         "species":"Pronghorn Antelope",
         "species_ID":"PA",
         "interactivity":"full",
@@ -3399,12 +3011,8 @@
             "incubation":0.67,
             "interbirth":1
         },
-        "origins":{
-            "continents":"North America",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"North America",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"370",
             "land_area_for_additional_animal":"0",
@@ -3423,9 +3031,17 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3Byb25naG9ybmFudGVsb3BlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3Byb25naG9ybmFudGVsb3BlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"500000",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"American Bison"
+            }
+        ]
     },
     {
+        "id":72,
         "species":"Puff Adder",
         "species_ID":"PA",
         "interactivity":"exhibit",
@@ -3439,12 +3055,8 @@
             "incubation":0.5,
             "interbirth":0.5
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"Africa",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -3460,9 +3072,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1B1ZmZBZGRlcl8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1B1ZmZBZGRlcl8wLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":73,
         "species":"Pygmy Hippo",
         "species_ID":"PH",
         "interactivity":"full",
@@ -3476,24 +3093,8 @@
             "incubation":0.683,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Sierra leone"
-                },
-                {
-                    "country":"Liberia"
-                },
-                {
-                    "country":"Guinea"
-                },
-                {
-                    "country":"Ivory Coast"
-                }
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Africa",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"270",
             "land_area_for_additional_animal":"0",
@@ -3512,9 +3113,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1B5Z215SGlwcG8uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1B5Z215SGlwcG8uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"3000",
+        "edition":"deluxe",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":74,
         "species":"Red Kangaroo",
         "species_ID":"RK",
         "interactivity":"full",
@@ -3528,15 +3134,8 @@
             "incubation":0.67,
             "interbirth":0.67
         },
-        "origins":{
-            "continents":"Oceania",
-            "regions":[
-                {
-                    "country":"Australia"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Oceania",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"180",
             "land_area_for_additional_animal":"0",
@@ -3555,9 +3154,17 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L1JlZEthbmdhcm9vXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L1JlZEthbmdhcm9vXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"11998000",
+        "edition":"australia pack",
+        "shared_habitat":[
+            {
+                "animal":"Koala"
+            }
+        ]
     },
     {
+        "id":75,
         "species":"Red Panda",
         "species_ID":"RP",
         "interactivity":"full",
@@ -3571,18 +3178,8 @@
             "incubation":0.42,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"Eastern Himalayas"
-                },
-                {
-                    "country":"Southwestern China"
-                }
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Asia",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"220",
             "land_area_for_additional_animal":"0",
@@ -3601,9 +3198,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3JlZHBhbmRhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3JlZHBhbmRhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"9000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":76,
         "species":"Red Ruffed Lemur",
         "species_ID":"RRL",
         "interactivity":"full",
@@ -3617,12 +3219,8 @@
             "incubation":0.25,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"CR"
-        },
+        "continents":"Africa",
+        "conversation_status":"CR",
         "habbitat":{
             "land_area":"210",
             "land_area_for_additional_animal":"0",
@@ -3638,9 +3236,17 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3JlZHJ1ZmZlZGxlbXVyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3JlZHJ1ZmZlZGxlbXVyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"14941",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"Ring Tailed Lemur"
+            }
+        ]
     },
     {
+        "id":77,
         "species":"Red-Eyed Tree Frog",
         "species_ID":"RETF",
         "interactivity":"exhibit",
@@ -3654,33 +3260,8 @@
             "incubation":"",
             "interbirth":0.5
         },
-        "origins":{
-            "continents":"South America, North America",
-            "regions":[
-                {
-                    "country":"Mexico"
-                },
-                {
-                    "country":"Guatemala"
-                },
-                {
-                    "country":"Honduras"
-                },
-                {
-                    "country":"Nicarague"
-                },
-                {
-                    "country":"Costa Rica"
-                },
-                {
-                    "country":"Panama"
-                },
-                {
-                    "country":"Colombia"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"South America, North America",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -3696,9 +3277,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L3JlZGV5ZWR0cmVlZnJvZy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA0L3JlZGV5ZWR0cmVlZnJvZy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"Unknown",
+        "edition":"south america pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":78,
         "species":"Reindeer",
         "species_ID":"R",
         "interactivity":"full",
@@ -3712,33 +3298,8 @@
             "incubation":0.67,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Europe, North America, Russia",
-            "regions":[
-                {
-                    "country":"Russia (Siberia)"
-                },
-                {
-                    "country":"Canada"
-                },
-                {
-                    "country":"USA (Alaska)"
-                },
-                {
-                    "country":"Norway"
-                },
-                {
-                    "country":"Denmark"
-                },
-                {
-                    "country":"Finland"
-                },
-                {
-                    "country":"Greenland"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"Europe, North America, Russia",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"370",
             "land_area_for_additional_animal":"0",
@@ -3757,9 +3318,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19yZWluZGVlci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEyL19yZWluZGVlci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"900000",
+        "edition":"arctic pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":789,
         "species":"Reticulated Giraffe",
         "species_ID":"RG",
         "interactivity":"full",
@@ -3773,12 +3339,8 @@
             "incubation":1.25,
             "interbirth":3
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Africa",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"1306",
             "land_area_for_additional_animal":"0",
@@ -3797,9 +3359,41 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3JldGljdWxhdGVkZ2lyYWZmZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3JldGljdWxhdGVkZ2lyYWZmZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"8000",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"African Buffalo"
+            },
+            {
+                "animal":"Black Wildebeest"
+            },
+            {
+                "animal":"Common Ostrich"
+            },
+            {
+                "animal":"Common Warthog"
+            },
+            {
+                "animal":"Common Warthog"
+            },
+            {
+                "animal":"Plains Zebra"
+            },
+            {
+                "animal":"Sable Antelope"
+            },
+            {
+                "animal":"Springbok"
+            },
+            {
+                "animal":"Thomson's Gazelle"
+            }
+        ]
     },
     {
+        "id":80,
         "species":"Ring Tailed Lemur",
         "species_ID":"RTL",
         "interactivity":"full",
@@ -3813,12 +3407,8 @@
             "incubation":0.33,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Africa",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"210",
             "land_area_for_additional_animal":"0",
@@ -3834,9 +3424,17 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3Jpbmd0YWlsZWRsZW11ci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3Jpbmd0YWlsZWRsZW11ci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"2500",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"Red Ruffed Lemur"
+            }
+        ]
     },
     {
+        "id":81,
         "species":"Sable Antelope",
         "species_ID":"SA",
         "interactivity":"full",
@@ -3850,12 +3448,8 @@
             "incubation":0.67,
             "interbirth":0.75
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Africa",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"450",
             "land_area_for_additional_animal":"0",
@@ -3871,9 +3465,38 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3NhYmxlYW50ZWxvcGUuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3NhYmxlYW50ZWxvcGUuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"7000",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"African Buffalo"
+            },
+            {
+                "animal":"Black Wildebeest"
+            },
+            {
+                "animal":"Common Ostrich"
+            },
+            {
+                "animal":"Common Warthog"
+            },
+            {
+                "animal":"Plains Zebra"
+            },
+            {
+                "animal":"Reticulated Giraffe"
+            },
+            {
+                "animal":"Springbok"
+            },
+            {
+                "animal":"Thomson's Gazelle"
+            }
+        ]
     },
     {
+        "id":82,
         "species":"Saltwater Crocodile",
         "species_ID":"SC",
         "interactivity":"full",
@@ -3887,12 +3510,8 @@
             "incubation":0.25,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Asia, Oceania",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Asia, Oceania",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"210",
             "land_area_for_additional_animal":"0",
@@ -3911,9 +3530,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL3NhbHR3YXRlcmNyb2NvZGlsZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL3NhbHR3YXRlcmNyb2NvZGlsZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"200000-300000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":83,
         "species":"Siberian Tiger",
         "species_ID":"ST",
         "interactivity":"full",
@@ -3927,24 +3551,8 @@
             "incubation":0.25,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Asia",
-            "regions":[
-                {
-                    "country":"China"
-                },
-                {
-                    "country":"Russia"
-                },
-                {
-                    "country":"North Korea"
-                },
-                {
-                    "country":"Mongolia"
-                }
-            ],
-            "conversation_status":"EN"
-        },
+        "continents":"Asia",
+        "conversation_status":"EN",
         "habbitat":{
             "land_area":"705",
             "land_area_for_additional_animal":"111",
@@ -3963,9 +3571,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NpYmVyaWFuVGlnZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NpYmVyaWFuVGlnZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"500",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":84,
         "species":"Snow Leopard",
         "species_ID":"SL",
         "interactivity":"full",
@@ -3979,33 +3592,8 @@
             "incubation":0.25,
             "interbirth":2
         },
-        "origins":{
-            "continents":"ASia",
-            "regions":[
-                {
-                    "country":"Southern Siberia"
-                },
-                {
-                    "country":"Northern Pakistan"
-                },
-                {
-                    "country":"Nepal"
-                },
-                {
-                    "country":"Bhutan"
-                },
-                {
-                    "country":"India"
-                },
-                {
-                    "country":"Tibet"
-                },
-                {
-                    "country":"Mongolia"
-                }
-            ],
-            "conversation_status":"VU"
-        },
+        "continents":"ASia",
+        "conversation_status":"VU",
         "habbitat":{
             "land_area":"705",
             "land_area_for_additional_animal":"0",
@@ -4021,9 +3609,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3Nub3dsZW9wYXJkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3Nub3dsZW9wYXJkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"4080-6590",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":85,
         "species":"Southern Cassowary",
         "species_ID":"SC",
         "interactivity":"full",
@@ -4037,21 +3630,8 @@
             "incubation":0.17,
             "interbirth":2
         },
-        "origins":{
-            "continents":"Oceania, South East Asia",
-            "regions":[
-                {
-                    "country":"Australia"
-                },
-                {
-                    "country":"Papua New Guinea"
-                },
-                {
-                    "country":"Indonesia"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Oceania, South East Asia",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"400",
             "land_area_for_additional_animal":"0",
@@ -4067,9 +3647,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L1NvdXRoZXJuQ2Fzc293YXJ5XzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTA4L1NvdXRoZXJuQ2Fzc293YXJ5XzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"4600",
+        "edition":"australia pack",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":86,
         "species":"Spotted Hyena",
         "species_ID":"SH",
         "interactivity":"full",
@@ -4083,12 +3668,8 @@
             "incubation":0.33,
             "interbirth":1.25
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Africa",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"1162",
             "land_area_for_additional_animal":"0",
@@ -4104,9 +3685,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1Nwb3R0ZWRIeWVuYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1Nwb3R0ZWRIeWVuYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"5000-14000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":87,
         "species":"Springbok",
         "species_ID":"S",
         "interactivity":"full",
@@ -4120,12 +3706,8 @@
             "incubation":0.5,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Africa",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"425",
             "land_area_for_additional_animal":"0",
@@ -4144,9 +3726,38 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwcmluZ2Jvay5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwcmluZ2Jvay5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"2000000-2500000",
+        "edition":"standard",
+        "shared_habitat":[
+            {
+                "animal":"African Buffalo"
+            },
+            {
+                "animal":"Black Wildebeest"
+            },
+            {
+                "animal":"Common Ostrich"
+            },
+            {
+                "animal":"Common Warthog"
+            },
+            {
+                "animal":"Plains Zebra"
+            },
+            {
+                "animal":"Reticulated Giraffe"
+            },
+            {
+                "animal":"Sable Antelope"
+            },
+            {
+                "animal":"Thomson's Gazelle"
+            }
+        ]
     },
     {
+        "id":88,
         "species":"Thomson's Gazelle",
         "species_ID":"TG",
         "interactivity":"full",
@@ -4160,18 +3771,8 @@
             "incubation":0.5,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-                {
-                    "country":"Tanzania"
-                },
-                {
-                    "country":"Kenya"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Africa",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"425",
             "land_area_for_additional_animal":"0",
@@ -4187,9 +3788,38 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3Rob21zb25zZ2F6ZWxsZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3Rob21zb25zZ2F6ZWxsZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"145000",
+        "edition":"deluxe",
+        "shared_habitat":[
+            {
+                "animal":"African Buffalo"
+            },
+            {
+                "animal":"Black Wildebeest"
+            },
+            {
+                "animal":"Common Ostrich"
+            },
+            {
+                "animal":"Common Warthog"
+            },
+            {
+                "animal":"Plains Zebra"
+            },
+            {
+                "animal":"Reticulated Giraffe"
+            },
+            {
+                "animal":"Sable Antelope"
+            },
+            {
+                "animal":"Thomson's Gazelle"
+            }
+        ]
     },
     {
+        "id":89,
         "species":"Timber Wolf",
         "species_ID":"TW",
         "interactivity":"full",
@@ -4203,15 +3833,8 @@
             "incubation":0.17,
             "interbirth":1
         },
-        "origins":{
-            "continents":"Europe, Aisa, North America",
-            "regions":[
-                {
-                    "country":"Countries of the Northen Hemisphere"
-                }
-            ],
-            "conversation_status":"LC"
-        },
+        "continents":"Europe, Aisa, North America",
+        "conversation_status":"LC",
         "habbitat":{
             "land_area":"1162",
             "land_area_for_additional_animal":"0",
@@ -4233,9 +3856,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3RpbWJlcndvbGYuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL3NwZWNpZXNpbWFnZXpvb3BlZGlhX3RpbWJlcndvbGYuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"300000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":90,
         "species":"Titan Beetle",
         "species_ID":"TB",
         "interactivity":"exhibit",
@@ -4249,30 +3877,8 @@
             "incubation":0.083,
             "interbirth":10
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-                {
-                    "country":"Venezuela"
-                },
-                {
-                    "country":"Colombia"
-                },
-                {
-                    "country":"Ecuador"
-                },
-                {
-                    "country":"Peru"
-                },
-                {
-                    "country":"the Guianas"
-                },
-                {
-                    "country":"Brazil"
-                }
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"South America",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -4288,9 +3894,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1RpdGFuQmVldGxlXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1RpdGFuQmVldGxlXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":91,
         "species":"West African Lion",
         "species_ID":"WAL",
         "interactivity":"full",
@@ -4304,12 +3915,8 @@
             "incubation":0.25,
             "interbirth":3
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"CR"
-        },
+        "continents":"Africa",
+        "conversation_status":"CR",
         "habbitat":{
             "land_area":"705",
             "land_area_for_additional_animal":"0",
@@ -4325,9 +3932,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1dlc3RBZnJpY2FuTGlvbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1dlc3RBZnJpY2FuTGlvbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"250",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":92,
         "species":"Western Chimpanzee",
         "species_ID":"WC",
         "interactivity":"full",
@@ -4341,12 +3953,8 @@
             "incubation":0.67,
             "interbirth":5
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"CR"
-        },
+        "continents":"Africa",
+        "conversation_status":"CR",
         "habbitat":{
             "land_area":"780",
             "land_area_for_additional_animal":"0",
@@ -4362,9 +3970,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1dlc3Rlcm5DaGltcGFuemVlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1dlc3Rlcm5DaGltcGFuemVlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"18000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":93,
         "species":"Western Diamondback Rattlesnake",
         "species_ID":"WDR",
         "interactivity":"exhibit",
@@ -4378,12 +3991,8 @@
             "incubation":0.583,
             "interbirth":0.42
         },
-        "origins":{
-            "continents":"North and Central America",
-            "regions":[
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"North and Central America",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -4399,9 +4008,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1dlc3Rlcm5EaWFtb25kQmFja1JhdHRsZXNuYWtlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19"
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1dlc3Rlcm5EaWFtb25kQmFja1JhdHRsZXNuYWtlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":94,
         "species":"Western Lowland Gorilla",
         "species_ID":"WLG",
         "interactivity":"full",
@@ -4415,12 +4029,8 @@
             "incubation":0.75,
             "interbirth":5
         },
-        "origins":{
-            "continents":"Africa",
-            "regions":[
-            ],
-            "conversation_status":"CR"
-        },
+        "continents":"Africa",
+        "conversation_status":"CR",
         "habbitat":{
             "land_area":"780",
             "land_area_for_additional_animal":"50",
@@ -4436,9 +4046,14 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1dlc3Rlcm5Mb3dsYW5kR29yaWxsYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ=="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1dlc3Rlcm5Mb3dsYW5kR29yaWxsYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ==",
+        "population":"100000",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     },
     {
+        "id":95,
         "species":"Yellow Anaconda",
         "species_ID":"YA",
         "interactivity":"exhibit",
@@ -4452,12 +4067,8 @@
             "incubation":0.5,
             "interbirth":0.5
         },
-        "origins":{
-            "continents":"South America",
-            "regions":[
-            ],
-            "conversation_status":"DD"
-        },
+        "continents":"South America",
+        "conversation_status":"DD",
         "habbitat":{
             "land_area":"0",
             "land_area_for_additional_animal":"0",
@@ -4473,7 +4084,11 @@
                 }
             ]
         },
-        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1llbGxvd0FuYWNvbmRhXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0="
+        "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDE5LTEwL1NwZWNpZXNJbWFnZVpvb3BlZGlhX1llbGxvd0FuYWNvbmRhXzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDB9fX0=",
+        "population":"Unknown",
+        "edition":"standard",
+        "shared_habitat":[
+        ]
     }
     
 ]
