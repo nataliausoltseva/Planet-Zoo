@@ -97,3 +97,23 @@ button:hover:focus{
   font-weight: bold;
   background-color: #ccc;
 }
+
+.DivToMakeFirstRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.FirstRowLeft {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+.DivToMakeSecondRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

@@ -1,5 +1,2776 @@
 [
     {
-        
+        "name":"Blood scent marker",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Bengal Tiger"
+            },
+            {
+                "species":"Cuvier's Dwarf Caiman"
+            },
+            {
+                "species":"Cheetah"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Gharial"
+            },
+            {
+                "species":"Komodo Dragon"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Saltwater Crocodile"
+            },
+            {
+                "species":"Siberian Tiger"
+            },
+            {
+                "species":"Snow Leopard"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"West African Lion"
+            }
+        ]
+    },
+    {
+        "name":"Bobbin",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/9/96/Bobbin.jpg/revision/latest/scale-to-width-down/350?cb=20200215121426",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Giant Panda"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Bobbin Drum",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Giant Panda"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Bubble Machine",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/7/73/BubbleMachine.jpg/revision/latest/scale-to-width-down/201?cb=20201217213620",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Giant Otter"
+            },
+            {
+                "species":"King Penguin"
+            }
+        ]
+    },
+    {
+        "name":"Cardboard Box",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/f/fe/CardboardBox.jpg/revision/latest/scale-to-width-down/350?cb=20200123204512",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Bengal Tiger"
+            },
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Cheetah"
+            },
+            {
+                "species":"Chinese Pangolin"
+            },
+            {
+                "species":"Common Warthog"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Giant Panda"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Jaguar"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Red Panda"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Siberian Tiger"
+            },
+            {
+                "species":"Snow Leopard"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"West African Lion"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Chew toy",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/d/d4/ChewToy.jpg/revision/latest/scale-to-width-down/350?cb=20200212183314",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            }
+        ]
+    },
+    {
+        "name":"Climbing Frame",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/f/fb/Climbing1.png/revision/latest/scale-to-width-down/350?cb=20190912082414",
+        "cost":"Uknown",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Bengal Tiger"
+            },
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Giant Panda"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Jaguar"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Koala"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Red Panda"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Siberian Tiger"
+            },
+            {
+                "species":"Snow Leopard"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Small Ball Colourful",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Aldabra Giant Tortoise"
+            },
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Cuvier's Dwarf Caiman"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Chinese Pangolin"
+            },
+            {
+                "species":"Common Ostrich"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Galapagos Giant Tortoise"
+            },
+            {
+                "species":"Gharial"
+            },
+            {
+                "species":"Giant Otter"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Red Kangaroo"
+            },
+            {
+                "species":"Red Panda"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Southern Cassowary"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Firehose Ball",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/d/de/FireHoseBall.jpg/revision/latest/scale-to-width-down/350?cb=20200216103119",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Bengal Tiger"
+            },
+            {
+                "species":"Cheetah"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Giant Panda"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Jaguar"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Siberian Tiger"
+            },
+            {
+                "species":"Snow Leopard"
+            },
+            {
+                "species":"West African Lion"
+            }
+        ]
+    },
+    {
+        "name":"Gift Box",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/c/cc/GiftBoxEnr.jpg/revision/latest/scale-to-width-down/350?cb=20200126085414",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Bengal Tiger"
+            },
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Cheetah"
+            },
+            {
+                "species":"Chinese Pangolin"
+            },
+            {
+                "species":"Common Warthog"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Giant Panda"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Jaguar"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Red Panda"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Siberian Tiger"
+            },
+            {
+                "species":"Snow Leopard"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"West African Lion"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Grab Ball",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/a/a2/GrabBall.jpg/revision/latest/scale-to-width-down/350?cb=20200127192630",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Buffalo"
+            },
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Bacterian Camel"
+            },
+            {
+                "species":"Black Wildebeest"
+            },
+            {
+                "species":"Bongo"
+            },
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Dall Sheep"
+            },
+            {
+                "species":"Gemsbok"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Llama"
+            },
+            {
+                "species":"Nyala"
+            },
+            {
+                "species":"Plains Zebra"
+            },
+            {
+                "species":"Pronghorn Antelope"
+            },
+            {
+                "species":"Reindeer"
+            },
+            {
+                "species":"Sable Antelope"
+            },
+            {
+                "species":"Springbok"
+            },
+            {
+                "species":"Thomson's Gazelle"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Gyro",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/b/bf/Gyro.jpg/revision/latest/scale-to-width-down/350?cb=20200128183808",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            },
+            {
+                "species":"Pygmy Hippo"
+            }
+        ]
+    },
+    {
+        "name":"Herb scent marker",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/1/14/HerbScentMarker.jpg/revision/latest/scale-to-width-down/350?cb=20200126100628",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"African Buffalo"
+            },
+            {
+                "species":"Aldabra Giant Tortoise"
+            },
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Bacterian Camel"
+            },
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Black Wildebeest"
+            },
+            {
+                "species":"Bongo"
+            },
+            {
+                "species":"Chinese Pangolin"
+            },
+            {
+                "species":"Common Ostrich"
+            },
+            {
+                "species":"Common Warthog"
+            },
+            {
+                "species":"Dall Sheep"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Galapagos Giant Tortoise"
+            },
+            {
+                "species":"Gemsbok"
+            },
+            {
+                "species":"Giant Anteater"
+            },
+            {
+                "species":"Giant Panda"
+            },
+            {
+                "species":"Greater Flamingo"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Indian Peafowl"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            },
+            {
+                "species":"Koala"
+            },
+            {
+                "species":"Llama"
+            },
+            {
+                "species":"Bongo"
+            },
+            {
+                "species":"Plains Zebra"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Springbok"
+            },
+            {
+                "species":"Pygmy Hippo"
+            },
+            {
+                "species":"Red Kangaroo"
+            },
+            {
+                "species":"Red Panda"
+            },
+            {
+                "species":"Reindeer"
+            },
+            {
+                "species":"Sable Antelope"
+            },
+            {
+                "species":"Southern Cassowary"
+            },
+            {
+                "species":"Pronghorn Antelope"
+            },
+            {
+                "species":"Thomson's Gazelle"
+            }
+        ]
+    },
+    {
+        "name":"Ice Block",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/f/f4/IceBlock.jpg/revision/latest/scale-to-width-down/350?cb=20200202162249",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Bacterian Camel"
+            },
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Gian Panda"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Jaguar"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Llama"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Snow Leopard"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Large ball",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/8/83/LargeBall.jpg/revision/latest/scale-to-width-down/350?cb=20200127192952",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Buffalo"
+            },
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Black Wildebeest"
+            },
+            {
+                "species":"Bongo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Giant Anteater"
+            },
+            {
+                "species":"Grey Seal"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Komodo Dragon"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Red Kangaroo"
+            },
+            {
+                "species":"Reindeer"
+            },
+            {
+                "species":"Saltwater Crocodile"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"West African Lion"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Large Snow Ball",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/f/f7/LargeSnowBall.jpg/revision/latest/scale-to-width-down/350?cb=20200127193332",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Buffalo"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Black Wildebeest"
+            },
+            {
+                "species":"Bongo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Giant Anteater"
+            },
+            {
+                "species":"Grey Seal"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Komodo Dragon"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Red Kangaroo"
+            },
+            {
+                "species":"Reindeer"
+            },
+            {
+                "species":"Saltwater Crocodile"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"West African Lion"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Mirror mobile",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/5/54/MirrorMobile.jpg/revision/latest/scale-to-width-down/350?cb=20200128175151",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Common Ostrich"
+            },
+            {
+                "species":"Greater Flamingo"
+            },
+            {
+                "species":"Indian Peafowl"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Koala"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Southern Cassowary"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Mud Bath",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/5/53/MudBath.jpg/revision/latest/scale-to-width-down/350?cb=20200128172048",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Buffalo"
+            },
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Common Warthog"
+            },
+            {
+                "species":"Cuvier's Dwarf Caiman"
+            },
+            {
+                "species":"Gharial"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            },
+            {
+                "species":"Pygmy Hippo"
+            },
+            {
+                "species":"Saltwater Crocodile"
+            }
+        ]
+    },
+    {
+        "name":"Musical Keyboard",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/d/df/MusicalKeyboard.jpg/revision/latest/scale-to-width-down/350?cb=20200301173144",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Plant Screen",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/5/5b/PlantScreenEnr.jpg/revision/latest/scale-to-width-down/350?cb=20200126082323",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Bongo"
+            },
+            {
+                "species":"Giant Anteater"
+            },
+            {
+                "species":"Pygmy Hippo"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            },
+            {
+                "species":"Nyala"
+            },
+            {
+                "species":"Okapi"
+            },
+            {
+                "species":"Plains Zebra"
+            },
+            {
+                "species":"Pygmy Hippo"
+            }
+        ]
+    },
+    {
+        "name":"Prey-scented sack",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/d/d6/PreyScentedSack.jpg/revision/latest/scale-to-width-down/350?cb=20200128182924",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Bengal Tiger"
+            },
+            {
+                "species":"Cheetah"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Gharial"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Jaguar"
+            },
+            {
+                "species":"Komodo Dragon"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Saltwater Crocodile"
+            },
+            {
+                "species":"Siberian Tiger"
+            },
+            {
+                "species":"Snow Leopard"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"West African Lion"
+            }
+        ]
+    },
+    {
+        "name":"Rubber Duck",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/8/8b/RubberDuck.jpg/revision/latest/scale-to-width-down/350?cb=20201217133213",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Grey Seal"
+            },
+            {
+                "species":"Giant Otter"
+            },
+            {
+                "species":"King Penguin"
+            }
+        ]
+    },
+    {
+        "name":"Rubbing Pad",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/c/ce/RubbingPad.jpg/revision/latest/scale-to-width-down/350?cb=20200126100009",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"Bengal Tiger"
+            },
+            {
+                "species":"Cheetah"
+            },
+            {
+                "species":"Chinese Pangolin"
+            },
+            {
+                "species":"Gharial"
+            },
+            {
+                "species":"Giant Anteater"
+            },
+            {
+                "species":"Jaguar"
+            },
+            {
+                "species":"Komodo Dragon"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Red Panda"
+            },
+            {
+                "species":"Saltwater Crocodile"
+            },
+            {
+                "species":"Siberian Tiger"
+            },
+            {
+                "species":"Snow Leopard"
+            },
+            {
+                "species":"West African Lion"
+            }
+        ]
+    },
+    {
+        "name":"Rubbing Pillar",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/9/95/RubbingPillar.jpg/revision/latest/scale-to-width-down/350?cb=20200128172346",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Buffalo"
+            },
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Bacterian Camel"
+            },
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Black Wildebeest"
+            },
+            {
+                "species":"Bongo"
+            },
+            {
+                "species":"Common Warthog"
+            },
+            {
+                "species":"Dall Sheep"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Gemsbok"
+            },
+            {
+                "species":"Gian Panda"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            },
+            {
+                "species":"Llama"
+            },
+            {
+                "species":"Nyala"
+            },
+            {
+                "species":"Okapi"
+            },
+            {
+                "species":"Plains Zebra"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Pronghorn Antelope"
+            },
+            {
+                "species":"Pygmy Hippo"
+            },
+            {
+                "species":"Reindeer"
+            },
+            {
+                "species":"Reticulated Giraffe"
+            },
+            {
+                "species":"Sable Antelope"
+            },
+            {
+                "species":"Springbok"
+            },
+            {
+                "species":"Thomson's Gazelle"
+            }
+        ]
+    },
+    {
+        "name":"Scratching Post",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/8/8d/ScratchingPost2.jpg/revision/latest/scale-to-width-down/350?cb=20200216195906",
+        "cost":"100",
+        "type":"toy",
+        "animals":[{
+            "species":"Bengal Tiger"
+        },
+        {
+            "species":"Cheetah"
+        },
+        {
+            "species":"Giant Anteater"
+        },
+        {
+            "species":"Jaguar"
+        },
+        {
+            "species":"Siberian Tiger"
+        },
+        {
+            "species":"Snow Leopard"
+        },
+        {
+            "species":"West African Lion"
+        }
+        ]
+    },
+    {
+        "name":"Skittle",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/f/f6/Skittle.jpg/revision/latest/scale-to-width-down/350?cb=20200128172809",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Buffalo"
+            },
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Grey Seal"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            },
+            {
+                "species":"Pygmy Hippo"
+            },
+            {
+                "species":"Reindeer"
+            }
+        ]
+    },
+    {
+        "name":"Small Ball",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/5/57/SmallBall.jpg/revision/latest/scale-to-width-down/350?cb=20200126100206",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Aldabra Giant Tortoise"
+            },
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Chinese Pangolin"
+            },
+            {
+                "species":"Common Ostrich"
+            },{
+                "species":"Cuvier's Dwarf Caiman"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Galapagos Giant Tortoise"
+            },
+            {
+                "species":"Gharial"
+            },
+            {
+                "species":"Giant Otter"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Red Kangaroo"
+            },
+            {
+                "species":"Red Panda"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Southern Cassowary"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Small Ice Ball Enrichment",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/5/5b/SmallIceBall.jpg/revision/latest/scale-to-width-down/350?cb=20200126095409",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Aldabra Giant Tortoise"
+            },
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Chinese Pangolin"
+            },
+            {
+                "species":"Common Ostrich"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Galapagos Giant Tortoise"
+            },
+            {
+                "species":"Gharial"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Red Kangaroo"
+            },
+            {
+                "species":"Red Panda"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Southern Cassowary"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Snowman Skittle",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/f/fb/SnowmanSkittleEnrich.jpg/revision/latest/scale-to-width-down/350?cb=20200128173033",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Buffalo"
+            },
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Grey Seal"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            },
+            {
+                "species":"Pygmy Hippo"
+            },
+            {
+                "species":"Reindeer"
+            }
+        ]
+    },
+    {
+        "name":"Sprinkler",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/f/f4/Sprinkler.jpg/revision/latest/scale-to-width-down/350?cb=20200126095805",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Aldabra Giant Tortoise"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Bengal Tiger"
+            },
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Cheetah"
+            },
+            {
+                "species":"Chinese Pangolin"
+            },
+            {
+                "species":"Common Ostrich"
+            },
+            {
+                "species":"Common Warthog"
+            },
+            {
+                "species":"Cuvier's Dwarf Caiman"
+            },{
+                "species":"Dingo"
+            },
+            {
+                "species":"Galapagos Giant Tortoise"
+            },
+            {
+                "species":"Gharial"
+            },
+            {
+                "species":"Giant Otter"
+            },
+            {
+                "species":"Greater Flamingo"
+            },
+            {
+                "species":"Grey Seal"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Indian Peafowl"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            },
+            {
+                "species":"Jaguar"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"King Penguin"
+            },
+            {
+                "species":"Komodo Dragon"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Okapi"
+            },
+            {
+                "species":"Pygmy Hippo"
+            },
+            {
+                "species":"Red Kangaroo"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Reticulated Giraffe"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Saltwater Crocodile"
+            },
+            {
+                "species":"Siberian Tiger"
+            },
+            {
+                "species":"Southern Cassowary"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"West African Lion"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Tug Rope",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
+        "cost":"300",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Dingo"
+            }
+        ]
+    },
+    {
+        "name":"Small Tyre",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Gian Panda"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Pygmy Hippo"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Large Tyre",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            }
+        ]
+    },
+    {
+        "name":"Water Jet",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/8/80/WaterJet.jpg/revision/latest/scale-to-width-down/350?cb=20200126082432",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Cuvier's Dwarf Caiman"
+            },
+            {
+                "species":"Gharial"
+            },
+            {
+                "species":"Giant Otter"
+            },
+            {
+                "species":"King Penguin"
+            },{
+                "species":"Komodo Dragon"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Saltwater Crocodile"
+            }
+        ]
+    },
+    {
+        "name":"Water Pool",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
+        "cost":"500",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Indian Elephant"
+            }
+        ]
+    },
+    {
+        "name":"Waterfall and Metal Frame",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/a/ad/WaterfallAndMetal.jpg/revision/latest/scale-to-width-down/350?cb=20200128175105",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"Greater Flamingo"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Pygmy Hippo"
+            }
+        ]
+    },
+    {
+        "name":"Wind Chimes",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/2/20/WindChimes.jpg/revision/latest/scale-to-width-down/350?cb=20200212181119",
+        "cost":"100",
+        "type":"toy",
+        "animals":[
+            {
+                "species":"Common Warthog"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Giant Pand"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Koala"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Red Panda"
+            }
+        ]
+    },
+    {
+        "name":"Bamboo Feeder",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/6/68/BambooFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200211183011",
+        "cost":"300",
+        "type":"food",
+        "animals":[
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            }
+        ]
+    },
+    {
+        "name":"Barrel Feeder Small",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/1/19/BarrelFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200126083902",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Bacterian Camel"
+            },
+            {
+                "species":"Black Wildebeest"
+            },
+            {
+                "species":"Bongo"
+            },
+            {
+                "species":"Common Warthog"
+            },
+            {
+                "species":"Dall Sheep"
+            },
+            {
+                "species":"Gemsbok"
+            },
+            {
+                "species":"Llama"
+            },
+            {
+                "species":"Nyala"
+            },
+            {
+                "species":"Plains Zebra"
+            },
+            {
+                "species":"Pronghorn Antelope"
+            },
+            {
+                "species":"Sable Antelope"
+            },
+            {
+                "species":"Springbok"
+            },
+            {
+                "species":"Thomson's Gazelle"
+            }
+        ]
+    },
+    {
+        "name":"Barrel Feeder Large",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/1/19/BarrelFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200126083902",
+        "cost":"300",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"African Buffalo"
+            },
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            },
+            {
+                "species":"Pygmy Hippo"
+            },
+            {
+                "species":"Reindeer"
+            }
+        ]
+    },
+    {
+        "name":"Barrel Feeder Hanging",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/1/19/BarrelFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200126083902",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            },
+            {
+                "species":"Okapi"
+            },
+            {
+                "species":"Pygmy Hippo"
+            },
+            {
+                "species":"Red Kangaroo"
+            }
+        ]
+    },
+    {
+        "name":"Block of Frozen Fruit",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/f/f6/BlockOfFrozenFruit.jpg/revision/latest/scale-to-width-down/350?cb=20200215124937",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Aldabra Giant Tortoise"
+            },
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Galapagos Giant Tortoise"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Dog Ball",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/4/4d/DogBall.jpg/revision/latest/scale-to-width-down/350?cb=20200211183353",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Aldabra Giant Tortoise"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Galapagos Giant Tortoise"
+            },
+            {
+                "species":"Giant Anteater"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Red Panda"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            }
+        ]
+    },
+    {
+        "name":"Eucalyptus Tree Feeder",
+        "url":"",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Koala"
+            }
+        ]
+    },
+    {
+        "name":"Fixed Roller Feeder Small",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/b/b1/FixedRollerFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200131190231",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Gian Panda"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Western Chimpanzee"
+            }
+        ]
+    },
+    {
+        "name":"Fixed Roller Feeder Large",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/b/b1/FixedRollerFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200131190231",
+        "cost":"500",
+        "type":"food",
+        "animals":[
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Forage Box",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/7/7b/ForageBoxEnrichment.jpg/revision/latest/scale-to-width-down/350?cb=20200123195923",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Chinese Pangolin"
+            },
+            {
+                "species":"Common Ostrich"
+            },
+            {
+                "species":"Common Warthog"
+            },
+            {
+                "species":"Giant Anteater"
+            },
+            {
+                "species":"Indian Peafowl"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Red Panda"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Southern Cassowary"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Forage Pool",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/8/8e/ForagePool.jpg/revision/latest/scale-to-width-down/350?cb=20200121202743",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Greater Flamingo"
+            }
+        ]
+    },
+    {
+        "name":"Frozen blood Pumpkin",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/f/f9/FrozenBloodPumpkin.jpg/revision/latest/scale-to-width-down/350?cb=20200128181756",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Bengal Tiger"
+            },
+            {
+                "species":"Cheetah"
+            },
+            {
+                "species":"Cuvier's Dwarf Caiman"
+            },
+            {
+                "species":"Gharial"
+            },
+            {
+                "species":"Jaguar"
+            },
+            {
+                "species":"Komodo Dragon"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Saltwater Crocodile"
+            },
+            {
+                "species":"Siberian Tiger"
+            },
+            {
+                "species":"Snow Leopard"
+            },
+            {
+                "species":"West African Lion"
+            }
+        ]
+    },
+    {
+        "name":"Fruit Spike Tree",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/b/b4/FruitSpikeTree.jpg/revision/latest/scale-to-width-down/350?cb=20200211184832",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Aldabra Giant Tortoise"
+            },
+            {
+                "species":"Baird's Tapir"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Common Warthog"
+            },
+            {
+                "species":"Galapagos Giant Tortoise"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            }
+        ]
+    },
+    {
+        "name":"Grzing Ball Feeder",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/9/95/GrazingBallFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200127190409",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"African Buffalo"
+            },
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Bacterian Camel"
+            },
+            {
+                "species":"Black Wildebeest"
+            },
+            {
+                "species":"Bongo"
+            },
+            {
+                "species":"Dall Sheep"
+            },
+            {
+                "species":"Gemsbok"
+            },
+            {
+                "species":"Llama"
+            },
+            {
+                "species":"Nyala"
+            },
+            {
+                "species":"Plains Zebra"
+            },
+            {
+                "species":"Pronghorn Antelope"
+            },
+            {
+                "species":"Red Kangaroo"
+            },
+            {
+                "species":"Reindeer"
+            },
+            {
+                "species":"Sable Antelope"
+            },
+            {
+                "species":"Springbok"
+            },
+            {
+                "species":"Thomson's Gazelle"
+            }
+        ]
+    },
+    {
+        "name":"Hanging Grazer Feeder",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/0/04/HangingGrazerFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200127190333",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"African Buffalo"
+            },
+            {
+                "species":"American Bison"
+            },
+            {
+                "species":"Bacterian Camel"
+            },
+            {
+                "species":"Black Wildebeest"
+            },
+            {
+                "species":"Bongo"
+            },
+            {
+                "species":"Dall Sheep"
+            },
+            {
+                "species":"Gemsbok"
+            },
+            {
+                "species":"Hippopotamus"
+            },
+            {
+                "species":"Indian Rhinoceros"
+            },
+            {
+                "species":"Llama"
+            },
+            {
+                "species":"Nyala"
+            },
+            {
+                "species":"Plains Zebra"
+            },
+            {
+                "species":"Pronghorn Antelope"
+            },
+            {
+                "species":"Pygmy Hippo"
+            },
+            {
+                "species":"Red Kangaroo"
+            },
+            {
+                "species":"Reindeer"
+            },
+            {
+                "species":"Sable Antelope"
+            },
+            {
+                "species":"Springbok"
+            },
+            {
+                "species":"Thomson's Gazelle"
+            }
+        ]
+    },
+    {
+        "name":"Pinata",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/1/16/PinataEnrichment.jpg/revision/latest/scale-to-width-down/350?cb=20200212184537",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Bengal Tiger"
+            },
+            {
+                "species":"Cheetah"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Jaguar"
+            },
+            {
+                "species":"Siberian Tiger"
+            },
+            {
+                "species":"Snow Leopard"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            },
+            {
+                "species":"West African Lion"
+            }
+        ]
+    },
+    {
+        "name":"Restrant Feeder",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/4/45/RestraintFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200128182328",
+        "cost":"500",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Bengal Tiger"
+            },
+            {
+                "species":"Komodo Dragon"
+            },
+            {
+                "species":"Nile Monitor"
+            },
+            {
+                "species":"Saltwater Crocodile"
+            },
+            {
+                "species":"Siberian Tiger"
+            },
+            {
+                "species":"West African Lion"
+            }
+        ]
+    },
+    {
+        "name":"Rotation Line Feeder",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/7/71/RotationLineFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200212183846",
+        "cost":"300",
+        "type":"food",
+        "animals":[
+            {
+                "species":"African Wild Dog"
+            },
+            {
+                "species":"Arctic Wolf"
+            },
+            {
+                "species":"Cheetah"
+            },
+            {
+                "species":"Dingo"
+            },
+            {
+                "species":"Jaguar"
+            },
+            {
+                "species":"Snow Leopard"
+            },
+            {
+                "species":"Spotted Hyena"
+            },
+            {
+                "species":"Timber Wolf"
+            }
+        ]
+    },
+    {
+        "name":"Slow Feeder",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/6/6b/SlowFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200126090321",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"Chinese Pangolin"
+            },
+            {
+                "species":"Common Ostrich"
+            },
+            {
+                "species":"Giant Anteater"
+            },
+            {
+                "species":"Indian Peafowl"
+            },
+            {
+                "species":"Southern Cassowary"
+            }
+        ]
+    },
+    {
+        "name":"Suspended Forager",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/4/49/SuspendedForager.jpg/revision/latest/scale-to-width-down/350?cb=20200301170528",
+        "cost":"350",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Colombian White-Faced Capuchin Monkey"
+            },
+            {
+                "species":"Japanese Macaque"
+            },
+            {
+                "species":"Mandrill"
+            },
+            {
+                "species":"Red Kangaroo"
+            },
+            {
+                "species":"Red Ruffed Lemur"
+            },
+            {
+                "species":"Ring Tailed Lemur"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Suspended High Grazer Feeder",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/2/22/SuspendedHighGrazer.jpg/revision/latest/scale-to-width-down/350?cb=20200130171230",
+        "cost":"500",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Reticulated Giraffe"
+            }
+        ]
+    },
+    {
+        "name":"Artifical Termite Mound",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/5/55/TermiteMoundEnr.jpg/revision/latest/scale-to-width-down/185?cb=20200126082254",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Aardvark"
+            },
+            {
+                "species":"Chinese Pangolin"
+            },
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Western Chimpanzee"
+            }
+        ]
+    },
+    {
+        "name":"Natural Termite Mound",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/185?cb=20190819161250",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Giant Anteater"
+            }
+        ]
+    },
+    {
+        "name":"Tool Puzzle Feeder",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/9/9a/ToolPuzzleFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200304180423",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Tree Forager",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/b/be/TreeForager.jpg/revision/latest/scale-to-width-down/350?cb=20200216101116",
+        "cost":"100",
+        "type":"food",
+        "animals":[
+            {
+                "species":"Bonobo"
+            },
+            {
+                "species":"Bornean Oragntuan"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Polar Bear"
+            },
+            {
+                "species":"Red Panda"
+            },
+            {
+                "species":"Western Chimpanzee"
+            },
+            {
+                "species":"Western Lowland Gorilla"
+            }
+        ]
+    },
+    {
+        "name":"Tree Scatter Feeder",
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/3/3a/TreeScatterFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200131190656",
+        "cost":"500",
+        "type":"food",
+        "animals":[
+            {
+                "species":"African Elephant"
+            },
+            {
+                "species":"Formosan Black Bear"
+            },
+            {
+                "species":"Gian Panda"
+            },
+            {
+                "species":"Himalayan Brown Bear"
+            },
+            {
+                "species":"Grizzly Bear"
+            },
+            {
+                "species":"Indian Elephant"
+            },
+            {
+                "species":"Polar Bear"
+            }
+        ]
     }
 ]
