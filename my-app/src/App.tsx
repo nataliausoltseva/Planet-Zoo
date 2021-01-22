@@ -7,7 +7,7 @@ import Search from './components/Search';
 function App() {
   // eslint-disable-next-line
   const [UserInput, setUserInput] = useState<IUserInput>({
-    SearchQuery: "Aardvark",
+    SearchQuery: "",
     
   });
   function SetUserInput(a: IUserInput) {
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Search SetUserInput={(a: IUserInput) => SetUserInput(a)}/>
-      <AnimalsInfo />
+      <AnimalsInfo SearchQuery={UserInput.SearchQuery}/>
     </div>
   );
 }

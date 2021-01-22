@@ -404,7 +404,7 @@
             "incubation":1.083,
             "interbirth":2
         },
-        "continents":"Souther America, Central America",
+        "continents":"South America, Central America",
         "conversation_status":"EN",
         "habbitat":{
             "land_area":"430",
@@ -2105,7 +2105,7 @@
         },
         "url":"https://d1zb04s4od4oai.cloudfront.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiIyMDIwLTEyL2dyZXlzZWFsLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfX19",
         "population":"290000-300000",
-        "edition":"aquatic pack 2",
+        "edition":"aquatic pack",
         "shared_habitat":[
         ]
     },

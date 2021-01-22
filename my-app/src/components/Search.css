@@ -9,6 +9,6 @@
     justify-content: center;
 }
 
-.DataGridContainer {
-    height: 600 !important;
+.MuiDataGrid-cell{
+    text-align: center !important;
 }
