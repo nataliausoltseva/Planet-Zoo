@@ -432,7 +432,7 @@
         "edition":"standard",
         "shared_habitat":[
             {
-                "animal":"Colombian White-Faces Capuchin Monkey"
+                "animal":"Colombian White-Faced Capuchin Monkey"
             },
             {
                 "animal":"Giant Anteater"
@@ -441,7 +441,7 @@
     },
     {
         "id":11,
-        "species":"Belgan Tiger",
+        "species":"Bengal Tiger",
         "species_ID":"BT",
         "interactivity":"full",
         "social":{
@@ -699,7 +699,7 @@
     },
     {
         "id":17,
-        "species":"Brazilian Salmon Pink Tarantual",
+        "species":"Brazilian Salmon Pink Tarantula",
         "species_ID":"BSPT",
         "interactivity":"exhibit",
         "social":{
@@ -857,7 +857,7 @@
     },
     {
         "id":21,
-        "species":"Colombian White-Faces Capuchin Monkey",
+        "species":"Colombian White-Faced Capuchin Monkey",
         "species_ID":"CWFCM",
         "interactivity":"full",
         "social":{
@@ -1374,7 +1374,7 @@
     },
     {
         "id":32,
-        "species":"Galapago Giant Tortoise",
+        "species":"Galapagos Giant Tortoise",
         "species_ID":"GGT",
         "interactivity":"full",
         "social":{
@@ -1404,6 +1404,7 @@
                 }
             ]
         },
+        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
         "population":"~1000",
         "edition":"standard",
         "shared_habitat":[
