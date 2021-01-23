@@ -277,6 +277,9 @@ function AnimalsInfo(props:IMediaGridProps) {
                             <p>Temperature of Habitat: {animalInformation[index].habbitat.temperature} °C</p>
                         </div>
                     </div>
+                    <div className="SharedAnimals">
+                        {animalInformation[index].shared_habitat.length?(<div><strong>Comptable Animals:</strong>{animalInformation[index].shared_habitat.map((item,i) => <span><br/>{item.animal}</span>)}</div>):<p>This animal does not benefit from sharing space with other species</p>}
+                    </div>
                     <div className="DivToMakeSecondRow">
                         <div className="ToyEnrichment">
                             {newToyList.map((item,i) => <span key={i}><br/><img src={item.url} width={50} alt={item.name}/>{item.name}</span>)}
