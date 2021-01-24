@@ -1,6 +1,6 @@
 [
     {
-        "name":"Blood scent marker",
+        "name":"Blood Scent Marker",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
         "cost":"100",
         "type":"toy",
@@ -639,7 +639,7 @@
         ]
     },
     {
-        "name":"Herb scent marker",
+        "name":"Herb Scent Marker",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
         "cost":"100",
         "type":"toy",
@@ -959,7 +959,7 @@
         ]
     },
     {
-        "name":"Mirror mobile",
+        "name":"Mirror Mobile",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
         "cost":"100",
         "type":"toy",
@@ -1898,7 +1898,7 @@
     },
     {
         "name":"Bamboo Feeder",
-        "url":"https://static.wikia.nocookie.net/planetzoo/images/6/68/BambooFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200211183011",
+        "url":"../Images/Food/Bamboo Feeder.PNG",
         "cost":"300",
         "type":"food",
         "animals":[
@@ -2364,7 +2364,7 @@
         ]
     },
     {
-        "name":"Grzing Ball Feeder",
+        "name":"Grazing Ball Feeder",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/9/95/GrazingBallFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200127190409",
         "cost":"100",
         "type":"food",
@@ -2659,7 +2659,7 @@
         ]
     },
     {
-        "name":"Artifical Termite Mound",
+        "name":"Termite Mound",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/5/55/TermiteMoundEnr.jpg/revision/latest/scale-to-width-down/185?cb=20200126082254",
         "cost":"100",
         "type":"food",
@@ -2675,15 +2675,7 @@
             },
             {
                 "species":"Western Chimpanzee"
-            }
-        ]
-    },
-    {
-        "name":"Natural Termite Mound",
-        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/185?cb=20190819161250",
-        "cost":"100",
-        "type":"food",
-        "animals":[
+            },
             {
                 "species":"Giant Anteater"
             }

@@ -102,6 +102,15 @@ function AnimalsInfo(props:IMediaGridProps) {
         }
     }
 
+    function importAll(r:any) {
+        return r.keys().map(r);
+    }
+
+    const foodImages = importAll(require.context('../Images/Food', false, /.*\.PNG$/));
+    const toyImages = importAll(require.context('../Images/Toys', false, /.*\.PNG$/));
+
+    console.log(foodImages);
+
     function returnTable(){
         var body = (
             <TableContainer>
@@ -195,6 +204,195 @@ function AnimalsInfo(props:IMediaGridProps) {
 
         return body;
     }
+
+    function getFoodImageSrc(name:string){
+        var src:any;
+        switch(name){
+            case "Bamboo Feeder":
+                src = foodImages[0].default;
+                break;
+            case "Block of Frozen Fruit":
+                src = foodImages[1].default;
+                break;
+            case "Dog Ball":
+                src = foodImages[2].default
+                break;
+            case "Eucalyptus Tree Feeder":
+                src = foodImages[3].default
+                break;
+            case "Forage Box":
+                src = foodImages[4].default
+                break;
+            case "Forage Pool":
+                src = foodImages[5].default
+                break;
+            case "Frozen Blood Pumpkin":
+                src = foodImages[6].default
+                break;
+            case "Fruit Spike Tree":
+                src = foodImages[7].default
+                break;
+            case "Grazing Ball Feeder":
+                src = foodImages[8].default
+                break;
+            case "Gyro":
+                src = foodImages[9].default
+                break;
+            case "Barrel Feeder Hanging":
+                src = foodImages[10].default
+                break;
+            case "Hanging Grazer Feeder":
+                src = foodImages[11].default
+                break;
+            case "Barrel Feeder Large":
+                src = foodImages[12].default
+                break;
+            case "Fixed Roller Feeder Large":
+                src = foodImages[13].default
+                break;
+            case "Pinata":
+                src = foodImages[14].default;
+                break;
+            case "Restraint Feeder":
+                src = foodImages[15].default
+                break;
+            case "Rotation Line Feeder":
+                src = foodImages[16].default
+                break;
+            case "Slow Feeder":
+                src = foodImages[17].default
+                break;
+            case "Barrel Feeder Small":
+                src = foodImages[18].default
+                break;
+            case "Fixed Roller Feeder Small":
+                src = foodImages[19].default
+                break;
+            case "Suspended High Grazer Feeder":
+                src = foodImages[20].default
+                break;
+            case "Termite Mound":
+                src = foodImages[21].default
+                break;
+            case "Toy Puzzle Feeder":
+                src = foodImages[22].default
+                break;
+            case "Tree Forager":
+                src = foodImages[23].default
+                break;
+            case "Tree Scatter Feeder":
+                src = foodImages[24].default
+                break;
+            case "Underwater Box Feeder":
+                src = foodImages[25].default
+                break;
+        }
+        return src;
+    }
+
+    function getToyImageSrc(name:string){
+        var src:any;
+        switch(name){
+            case "Block of Ice":
+                src = toyImages[0].default;
+                break;
+            case "Blood Scent Marker":
+                src = toyImages[1].default;
+                break;
+            case "Bobbing Drum":
+                src = toyImages[2].default
+                break;
+            case "Bobbing":
+                src = toyImages[3].default
+                break;
+            case "Cardboard Box":
+                src = toyImages[4].default
+                break;
+            case "Chew Toy":
+                src = toyImages[5].default
+                break;
+            case "Fire Hose Ball":
+                src = toyImages[6].default
+                break;
+            case "Gift Box":
+                src = toyImages[7].default
+                break;
+            case "Grab Ball":
+                src = toyImages[8].default
+                break;
+            case "Herb Scent Marker":
+                src = toyImages[9].default
+                break;
+            case "Large Ball":
+                src = toyImages[10].default
+                break;
+            case "Large Snow Ball":
+                src = toyImages[11].default
+                break;
+            case "Large tyre":
+                src = toyImages[12].default
+                break;
+            case "Mirror Mobile":
+                src = toyImages[13].default
+                break;
+            case "Mud Bath":
+                src = toyImages[14].default;
+                break;
+            case "Musical Keyboard":
+                src = toyImages[15].default
+                break;
+            case "Plant Screen":
+                src = toyImages[16].default
+                break;
+            case "Prey Scented Sack":
+                src = toyImages[17].default
+                break;
+            case "Rubbing Pad":
+                src = toyImages[18].default
+                break;
+            case "Rubbing Pillar":
+                src = toyImages[19].default
+                break;
+            case "Scratching Post":
+                src = toyImages[20].default
+                break;
+            case "Skittle":
+                src = toyImages[21].default
+                break;
+            case "Small Ball Colourful":
+                src = toyImages[22].default
+                break;
+            case "Small Ball":
+                src = toyImages[23].default
+                break;
+            case "Small Ice Ball":
+                src = toyImages[24].default
+                break;
+            case "Snowman Skittle":
+                src = toyImages[25].default
+                break;
+            case "Sprinkler":
+                src = toyImages[26].default
+                break;
+            case "Tyre":
+                src = toyImages[27].default
+                break;
+            case "Water Jet":
+                src = toyImages[28].default
+                break;
+            case "Water Pool":
+                src = toyImages[29].default
+                break;
+            case "Waterfall and Metal Frame":
+                src = toyImages[30].default
+                break;
+            case "Wind Chimes":
+                src = toyImages[31].default
+                break;
+        }
+        return src;
+    }
+    
     function getResult(){
         var index = animalInformation.findIndex((item,i)=> {
             return item.species === props.SearchQuery
@@ -282,10 +480,10 @@ function AnimalsInfo(props:IMediaGridProps) {
                     </div>
                     <div className="DivToMakeSecondRow">
                         <div className="ToyEnrichment">
-                            {newToyList.map((item,i) => <span key={i}><br/><img src={item.url} width={50} alt={item.name}/>{item.name}</span>)}
+                            {newToyList.map((item,i) => <span key={i}><br/><img src={getToyImageSrc(item.name)} width={50} alt={item.name}/>{item.name}</span>)}
                         </div>
                         <div className="FoodEnrichment">
-                            {newFoodList.map((item,i) => <span key={i}><br/><img src={item.url} width={50}alt={item.name} />{item.name}</span>)}
+                            {newFoodList.map((item,i) => <span key={i}><br/><img src={getFoodImageSrc(item.name)} width={50}alt={item.name} />{item.name}</span>)}
                         </div>
                     </div>
                 </div>
