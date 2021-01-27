@@ -53,7 +53,7 @@
         ]
     },
     {
-        "name":"Bobbin",
+        "name":"Bobbin Enrichment",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/9/96/Bobbin.jpg/revision/latest/scale-to-width-down/350?cb=20200215121426",
         "cost":"100",
         "type":"toy",
@@ -135,7 +135,7 @@
         ]
     },
     {
-        "name":"Bubble Machine",
+        "name":"Water Jet",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
         "cost":"100",
         "type":"toy",
@@ -247,7 +247,7 @@
         ]
     },
     {
-        "name":"Chew toy",
+        "name":"Chew Toy",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/d/d4/ChewToy.jpg/revision/latest/scale-to-width-down/350?cb=20200212183314",
         "cost":"100",
         "type":"toy",
@@ -266,71 +266,6 @@
             },
             {
                 "species":"Timber Wolf"
-            }
-        ]
-    },
-    {
-        "name":"Climbing Frame",
-        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
-        "cost":"Uknown",
-        "type":"toy",
-        "animals":[
-            {
-                "species":"Bengal Tiger"
-            },
-            {
-                "species":"Bonobo"
-            },
-            {
-                "species":"Bornean Orangutan"
-            },
-            {
-                "species":"Colombian White-Faced Capuchin Monkey"
-            },
-            {
-                "species":"Formosan Black Bear"
-            },
-            {
-                "species":"Giant Panda"
-            },
-            {
-                "species":"Himalayan Brown Bear"
-            },
-            {
-                "species":"Grizzly Bear"
-            },
-            {
-                "species":"Jaguar"
-            },
-            {
-                "species":"Japanese Macaque"
-            },
-            {
-                "species":"Koala"
-            },
-            {
-                "species":"Mandrill"
-            },
-            {
-                "species":"Red Panda"
-            },
-            {
-                "species":"Red Ruffed Lemur"
-            },
-            {
-                "species":"Ring Tailed Lemur"
-            },
-            {
-                "species":"Siberian Tiger"
-            },
-            {
-                "species":"Snow Leopard"
-            },
-            {
-                "species":"Western Chimpanzee"
-            },
-            {
-                "species":"Western Lowland Gorilla"
             }
         ]
     },
@@ -412,7 +347,7 @@
         ]
     },
     {
-        "name":"Firehose Ball",
+        "name":"Fire Hose Ball",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
         "cost":"100",
         "type":"toy",
@@ -758,7 +693,7 @@
         ]
     },
     {
-        "name":"Ice Block",
+        "name":"Block of Ice",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
         "cost":"100",
         "type":"toy",
@@ -829,7 +764,7 @@
         ]
     },
     {
-        "name":"Large ball",
+        "name":"Large Ball",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
         "cost":"100",
         "type":"toy",
@@ -1120,7 +1055,7 @@
         ]
     },
     {
-        "name":"Prey-scented sack",
+        "name":"Prey Scented Sack",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/d/d6/PreyScentedSack.jpg/revision/latest/scale-to-width-down/350?cb=20200128182924",
         "cost":"100",
         "type":"toy",
@@ -1181,23 +1116,6 @@
             },
             {
                 "species":"West African Lion"
-            }
-        ]
-    },
-    {
-        "name":"Rubber Duck",
-        "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
-        "cost":"100",
-        "type":"toy",
-        "animals":[
-            {
-                "species":"Grey Seal"
-            },
-            {
-                "species":"Giant Otter"
-            },
-            {
-                "species":"King Penguin"
             }
         ]
     },
@@ -1486,7 +1404,7 @@
         ]
     },
     {
-        "name":"Small Ice Ball Enrichment",
+        "name":"Small Ice Ball",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/5/5b/SmallIceBall.jpg/revision/latest/scale-to-width-down/350?cb=20200126095409",
         "cost":"100",
         "type":"toy",
@@ -1745,7 +1663,7 @@
         ]
     },
     {
-        "name":"Small Tyre",
+        "name":"Tyre",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/e/e0/Placeholder_Image.png/revision/latest/scale-to-width-down/300?cb=20190819161250",
         "cost":"100",
         "type":"toy",
@@ -2288,7 +2206,7 @@
         ]
     },
     {
-        "name":"Frozen blood Pumpkin",
+        "name":"Frozen Blood Pumpkin",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/f/f9/FrozenBloodPumpkin.jpg/revision/latest/scale-to-width-down/350?cb=20200128181756",
         "cost":"100",
         "type":"food",
@@ -2526,7 +2444,7 @@
         ]
     },
     {
-        "name":"Restrant Feeder",
+        "name":"Restraint Feeder",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/4/45/RestraintFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200128182328",
         "cost":"500",
         "type":"food",
@@ -2610,7 +2528,7 @@
         ]
     },
     {
-        "name":"Suspended Forager",
+        "name":"Tree Forager",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/4/49/SuspendedForager.jpg/revision/latest/scale-to-width-down/350?cb=20200301170528",
         "cost":"350",
         "type":"food",
@@ -2682,7 +2600,7 @@
         ]
     },
     {
-        "name":"Tool Puzzle Feeder",
+        "name":"Toy Puzzle Feeder",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/9/9a/ToolPuzzleFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200304180423",
         "cost":"100",
         "type":"food",

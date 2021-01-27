@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { IUserInput } from './interfaces';
 import Button from 'react-bootstrap/Button';
 import './Search.css';
-
+import ClearIcon from '@material-ui/icons/Clear';
 
 interface ISearchBarProps {
     SetUserInput: (a:IUserInput) => void;
@@ -14,6 +14,7 @@ function Search( props: ISearchBarProps) {
     var data = require('../JSON components/animals.json');
     const [searchQuery, setSearchQuery] = useState("");
     const handleSearchQueryChange = (s:string)=> {
+        console.log(s);
         var lowerCaseString = s.toLowerCase();
         setSearchQuery(lowerCaseString);
     }
@@ -49,13 +50,11 @@ function Search( props: ISearchBarProps) {
             return;
         }
     }
-
     return (
         <div className="SearchBarContainer">
             <Grid container spacing={1}>
                 <div>
                     <Autocomplete
-                        id="free-solo-demo"
                         freeSolo
                         options={array}
                         getOptionLabel={(option) => option}
@@ -64,10 +63,11 @@ function Search( props: ISearchBarProps) {
                         onChange={(event, value)=> checkValue(value)}
                         renderInput={(params) =>
                         <TextField {...params}
-                            label="Animal"
+                            label="Animal's name"
                             error={hasFocus && searchQuery===""}
                             value={searchQuery}
-                            onChange={event => handleSearchQueryChange(event.target.value)}/>}
+                            onChange={event => handleSearchQueryChange(event.target.value)}/>
+                            }
                     />
                     <Button variant="primary" size="sm" onClick={handleSubmit} style={{width:"6rem", height:50}}>
                         Search

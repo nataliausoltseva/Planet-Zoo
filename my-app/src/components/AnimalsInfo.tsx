@@ -235,56 +235,53 @@ function AnimalsInfo(props:IMediaGridProps) {
             case "Grazing Ball Feeder":
                 src = foodImages[8].default
                 break;
-            case "Gyro":
+            case "Barrel Feeder Hanging":
                 src = foodImages[9].default
                 break;
-            case "Barrel Feeder Hanging":
+            case "Hanging Grazer Feeder":
                 src = foodImages[10].default
                 break;
-            case "Hanging Grazer Feeder":
+            case "Barrel Feeder Large":
                 src = foodImages[11].default
                 break;
-            case "Barrel Feeder Large":
+            case "Fixed Roller Feeder Large":
                 src = foodImages[12].default
                 break;
-            case "Fixed Roller Feeder Large":
-                src = foodImages[13].default
-                break;
             case "Pinata":
-                src = foodImages[14].default;
+                src = foodImages[13].default;
                 break;
             case "Restraint Feeder":
-                src = foodImages[15].default
+                src = foodImages[14].default
                 break;
             case "Rotation Line Feeder":
-                src = foodImages[16].default
+                src = foodImages[15].default
                 break;
             case "Slow Feeder":
-                src = foodImages[17].default
+                src = foodImages[16].default
                 break;
             case "Barrel Feeder Small":
-                src = foodImages[18].default
+                src = foodImages[17].default
                 break;
             case "Fixed Roller Feeder Small":
-                src = foodImages[19].default
+                src = foodImages[18].default
                 break;
             case "Suspended High Grazer Feeder":
-                src = foodImages[20].default
+                src = foodImages[19].default
                 break;
             case "Termite Mound":
-                src = foodImages[21].default
+                src = foodImages[20].default
                 break;
             case "Toy Puzzle Feeder":
-                src = foodImages[22].default
+                src = foodImages[21].default
                 break;
             case "Tree Forager":
-                src = foodImages[23].default
+                src = foodImages[22].default
                 break;
             case "Tree Scatter Feeder":
-                src = foodImages[24].default
+                src = foodImages[23].default
                 break;
             case "Underwater Box Feeder":
-                src = foodImages[25].default
+                src = foodImages[24].default
                 break;
         }
         return src;
@@ -299,10 +296,10 @@ function AnimalsInfo(props:IMediaGridProps) {
             case "Blood Scent Marker":
                 src = toyImages[1].default;
                 break;
-            case "Bobbing Drum":
+            case "Bobbin Drum":
                 src = toyImages[2].default
                 break;
-            case "Bobbing":
+            case "Bobbin Enrichment":
                 src = toyImages[3].default
                 break;
             case "Cardboard Box":
@@ -320,75 +317,78 @@ function AnimalsInfo(props:IMediaGridProps) {
             case "Grab Ball":
                 src = toyImages[8].default
                 break;
-            case "Herb Scent Marker":
+            case "Gyro":
                 src = toyImages[9].default
                 break;
-            case "Large Ball":
+            case "Herb Scent Marker":
                 src = toyImages[10].default
                 break;
-            case "Large Snow Ball":
+            case "Large Ball":
                 src = toyImages[11].default
                 break;
-            case "Large tyre":
+            case "Large Snow Ball":
                 src = toyImages[12].default
                 break;
-            case "Mirror Mobile":
+            case "Large Tyre":
                 src = toyImages[13].default
                 break;
+            case "Mirror Mobile":
+                src = toyImages[14].default
+                break;
             case "Mud Bath":
-                src = toyImages[14].default;
+                src = toyImages[15].default;
                 break;
             case "Musical Keyboard":
-                src = toyImages[15].default
-                break;
-            case "Plant Screen":
                 src = toyImages[16].default
                 break;
-            case "Prey Scented Sack":
+            case "Plant Screen":
                 src = toyImages[17].default
                 break;
-            case "Rubbing Pad":
+            case "Prey Scented Sack":
                 src = toyImages[18].default
                 break;
-            case "Rubbing Pillar":
+            case "Rubbing Pad":
                 src = toyImages[19].default
                 break;
-            case "Scratching Post":
+            case "Rubbing Pillar":
                 src = toyImages[20].default
                 break;
-            case "Skittle":
+            case "Scratching Post":
                 src = toyImages[21].default
                 break;
-            case "Small Ball Colourful":
+            case "Skittle":
                 src = toyImages[22].default
                 break;
-            case "Small Ball":
+            case "Small Ball Colourful":
                 src = toyImages[23].default
                 break;
-            case "Small Ice Ball":
+            case "Small Ball":
                 src = toyImages[24].default
                 break;
-            case "Snowman Skittle":
+            case "Small Ice Ball":
                 src = toyImages[25].default
                 break;
-            case "Sprinkler":
+            case "Snowman Skittle":
                 src = toyImages[26].default
                 break;
-            case "Tyre":
+            case "Sprinkler":
                 src = toyImages[27].default
                 break;
-            case "Water Jet":
+            case "Tyre":
                 src = toyImages[28].default
                 break;
-            case "Water Pool":
+            case "Water Jet":
                 src = toyImages[29].default
                 break;
-            case "Waterfall and Metal Frame":
+            case "Water Pool":
                 src = toyImages[30].default
                 break;
-            case "Wind Chimes":
+            case "Waterfall and Metal Frame":
                 src = toyImages[31].default
                 break;
+            case "Wind Chimes":
+                src = toyImages[32].default
+                break;   
         }
         return src;
     }
@@ -544,8 +544,8 @@ function AnimalsInfo(props:IMediaGridProps) {
     return (
         <div>
             <div>
-            {props.SearchQuery === ""? returnTable() : getResult()}
-        </div>
+                {props.SearchQuery === ""? returnTable() : getResult()}
+            </div>
         </div>
     );
 }
