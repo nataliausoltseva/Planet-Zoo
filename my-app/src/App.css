@@ -67,15 +67,6 @@ font-weight: bold;
 li {
   list-style-type: none;
 }
-li:first-of-type{
-  border-top: 1px solid #ccc;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-}
-li:last-of-type{
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
 
 button{
   display: flex;
@@ -115,4 +106,56 @@ button:hover:focus{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.SharedAnimals {
+  justify-content: center;
+}
+
+.SharedAnimals ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.SharedAnimals li {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ToyEnrichment div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ToyEnrichment li {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.FoodEnrichment div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.FoodEnrichment li {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }

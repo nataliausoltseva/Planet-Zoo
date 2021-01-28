@@ -5,6 +5,7 @@ import AnimalsInfo from './components/AnimalsInfo';
 import { IUserInput } from './components/interfaces';
 import Search from './components/Search';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import SortableTable from './components/Table';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -51,7 +52,6 @@ function App() {
         <Search SetUserInput={(a: IUserInput) => SetUserInput(a)} />
       </div>
       <AnimalsInfo SearchQuery={UserInput.SearchQuery}/>
-      
     </div>
   );
 }

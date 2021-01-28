@@ -3,6 +3,7 @@ import PopupState, { bindPopover, bindTrigger } from 'material-ui-popup-state';
 import React, { useEffect, useState } from 'react';
 import './Search.css';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import SortableTable from './Table';
 
 interface Animals {
     species:string,
@@ -109,39 +110,6 @@ function AnimalsInfo(props:IMediaGridProps) {
     const foodImages = importAll(require.context('../Images/Food', false, /.*\.PNG$/));
     const toyImages = importAll(require.context('../Images/Toys', false, /.*\.PNG$/));
 
-    console.log(foodImages);
-
-    function returnTable(){
-        var body = (
-            <TableContainer>
-                <Table  aria-label="simple table">
-                    <TableHead>
-                    <TableRow>
-                        <TableCell>Species</TableCell>
-                        <TableCell align="center" sortDirection="asc">Conservative Status</TableCell>
-                        <TableCell align="center">Continents</TableCell>
-                        <TableCell align="center">Edition</TableCell>
-                        <TableCell align="center">Population</TableCell>
-                    </TableRow>
-                    </TableHead>
-                    <TableBody>
-                    {animalInformation.map((row) => (
-                        <TableRow key={row.species}>
-                            <TableCell component="th" scope="row" >
-                                {row.species}
-                            </TableCell>
-                            <TableCell align="center">{row.conversation_status}</TableCell>
-                            <TableCell align="center">{row.continents}</TableCell>
-                            <TableCell align="center">{row.edition}</TableCell>
-                            <TableCell align="center">{row.population}</TableCell>
-                        </TableRow>
-                    ))}
-                    </TableBody>
-                </Table>
-            </TableContainer>
-        );
-        return body;
-    }
     function consStatus(status:string){
         var body;
 
@@ -392,6 +360,17 @@ function AnimalsInfo(props:IMediaGridProps) {
         }
         return src;
     }
+
+    function getAnimalSrc(name:string){
+        var imagesrc = "";
+
+        for(var i=0;i< animalInformation.length;i++){
+            if(animalInformation[i].species === name){
+                imagesrc = animalInformation[i].url;
+            }
+        }
+        return imagesrc;
+    }
     
     function getResult(){
         var index = animalInformation.findIndex((item,i)=> {
@@ -470,20 +449,20 @@ function AnimalsInfo(props:IMediaGridProps) {
                         </div>
                         <div>
                             <p>Continents: {animalInformation[index].continents}</p>
-                            <p>Biomes: {animalInformation[index].habbitat.biomes.map((item,i) => <span key={i}><br/>{item.biome}</span>)}</p>
+                            <p>Biomes: {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/>{item.biome}</li>)}</p>
                             <p>Population in wild: {animalInformation[index].population}</p>
                             <p>Temperature of Habitat: {animalInformation[index].habbitat.temperature} °C</p>
                         </div>
                     </div>
                     <div className="SharedAnimals">
-                        {animalInformation[index].shared_habitat.length?(<div><strong>Comptable Animals:</strong>{animalInformation[index].shared_habitat.map((item,i) => <span><br/>{item.animal}</span>)}</div>):<p>This animal does not benefit from sharing space with other species</p>}
+                        {animalInformation[index].shared_habitat.length?(<div><strong>Comptable Animals:</strong><ul>{animalInformation[index].shared_habitat.map((item,i) => <li><img src={getAnimalSrc(item.animal)} height={70} />{item.animal}</li>)}</ul></div>):<p>This animal does not benefit from sharing space with other species</p>}
                     </div>
                     <div className="DivToMakeSecondRow">
                         <div className="ToyEnrichment">
-                            {newToyList.map((item,i) => <span key={i}><br/><img src={getToyImageSrc(item.name)} width={50} alt={item.name}/>{item.name}</span>)}
+                            Toy Enrichments <div>{newToyList.map((item,i) => <li key={i}><br/><img src={getToyImageSrc(item.name)} width={50} alt={item.name}/>{item.name}</li>)}</div>
                         </div>
                         <div className="FoodEnrichment">
-                            {newFoodList.map((item,i) => <span key={i}><br/><img src={getFoodImageSrc(item.name)} width={50}alt={item.name} />{item.name}</span>)}
+                            Food Enrichments <div>{newFoodList.map((item,i) => <li key={i}><br/><img src={getFoodImageSrc(item.name)} width={50}alt={item.name} />{item.name}</li>)}</div>
                         </div>
                     </div>
                 </div>
@@ -527,12 +506,12 @@ function AnimalsInfo(props:IMediaGridProps) {
                             <p>Continents: {animalInformation[index].continents}</p>
                             <p>Temperature: {animalInformation[index].habbitat.temperature}</p>
                             <p>Humidity: {animalInformation[index].habbitat.humidity}</p>
-                            <p>Biomes: {animalInformation[index].habbitat.biomes.map((item,i) => <span key={i}><br/>{item.biome}</span>)}</p>
+                            <p>Biomes: {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/>{item.biome}</li>)}</p>
                         </div>
                     </div>
                     <div className="DivToMakeSecondRow">
                         <div>
-                            {newExhibitList.map((item,i) => <span key={i}><br/><img src={item.url} width={50}alt={item.name} />{item.name}</span>)}
+                            {newExhibitList.map((item,i) => <li key={i}><br/><img src={item.url} width={50}alt={item.name} />{item.name}</li>)}
                         </div>
                     </div>
                 </div>
@@ -544,7 +523,7 @@ function AnimalsInfo(props:IMediaGridProps) {
     return (
         <div>
             <div>
-                {props.SearchQuery === ""? returnTable() : getResult()}
+                {props.SearchQuery === ""? <SortableTable rows={animalInformation} /> : getResult()}
             </div>
         </div>
     );
