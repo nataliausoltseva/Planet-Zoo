@@ -1853,7 +1853,7 @@
         ]
     },
     {
-        "name":"Barrel Feeder Small",
+        "name":"Small Barrel Feeder",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/1/19/BarrelFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200126083902",
         "cost":"100",
         "type":"food",
@@ -1900,7 +1900,7 @@
         ]
     },
     {
-        "name":"Barrel Feeder Large",
+        "name":"Large Barrel Feeder",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/1/19/BarrelFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200126083902",
         "cost":"300",
         "type":"food",
@@ -1938,7 +1938,7 @@
         ]
     },
     {
-        "name":"Barrel Feeder Hanging",
+        "name":"Hanging Barrel Feeder",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/1/19/BarrelFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200126083902",
         "cost":"100",
         "type":"food",
@@ -2069,7 +2069,7 @@
         ]
     },
     {
-        "name":"Fixed Roller Feeder Small",
+        "name":"Small Fixed Roller Feeder",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/b/b1/FixedRollerFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200131190231",
         "cost":"100",
         "type":"food",
@@ -2101,7 +2101,7 @@
         ]
     },
     {
-        "name":"Fixed Roller Feeder Large",
+        "name":"Large Fixed Roller Feeder",
         "url":"https://static.wikia.nocookie.net/planetzoo/images/b/b1/FixedRollerFeeder.jpg/revision/latest/scale-to-width-down/350?cb=20200131190231",
         "cost":"500",
         "type":"food",

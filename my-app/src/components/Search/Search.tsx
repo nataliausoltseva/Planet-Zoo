@@ -1,8 +1,7 @@
-import { Grid, TextField } from '@material-ui/core';
+import { Button, Grid, TextField } from '@material-ui/core';
 import { Autocomplete } from '@material-ui/lab';
 import React, { useState } from 'react';
 import { IUserInput } from '../interfaces';
-import Button from 'react-bootstrap/Button';
 import './Search.css';
 
 interface ISearchBarProps {
@@ -68,7 +67,7 @@ function Search( props: ISearchBarProps) {
                             onChange={event => handleSearchQueryChange(event.target.value)}/>
                             }
                     />
-                    <Button variant="primary" size="sm" onClick={handleSubmit} style={{width:"6rem", height:50}}>
+                    <Button variant="contained" size="small" onClick={handleSubmit} style={{width:"6rem", height:50}}>
                         Search
                     </Button>
                 </div>
