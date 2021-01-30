@@ -1,9 +1,9 @@
-import { Box, Popover, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@material-ui/core';
+import { Box, Popover, Typography } from '@material-ui/core';
 import PopupState, { bindPopover, bindTrigger } from 'material-ui-popup-state';
 import React, { useEffect, useState } from 'react';
-import './Search.css';
+import './Search/Search.css';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import SortableTable from './Table';
+import {Table} from './Table';
 
 interface Animals {
     species:string,
@@ -413,7 +413,7 @@ function AnimalsInfo(props:IMediaGridProps) {
                     <div className="DivToMakeFirstRow">
                         <div className="FirstRowLeft">
                             <img src={animalInformation[index].url} height={200} alt={animalInformation[index].species}/>
-                            <div>
+                            <div style={{marginLeft:"1em"}}>
                                 <h3>{animalInformation[index].species}</h3>
                                 {animalInformation[index].habbitat.land_area === "0"?null:<p>Land area: {animalInformation[index].habbitat.land_area} m<sup>2</sup> (Add'l sp: {animalInformation[index].habbitat.land_area_for_additional_animal} m<sup>2</sup>)</p>}
                                 {animalInformation[index].habbitat.climbing_area === "0"?null:<p>Climb area: {animalInformation[index].habbitat.climbing_area} m<sup>2</sup> (Add'l sp: {animalInformation[index].habbitat.climbing_areay_for_additional_animal} m<sup>2</sup>)</p>}
@@ -449,13 +449,13 @@ function AnimalsInfo(props:IMediaGridProps) {
                         </div>
                         <div>
                             <p>Continents: {animalInformation[index].continents}</p>
-                            <p>Biomes: {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/>{item.biome}</li>)}</p>
-                            <p>Population in wild: {animalInformation[index].population}</p>
+                            <p>Biomes: {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/>{item.biome.charAt(0).toUpperCase()+ item.biome.slice(1)}</li>)}</p>
+                            <p>Population in wild: {fixPopulation(animalInformation[index].population)}</p>
                             <p>Temperature of Habitat: {animalInformation[index].habbitat.temperature} °C</p>
                         </div>
                     </div>
                     <div className="SharedAnimals">
-                        {animalInformation[index].shared_habitat.length?(<div><strong>Comptable Animals:</strong><ul>{animalInformation[index].shared_habitat.map((item,i) => <li><img src={getAnimalSrc(item.animal)} height={70} />{item.animal}</li>)}</ul></div>):<p>This animal does not benefit from sharing space with other species</p>}
+                        {animalInformation[index].shared_habitat.length?(<div><strong>Comptable Animals:</strong><ul>{animalInformation[index].shared_habitat.map((item,i) => <li><img src={getAnimalSrc(item.animal)} alt={item.animal} height={70} />{item.animal}</li>)}</ul></div>):<p>This animal does not benefit from sharing space with other species</p>}
                     </div>
                     <div className="DivToMakeSecondRow">
                         <div className="ToyEnrichment">
@@ -520,10 +520,29 @@ function AnimalsInfo(props:IMediaGridProps) {
 
         return body;
     }
+
+    function fixPopulation(population:string){
+        if(population.includes("~")){
+          var newString = parseInt(population.replace("~", " ").trim()).toLocaleString();
+          return "approx. " + newString;
+        }
+        if(population === "Unknown"){
+           return "-";
+        }
+        if(population.includes("-")){
+          var res = population.split("-").map((item) => {
+            return parseInt(item,10).toLocaleString();
+          });
+    
+          return res.join(" - ");
+        }
+        return parseInt(population).toLocaleString();
+      }
+
     return (
         <div>
             <div>
-                {props.SearchQuery === ""? <SortableTable rows={animalInformation} /> : getResult()}
+                {props.SearchQuery === ""? <Table products={animalInformation} /> : getResult()}
             </div>
         </div>
     );

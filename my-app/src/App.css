@@ -159,3 +159,13 @@ button:hover:focus{
   align-items: center;
   justify-content: center;
 }
+
+table {
+  border-collapse: collapse;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+table thead th {
+  border-bottom: 1px solid black;
+}

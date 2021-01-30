@@ -1,17 +1,16 @@
 import { Grid, TextField } from '@material-ui/core';
 import { Autocomplete } from '@material-ui/lab';
 import React, { useState } from 'react';
-import { IUserInput } from './interfaces';
+import { IUserInput } from '../interfaces';
 import Button from 'react-bootstrap/Button';
 import './Search.css';
-import ClearIcon from '@material-ui/icons/Clear';
 
 interface ISearchBarProps {
     SetUserInput: (a:IUserInput) => void;
 }
 
 function Search( props: ISearchBarProps) {
-    var data = require('../JSON components/animals.json');
+    var data = require('../../JSON components/animals.json');
     const [searchQuery, setSearchQuery] = useState("");
     const handleSearchQueryChange = (s:string)=> {
         console.log(s);

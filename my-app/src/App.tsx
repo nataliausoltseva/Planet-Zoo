@@ -3,9 +3,8 @@ import React, { useState } from 'react';
 import './App.css';
 import AnimalsInfo from './components/AnimalsInfo';
 import { IUserInput } from './components/interfaces';
-import Search from './components/Search';
+import Search from './components/Search/Search';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
-import SortableTable from './components/Table';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -22,7 +21,6 @@ function App() {
   const [UserInput, setUserInput] = useState<IUserInput>({
     SearchQuery: "",
   });
-  const [value, setValue] = useState("");
   
   function SetUserInput(a: IUserInput) {
     setUserInput(a);    
