@@ -33,9 +33,10 @@ const useSortableData = (items: any[]) => {
 
 interface Props {
   products: any[]
+  handleOnClick:(value:string)=> void;
 }
 
-export const Table = (props:Props) => {
+export const Table = (props:Props ) => {
   const {items, requestSort, sortConfig} = useSortableData(props.products);
   const getClassNamesFor = (name:string) => {
     if(!sortConfig){
@@ -111,7 +112,7 @@ export const Table = (props:Props) => {
       <tbody>
         {items.map((item) => (
           <tr key={item.species}>
-            <td style={{textAlign:"left"}}>{item.species}</td>
+            <td><Button color="primary" onClick={()=>props.handleOnClick(item.species)} style={{display:"block"}}>{item.species}</Button></td>
             <td>  <ConservationStatus message="" status={item.conversation_status}/></td>
             <td>{item.continents}</td>
             <td>{item.edition}</td>

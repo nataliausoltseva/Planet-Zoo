@@ -12,7 +12,6 @@ function Search( props: ISearchBarProps) {
     var data = require('../../JSON components/animals.json');
     const [searchQuery, setSearchQuery] = useState("");
     const handleSearchQueryChange = (s:string)=> {
-        console.log(s);
         var lowerCaseString = s.toLowerCase();
         setSearchQuery(lowerCaseString);
     }

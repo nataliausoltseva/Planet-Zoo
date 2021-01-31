@@ -10,7 +10,6 @@ interface Animals {
     social:Social,
     reproduction:Reproduction,
     habbitat:Habbitat,
-    url:string,
     id:number,
     population:string,
     edition:string,
@@ -53,7 +52,6 @@ interface SharedHabitat {
 
 interface Enrichment{
     name:string,
-    url:string,
     cost:string,
     type:string,
     animals:Species[]
@@ -64,22 +62,25 @@ interface Species{
 }
 
 interface IMediaGridProps {
-    SearchQuery: (string|null)
+    SearchQuery: (string|null),
+    handleOnClick:(value:string)=> void;
 }
 
 function AnimalsInfo(props:IMediaGridProps) {
     var JSON_animals = require('../JSON components/animals.json');
-    const [animalInformation, setAnimalInformation] = useState<Animals[]>([{species:"", interactivity:"",social:{group_size:"", male:"", female:""},reproduction:{maturity:0,incubation:0,interbirth:0},continents:"", conversation_status:"",habbitat:{land_area:"", land_area_for_additional_animal:"", water_area:"", water_area_for_additional_animal:"", climbing_area:"", climbing_areay_for_additional_animal:"", temperature:"", humidity:"", biomes:[{biome:""}]}, url:"", id:0, population:"", edition:"", shared_habitat:[{animal:""}] }]);
+    const [animalInformation, setAnimalInformation] = useState<Animals[]>([{species:"", interactivity:"",social:{group_size:"", male:"", female:""},reproduction:{maturity:0,incubation:0,interbirth:0},continents:"", conversation_status:"",habbitat:{land_area:"", land_area_for_additional_animal:"", water_area:"", water_area_for_additional_animal:"", climbing_area:"", climbing_areay_for_additional_animal:"", temperature:"", humidity:"", biomes:[{biome:""}]}, id:0, population:"", edition:"", shared_habitat:[{animal:""}] }]);
 
     var JSON_habbitat = require('../JSON components/habitat.json');
-    const [habitatInformation, setHabitatInformation] = useState<Enrichment[]>([{name:"", url:"", cost:"",type:"", animals:[{species:""}]}]);
-
+    const [habitatInformation, setHabitatInformation] = useState<Enrichment[]>([{name:"", cost:"",type:"", animals:[{species:""}]}]);
+    const [value, setValue] = useState("");
+    
     useEffect(()=> {
         setAnimalInformation(JSON_animals);
         setHabitatInformation(JSON_habbitat);
+        props.handleOnClick(value);
 
     // eslint-disable-next-line
-    }, [JSON_animals,JSON_habbitat]);
+    }, [JSON_animals,JSON_habbitat, value]);
 
     for(var i=0; i<animalInformation.length; i++){
         if(animalInformation[i].edition === "standard" ){
@@ -108,13 +109,11 @@ function AnimalsInfo(props:IMediaGridProps) {
 
     const foodImages = importAll(require.context('../Images/Food', false, /.*\.PNG$/));
     const toyImages = importAll(require.context('../Images/Toys', false, /.*\.PNG$/));
-
-    const animalImages = importAll(require.context('../Images/Animals', false,/.*\.PNG$/));
-
-    console.log(animalImages);
-
+    const animalImages = importAll(require.context('../Images/Animals', false,/.*\.PNG$/));    
+    const exhibitImages = importAll(require.context('../Images/Exhibit', false,/.*\.PNG$/));  
     
     
+
     function getResult(){
         var index = animalInformation.findIndex((item,i)=> {
             return item.species === props.SearchQuery
@@ -127,23 +126,19 @@ function AnimalsInfo(props:IMediaGridProps) {
         for(var i=0; i<habitatInformation.length;i++){
            for(var j=0; j<habitatInformation[i].animals.length;j++){
                 if(habitatInformation[i].animals[j].species === animalInformation[index].species){
-                    //console.log(habitatInformation[i].type);
                     if(habitatInformation[i].type==="toy"){
                         newToyList.push({
-                            name:habitatInformation[i].name,
-                            url:habitatInformation[i].url
+                            name:habitatInformation[i].name
                         })
                     }
                     else if(habitatInformation[i].type==="food"){
                         newFoodList.push({
-                            name:habitatInformation[i].name,
-                            url:habitatInformation[i].url
+                            name:habitatInformation[i].name
                         })
                     }
                     else if(habitatInformation[i].type==="exhibit"){
                         newExhibitList.push({
-                            name:habitatInformation[i].name,
-                            url:habitatInformation[i].url
+                            name:habitatInformation[i].name
                         })
                     }
                 }
@@ -210,7 +205,7 @@ function AnimalsInfo(props:IMediaGridProps) {
                     </div>
                     <div className="DivToMakeSecondRow">
                         <div>
-                            {newExhibitList.map((item,i) => <li key={i}><br/><img src={item.url} width={50}alt={item.name} />{item.name}</li>)}
+                            {newExhibitList.map((item,i) => <li key={i}><br/><Images list={exhibitImages} height={"50"} name={item.name}/> {item.name}</li>)}
                         </div>
                     </div>
                 </div>
@@ -241,7 +236,7 @@ function AnimalsInfo(props:IMediaGridProps) {
     return (
         <div>
             <div>
-                {props.SearchQuery === ""? <Table products={animalInformation} /> : getResult()}
+                {props.SearchQuery === ""? <Table products={animalInformation} handleOnClick={(value:string)=> setValue(value)} /> : getResult()}
             </div>
         </div>
     );

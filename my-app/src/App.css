@@ -162,9 +162,11 @@ button:hover:focus{
 
 table {
   border-collapse: collapse;
-  margin-right: 1em;
+  margin: 0 auto;
   margin-left: 1em;
   margin-bottom: 1em;
+  text-align: center;
+  width: 99%;
 }
 table thead th {
   border-bottom: 1px solid black;

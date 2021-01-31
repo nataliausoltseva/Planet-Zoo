@@ -34,7 +34,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"1000000",
         "edition":"standard",
         "shared_habitat":[
@@ -75,7 +74,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"400000",
         "edition":"standard",
         "shared_habitat":[
@@ -140,7 +138,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"40000-50000",
         "edition":"standard",
         "shared_habitat":[
@@ -181,7 +178,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"2000",
         "edition":"standard",
         "shared_habitat":[
@@ -219,7 +215,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"100000",
         "edition":"standard",
         "shared_habitat":[
@@ -260,7 +255,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -298,7 +292,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"15000",
         "edition":"standard",
         "shared_habitat":[
@@ -342,7 +335,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"~195000",
         "edition":"arctic pack",
         "shared_habitat":[
@@ -383,7 +375,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"1400",
         "edition":"standard",
         "shared_habitat":[
@@ -427,7 +418,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"4500",
         "edition":"standard",
         "shared_habitat":[
@@ -477,7 +467,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"450",
         "edition":"standard",
         "shared_habitat":[
@@ -515,7 +504,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"18000",
         "edition":"standard",
         "shared_habitat":[
@@ -577,7 +565,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -615,7 +602,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"900",
         "edition":"standard",
         "shared_habitat":[
@@ -653,7 +639,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"10000-20000",
         "edition":"standard",
         "shared_habitat":[
@@ -691,7 +676,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"7000",
         "edition":"standard",
         "shared_habitat":[
@@ -729,7 +713,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -767,7 +750,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -808,7 +790,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"~ 7000",
         "edition":"standard",
         "shared_habitat":[
@@ -849,7 +830,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"133",
         "edition":"standard",
         "shared_habitat":[
@@ -890,7 +870,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"54000",
         "edition":"south america pack",
         "shared_habitat":[
@@ -934,7 +913,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -975,7 +953,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"150000",
         "edition":"standard",
         "shared_habitat":[
@@ -1040,7 +1017,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"22500",
         "edition":"standard",
         "shared_habitat":[
@@ -1072,7 +1048,7 @@
     },
     {
         "id":25,
-        "species":"Cuvier's Dwarf Caiman",
+        "species":"Cuviers Dwarf Caiman",
         "species_ID":"CDC",
         "interactivity":"full",
         "social":{
@@ -1111,7 +1087,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"1000000",
         "edition":"aquatic pack",
         "shared_habitat":[
@@ -1152,7 +1127,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"45000",
         "edition":"arctic pack",
         "shared_habitat":[
@@ -1193,7 +1167,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"30000",
         "edition":"aquatic pack",
         "shared_habitat":[
@@ -1234,7 +1207,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"10000-50000",
         "edition":"australia pack",
         "shared_habitat":[
@@ -1278,7 +1250,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"5500",
         "edition":"australia pack",
         "shared_habitat":[
@@ -1322,7 +1293,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -1366,7 +1336,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"200-300",
         "edition":"standard",
         "shared_habitat":[
@@ -1404,7 +1373,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"~1000",
         "edition":"standard",
         "shared_habitat":[
@@ -1442,7 +1410,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"373000",
         "edition":"standard",
         "shared_habitat":[
@@ -1486,7 +1453,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"650-1000",
         "edition":"standard",
         "shared_habitat":[
@@ -1527,7 +1493,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"5000",
         "edition":"south america pack",
         "shared_habitat":[
@@ -1574,7 +1539,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -1612,7 +1576,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -1650,7 +1613,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -1694,7 +1656,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"5001",
         "edition":"aquatic pack",
         "shared_habitat":[
@@ -1735,7 +1696,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"1864",
         "edition":"standard",
         "shared_habitat":[
@@ -1779,7 +1739,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -1817,7 +1776,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -1855,7 +1813,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -1893,7 +1850,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -1931,7 +1887,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -1972,7 +1927,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -2019,7 +1973,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"200000",
         "edition":"standard",
         "shared_habitat":[
@@ -2060,7 +2013,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -2104,7 +2056,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"290000-300000",
         "edition":"aquatic pack",
         "shared_habitat":[
@@ -2148,7 +2099,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"55000",
         "edition":"standard",
         "shared_habitat":[
@@ -2229,7 +2179,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"125000-148000",
         "edition":"standard",
         "shared_habitat":[
@@ -2273,7 +2222,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"20000",
         "edition":"standard",
         "shared_habitat":[
@@ -2317,7 +2265,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"10000-19999",
         "edition":"standard",
         "shared_habitat":[
@@ -2358,7 +2305,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"2600",
         "edition":"standard",
         "shared_habitat":[
@@ -2402,7 +2348,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"15000",
         "edition":"south america pack",
         "shared_habitat":[
@@ -2443,7 +2388,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"100000",
         "edition":"standard",
         "shared_habitat":[
@@ -2484,7 +2428,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"4500000",
         "edition":"aquatic pack",
         "shared_habitat":[
@@ -2525,7 +2468,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"43000",
         "edition":"australia pack",
         "shared_habitat":[
@@ -2569,7 +2511,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"6000",
         "edition":"deluxe",
         "shared_habitat":[
@@ -2607,7 +2548,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -2648,7 +2588,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"15000",
         "edition":"standard",
         "shared_habitat":[
@@ -2692,7 +2631,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"7000000",
         "edition":"south america pack",
         "shared_habitat":[
@@ -2730,7 +2668,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"220",
         "edition":"standard",
         "shared_habitat":[
@@ -2768,7 +2705,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -2809,7 +2745,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"2000000",
         "edition":"standard",
         "shared_habitat":[
@@ -2850,7 +2785,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"31000",
         "edition":"standard",
         "shared_habitat":[
@@ -2888,7 +2822,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"15000",
         "edition":"standard",
         "shared_habitat":[
@@ -2926,7 +2859,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"500000",
         "edition":"standard",
         "shared_habitat":[
@@ -2991,7 +2923,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"22000-30000",
         "edition":"arctic pack",
         "shared_habitat":[
@@ -3032,7 +2963,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"500000",
         "edition":"standard",
         "shared_habitat":[
@@ -3073,7 +3003,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -3114,7 +3043,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"3000",
         "edition":"deluxe",
         "shared_habitat":[
@@ -3155,7 +3083,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"11998000",
         "edition":"australia pack",
         "shared_habitat":[
@@ -3199,7 +3126,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"9000",
         "edition":"standard",
         "shared_habitat":[
@@ -3237,7 +3163,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"14941",
         "edition":"standard",
         "shared_habitat":[
@@ -3248,7 +3173,7 @@
     },
     {
         "id":77,
-        "species":"Red-Eyed Tree Frog",
+        "species":"Red Eyed Tree Frog",
         "species_ID":"RETF",
         "interactivity":"exhibit",
         "social":{
@@ -3278,7 +3203,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"south america pack",
         "shared_habitat":[
@@ -3319,7 +3243,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"900000",
         "edition":"arctic pack",
         "shared_habitat":[
@@ -3360,7 +3283,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"8000",
         "edition":"standard",
         "shared_habitat":[
@@ -3425,7 +3347,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"2500",
         "edition":"standard",
         "shared_habitat":[
@@ -3466,7 +3387,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"7000",
         "edition":"standard",
         "shared_habitat":[
@@ -3531,7 +3451,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"200000-300000",
         "edition":"standard",
         "shared_habitat":[
@@ -3572,7 +3491,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"500",
         "edition":"standard",
         "shared_habitat":[
@@ -3610,7 +3528,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"4080-6590",
         "edition":"standard",
         "shared_habitat":[
@@ -3648,7 +3565,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"4600",
         "edition":"australia pack",
         "shared_habitat":[
@@ -3686,7 +3602,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"5000-14000",
         "edition":"standard",
         "shared_habitat":[
@@ -3727,7 +3642,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"2000000-2500000",
         "edition":"standard",
         "shared_habitat":[
@@ -3789,7 +3703,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"145000",
         "edition":"deluxe",
         "shared_habitat":[
@@ -3857,7 +3770,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"300000",
         "edition":"standard",
         "shared_habitat":[
@@ -3895,7 +3807,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -3933,7 +3844,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"250",
         "edition":"standard",
         "shared_habitat":[
@@ -3971,7 +3881,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"18000",
         "edition":"standard",
         "shared_habitat":[
@@ -4009,7 +3918,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[
@@ -4047,7 +3955,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"100000",
         "edition":"standard",
         "shared_habitat":[
@@ -4085,7 +3992,6 @@
                 }
             ]
         },
-        "url":"",
         "population":"Unknown",
         "edition":"standard",
         "shared_habitat":[

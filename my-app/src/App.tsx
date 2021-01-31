@@ -26,12 +26,13 @@ function App() {
     setUserInput(a);    
   }
 
-  function changeValue(){
+  function changeValue(value: string){
     let UserInput:IUserInput = {
-      SearchQuery:""
+      SearchQuery:value
     }
     setUserInput(UserInput);
   }
+
 
   return (
     <div className="App">
@@ -41,7 +42,7 @@ function App() {
           size="small"
           className={classes.button}
           startIcon={<ArrowBackIcon />}
-          onClick={() => changeValue()}
+          onClick={() => changeValue("")}
           style={{width:"10%", height:"3em", marginTop:"2em"}}
           disabled={UserInput.SearchQuery===""}
         >
@@ -49,7 +50,7 @@ function App() {
         </Button>
         <Search SetUserInput={(a: IUserInput) => SetUserInput(a)} />
       </div>
-      <AnimalsInfo SearchQuery={UserInput.SearchQuery}/>
+      <AnimalsInfo SearchQuery={UserInput.SearchQuery} handleOnClick={(value:string) => changeValue(value)} />
     </div>
   );
 }
