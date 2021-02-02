@@ -5,6 +5,9 @@ import AnimalsInfo from './components/AnimalsInfo';
 import { IUserInput } from './components/interfaces';
 import Search from './components/Search/Search';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import IconButton from '@material-ui/core/IconButton';
+
+import TemporaryDrawer from './components/Drawer/Drawer';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -21,7 +24,8 @@ function App() {
   const [UserInput, setUserInput] = useState<IUserInput>({
     SearchQuery: "",
   });
-  
+
+  const [show, setShow] = useState(false);
   function SetUserInput(a: IUserInput) {
     setUserInput(a);    
   }
@@ -33,24 +37,25 @@ function App() {
     setUserInput(UserInput);
   }
 
-
   return (
     <div className="App">
-      <div style={{display:"flex", justifyContent:"space-evenly"}}>
+      <div style={{display:"flex"}}>
+      <TemporaryDrawer show={show} handleOnClick={(value:string) => changeValue(value)}/>
         <Button
           variant="contained"
           size="small"
           className={classes.button}
           startIcon={<ArrowBackIcon />}
-          onClick={() => changeValue("")}
+          onClick={() => {changeValue(""); setShow(false) }}
           style={{width:"10%", height:"3em", marginTop:"2em"}}
           disabled={UserInput.SearchQuery===""}
         >
           Back
         </Button>
-        <Search SetUserInput={(a: IUserInput) => SetUserInput(a)} />
+        <Search SetUserInput={(a: IUserInput) => {SetUserInput(a); setShow(true)}} />
       </div>
-      <AnimalsInfo SearchQuery={UserInput.SearchQuery} handleOnClick={(value:string) => changeValue(value)} />
+      <AnimalsInfo SearchQuery={UserInput.SearchQuery} handleOnClick={(value:string) => changeValue(value)}/>
+      
     </div>
   );
 }

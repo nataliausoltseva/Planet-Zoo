@@ -73,14 +73,12 @@ function AnimalsInfo(props:IMediaGridProps) {
     var JSON_habbitat = require('../JSON components/habitat.json');
     const [habitatInformation, setHabitatInformation] = useState<Enrichment[]>([{name:"", cost:"",type:"", animals:[{species:""}]}]);
     const [value, setValue] = useState("");
-    
+
     useEffect(()=> {
         setAnimalInformation(JSON_animals);
         setHabitatInformation(JSON_habbitat);
-        props.handleOnClick(value);
-
     // eslint-disable-next-line
-    }, [JSON_animals,JSON_habbitat, value]);
+    }, [JSON_animals,JSON_habbitat, value]); 
 
     for(var i=0; i<animalInformation.length; i++){
         if(animalInformation[i].edition === "standard" ){
@@ -232,7 +230,7 @@ function AnimalsInfo(props:IMediaGridProps) {
         }
         return parseInt(population).toLocaleString();
       }
-
+    
     return (
         <div>
             <div>
