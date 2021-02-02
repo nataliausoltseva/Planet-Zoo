@@ -171,3 +171,19 @@ table {
 table thead th {
   border-bottom: 1px solid black;
 }
+
+.ToyEnrichment {
+  text-align: left;
+}
+
+.ToyEnrichment img {
+  margin-right: 1em;
+}
+
+.FoodEnrichment {
+  text-align: left;
+}
+
+.FoodEnrichment img {
+  margin-right: 1em;
+}

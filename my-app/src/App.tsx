@@ -8,6 +8,7 @@ import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import IconButton from '@material-ui/core/IconButton';
 
 import TemporaryDrawer from './components/Drawer/Drawer';
+import { ContinentMap } from './components/ContinentMap/ContinentMap';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -16,7 +17,6 @@ const useStyles = makeStyles((theme: Theme) =>
     },
   }),
 );
-
 
 function App() {
   const classes = useStyles();
@@ -39,8 +39,8 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{display:"flex"}}>
-      <TemporaryDrawer show={show} handleOnClick={(value:string) => changeValue(value)}/>
+      <div style={{display:"flex", justifyContent:"space-around"}}>
+        <TemporaryDrawer show={show} handleOnClick={(value:string) => changeValue(value)}/>
         <Button
           variant="contained"
           size="small"
@@ -53,6 +53,7 @@ function App() {
           Back
         </Button>
         <Search SetUserInput={(a: IUserInput) => {SetUserInput(a); setShow(true)}} />
+        <ContinentMap />
       </div>
       <AnimalsInfo SearchQuery={UserInput.SearchQuery} handleOnClick={(value:string) => changeValue(value)}/>
       

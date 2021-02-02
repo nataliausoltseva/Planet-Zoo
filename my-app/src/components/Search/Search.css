@@ -12,19 +12,3 @@
 .MuiDataGrid-cell{
     text-align: center !important;
 }
-
-.ToyEnrichment {
-    text-align: left;
-}
-
-.ToyEnrichment img {
-    margin-right: 1em;
-}
-
-.FoodEnrichment {
-    text-align: left;
-}
-
-.FoodEnrichment img {
-    margin-right: 1em;
-}
