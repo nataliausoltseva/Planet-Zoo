@@ -109,9 +109,9 @@ function AnimalsInfo(props:IMediaGridProps) {
     const toyImages = importAll(require.context('../Images/Toys', false, /.*\.PNG$/));
     const animalImages = importAll(require.context('../Images/Animals', false,/.*\.PNG$/));    
     const exhibitImages = importAll(require.context('../Images/Exhibit', false,/.*\.PNG$/));  
+    const biomesImages = importAll(require.context('../Images/Biomes',false, /.*\.PNG$/));
     
-    
-
+    console.log(biomesImages);
     function getResult(){
         var index = animalInformation.findIndex((item,i)=> {
             return item.species === props.SearchQuery
@@ -163,20 +163,20 @@ function AnimalsInfo(props:IMediaGridProps) {
                         </div>
                         <div>
                             <p>Continents: {animalInformation[index].continents}</p>
-                            <p>Biomes: {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/>{item.biome.charAt(0).toUpperCase()+ item.biome.slice(1)}</li>)}</p>
+                            <p>Biomes:<div className='BiomesContainer'> {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/><Images list={biomesImages} height={"30"} name={item.biome}/>{item.biome.charAt(0).toUpperCase()+ item.biome.slice(1)}</li>)}</div></p>
                             <p>Population in wild: {fixPopulation(animalInformation[index].population)}</p>
                             <p>Temperature of Habitat: {animalInformation[index].habbitat.temperature} °C</p>
                         </div>
                     </div>
                     <div className="SharedAnimals">
-                        {animalInformation[index].shared_habitat.length?(<div><strong>Comptable Animals:</strong><ul>{animalInformation[index].shared_habitat.map((item,i) => <li key={i}><Images list={animalImages} height={"70"} name={item.animal}/>{item.animal}</li>)}</ul></div>):<p>This animal does not benefit from sharing space with other species</p>}
+                        {animalInformation[index].shared_habitat.length?(<div><h3>Comptable Animals:</h3><ul>{animalInformation[index].shared_habitat.map((item,i) => <li key={i}><Images list={animalImages} height={"70"} name={item.animal}/>{item.animal}</li>)}</ul></div>):<p style={{textAlign:'center'}}>This animal <strong>does not benefit</strong> from sharing space with other species</p>}
                     </div>
                     <div className="DivToMakeSecondRow">
                         <div className="ToyEnrichment">
-                            Toy Enrichments <div>{newToyList.map((item,i) => <li key={i}><br/><Images list={toyImages} height={"50"} name={item.name}/>{item.name}</li>)}</div>
+                            <h3>Toy Enrichments</h3> <div>{newToyList.map((item,i) => <li key={i}><br/><Images list={toyImages} height={"50"} name={item.name}/>{item.name}</li>)}</div>
                         </div>
                         <div className="FoodEnrichment">
-                            Food Enrichments <div>{newFoodList.map((item,i) => <li key={i}><br/><Images list={foodImages} height={"50"} name={item.name}/>{item.name}</li>)}</div>
+                            <h3>Food Enrichments</h3> <div>{newFoodList.map((item,i) => <li key={i}><br/><Images list={foodImages} height={"50"} name={item.name}/>{item.name}</li>)}</div>
                         </div>
                     </div>
                 </div>

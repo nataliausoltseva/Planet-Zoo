@@ -5,8 +5,6 @@ import AnimalsInfo from './components/AnimalsInfo';
 import { IUserInput } from './components/interfaces';
 import Search from './components/Search/Search';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
-import IconButton from '@material-ui/core/IconButton';
-
 import TemporaryDrawer from './components/Drawer/Drawer';
 import { ContinentMap } from './components/ContinentMap/ContinentMap';
 

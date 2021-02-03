@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -114,48 +110,34 @@ button:hover:focus{
 
 .SharedAnimals ul {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .SharedAnimals li {
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-bottom: 2em;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  list-style: none;
+  flex: 0 0 50%;
 }
 
 .ToyEnrichment div {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .ToyEnrichment li {
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-bottom: 1em;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  list-style: none;
+  flex: 0 0 50%;
 }
 
 .FoodEnrichment div {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .FoodEnrichment li {
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-bottom: 1em;
-  display: flex;
-  flex-direction: row;
+  list-style: none;
+  flex: 0 0 50%;
   align-items: center;
   justify-content: center;
 }
@@ -186,4 +168,23 @@ table thead th {
 
 .FoodEnrichment img {
   margin-right: 1em;
+}
+
+.BiomesContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.BiomesContainer li{
+  margin-left: 1em;
+}
+
+/** Mobile phone styles: browser window 600px or smaller*/
+@media only screen and (max-width: 800px) {
+  .DivToMakeFirstRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+  }
 }

@@ -27,10 +27,10 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -67,10 +67,10 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -131,10 +131,10 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 }
             ]
         },
@@ -171,10 +171,10 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 }
             ]
         },
@@ -211,7 +211,7 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -248,10 +248,10 @@
             "humidity":"50-84",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -288,7 +288,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -328,10 +328,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 },
                 {
-                    "biome":"tundra"
+                    "biome":"Tundra"
                 }
             ]
         },
@@ -368,10 +368,10 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -408,13 +408,13 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -457,13 +457,13 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -500,7 +500,7 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -561,7 +561,7 @@
             "humidity":"60-80",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -598,7 +598,7 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -635,7 +635,7 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -672,7 +672,7 @@
             "humidity":"0",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -709,7 +709,7 @@
             "humidity":"50-84",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -746,7 +746,7 @@
             "humidity":"50-84",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -783,10 +783,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -823,10 +823,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -863,10 +863,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -909,7 +909,7 @@
             "humidity":"60-80",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -946,10 +946,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 }
             ]
         },
@@ -1010,10 +1010,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -1074,16 +1074,16 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 }
             ]
         },
@@ -1120,10 +1120,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 },
                 {
-                    "biome":"tundra"
+                    "biome":"Tundra"
                 }
             ]
         },
@@ -1160,10 +1160,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 }
             ]
         },
@@ -1200,10 +1200,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 }
             ]
         },
@@ -1240,13 +1240,13 @@
             "humidity":"50-60",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -1283,13 +1283,13 @@
             "humidity":"60-85",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 }
             ]
         },
@@ -1326,13 +1326,13 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 }
             ]
         },
@@ -1369,7 +1369,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -1406,7 +1406,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 }
             ]
         },
@@ -1443,13 +1443,13 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 },
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -1486,10 +1486,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -1532,10 +1532,10 @@
             "humidity":"60-80",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -1572,7 +1572,7 @@
             "humidity":"20-35",
             "biomes":[
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 }
             ]
         },
@@ -1609,7 +1609,7 @@
             "humidity":"65-85",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -1646,13 +1646,13 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 },
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -1689,10 +1689,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -1729,13 +1729,13 @@
             "humidity":"40-60",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -1772,7 +1772,7 @@
             "humidity":"15-25",
             "biomes":[
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 }
             ]
         },
@@ -1809,7 +1809,7 @@
             "humidity":"80-90",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -1846,7 +1846,7 @@
             "humidity":"40-60",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -1883,7 +1883,7 @@
             "humidity":"50-84",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -1920,10 +1920,10 @@
             "humidity":"74-86",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 }
             ]
         },
@@ -1960,16 +1960,16 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 },
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -2006,10 +2006,10 @@
             "humidity":"50-60",
             "biomes":[
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -2046,13 +2046,13 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 },
                 {
-                    "biome":"tundra"
+                    "biome":"Tundra"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -2089,13 +2089,13 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"tundra"
+                    "biome":"Tundra"
                 }
             ]
         },
@@ -2132,10 +2132,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 },
                 {
-                    "biome":"tundra"
+                    "biome":"Tundra"
                 }
             ]
         },"url":"",
@@ -2172,10 +2172,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -2212,13 +2212,13 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -2255,13 +2255,13 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -2298,10 +2298,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -2338,13 +2338,13 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -2381,10 +2381,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -2421,10 +2421,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 },
                 {
-                    "biome":"tundra"
+                    "biome":"Tundra"
                 }
             ]
         },
@@ -2461,10 +2461,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -2504,10 +2504,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -2544,7 +2544,7 @@
             "humidity":"80-90",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -2581,10 +2581,10 @@
             "humidity":"50-60",
             "biomes":[
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -2621,13 +2621,13 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -2664,7 +2664,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -2701,7 +2701,7 @@
             "humidity":"50-84",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -2738,10 +2738,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -2778,10 +2778,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -2818,7 +2818,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -2855,7 +2855,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -2916,10 +2916,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 },
                 {
-                    "biome":"tundra"
+                    "biome":"Tundra"
                 }
             ]
         },
@@ -2956,10 +2956,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -2999,7 +2999,7 @@
             "humidity":"60-80",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -3036,10 +3036,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 }
             ]
         },
@@ -3076,10 +3076,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -3119,10 +3119,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -3159,7 +3159,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -3199,7 +3199,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -3236,10 +3236,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 },
                 {
-                    "biome":"tundra"
+                    "biome":"Tundra"
                 }
             ]
         },
@@ -3276,10 +3276,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -3343,7 +3343,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -3383,7 +3383,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -3444,10 +3444,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 },
                 {
-                    "biome":"aquatic"
+                    "biome":"Aquatic"
                 }
             ]
         },
@@ -3484,10 +3484,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 }
             ]
         },
@@ -3524,7 +3524,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tundra"
+                    "biome":"Tundra"
                 }
             ]
         },
@@ -3561,7 +3561,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -3598,7 +3598,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -3635,10 +3635,10 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 },
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -3699,7 +3699,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -3760,13 +3760,13 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tundra"
+                    "biome":"Tundra"
                 },
                 {
-                    "biome":"temperate"
+                    "biome":"Temperate"
                 },
                 {
-                    "biome":"taiga"
+                    "biome":"Taiga"
                 }
             ]
         },
@@ -3803,7 +3803,7 @@
             "humidity":"40-60",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -3840,7 +3840,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"grassland"
+                    "biome":"Grassland"
                 }
             ]
         },
@@ -3877,7 +3877,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -3914,7 +3914,7 @@
             "humidity":"40-60",
             "biomes":[
                 {
-                    "biome":"desert"
+                    "biome":"Desert"
                 }
             ]
         },
@@ -3951,7 +3951,7 @@
             "humidity":"",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
@@ -3988,7 +3988,7 @@
             "humidity":"80-90",
             "biomes":[
                 {
-                    "biome":"tropical"
+                    "biome":"Tropical"
                 }
             ]
         },
