@@ -106,6 +106,7 @@ button:hover:focus{
 
 .SharedAnimals {
   justify-content: center;
+  margin-left: 1em;
 }
 
 .SharedAnimals ul {
@@ -156,6 +157,7 @@ table thead th {
 
 .ToyEnrichment {
   text-align: left;
+  margin-left: 1em;
 }
 
 .ToyEnrichment img {

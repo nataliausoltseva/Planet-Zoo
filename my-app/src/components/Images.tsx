@@ -11,14 +11,12 @@ export const Images = (props:Props)=> {
         var body;
         for(var i =0; i< props.list.length; i++){
             if(props.list[i].default.includes(props.name)){
-                return body=props.list[i].default;
-            }
-            else{
-                body = image;
-            }
+                return body = props.list[i].default;
+            }            
         }
-        return body;
-
+        if(body === undefined){
+            return image;
+        }
     }
     return(
         <img src={getSrc()} alt={props.name} width={props.height} />

@@ -302,7 +302,7 @@
     },
     {
         "id":8,
-        "species":"Artic Wolf",
+        "species":"Arctic Wolf",
         "interactivity":"full",
         "species_ID":"AW",
         "social":{
@@ -2903,7 +2903,7 @@
             "incubation":0.75,
             "interbirth":3
         },
-        "continents":"north America, Europe",
+        "continents":"North America, Europe",
         "conversation_status":"VU",
         "habbitat":{
             "land_area":"6000",
@@ -3511,7 +3511,7 @@
             "incubation":0.25,
             "interbirth":2
         },
-        "continents":"ASia",
+        "continents":"Asia",
         "conversation_status":"VU",
         "habbitat":{
             "land_area":"705",

@@ -7,6 +7,7 @@ import Search from './components/Search/Search';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import TemporaryDrawer from './components/Drawer/Drawer';
 import { ContinentMap } from './components/ContinentMap/ContinentMap';
+import PublicIcon from '@material-ui/icons/Public';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -35,26 +36,43 @@ function App() {
     setUserInput(UserInput);
   }
 
+  const [continents, setContinents] = useState(false);
+
   return (
     <div className="App">
-      <div style={{display:"flex", justifyContent:"space-around"}}>
-        <TemporaryDrawer show={show} handleOnClick={(value:string) => changeValue(value)}/>
-        <Button
-          variant="contained"
-          size="small"
-          className={classes.button}
-          startIcon={<ArrowBackIcon />}
-          onClick={() => {changeValue(""); setShow(false) }}
-          style={{width:"10%", height:"3em", marginTop:"2em"}}
-          disabled={UserInput.SearchQuery===""}
-        >
-          Back
-        </Button>
-        <Search SetUserInput={(a: IUserInput) => {SetUserInput(a); setShow(true)}} />
-        <ContinentMap />
-      </div>
-      <AnimalsInfo SearchQuery={UserInput.SearchQuery} handleOnClick={(value:string) => changeValue(value)}/>
-      
+      {continents?
+      <div>
+        <ContinentMap handleOnClick={(value:boolean)=> {setContinents(value); changeValue("")}}/>        
+
+        </div>
+        :
+        <div>
+          <div style={{display:"flex", justifyContent:"space-around"}}>
+          <Button
+            variant="contained"
+            size="small"
+            className={classes.button}
+            startIcon={<ArrowBackIcon />}
+            onClick={() => {changeValue(""); setShow(false) }}
+            style={{width:"10%", height:"3em", marginTop:"2em"}}
+            disabled={UserInput.SearchQuery===""}
+          >
+            Back
+          </Button>
+          <Search SetUserInput={(a: IUserInput) => {SetUserInput(a); setShow(true)}} />
+          <Button
+              variant="contained"
+              size="small"
+              className={classes.button}
+              startIcon={<PublicIcon />}
+              style={{width:"12%",height:"3em", marginTop:"2em"}}
+              onClick={()=> setContinents(true)}
+              >
+              Continents
+            </Button>
+          </div>
+        <AnimalsInfo SearchQuery={UserInput.SearchQuery} handleOnClick={(value:string) => changeValue(value)}/>
+        </div>}
     </div>
   );
 }

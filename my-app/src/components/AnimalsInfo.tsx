@@ -3,68 +3,8 @@ import './Search/Search.css';
 import {Table} from './Table';
 import { Images } from './Images';
 import { ConservationStatus } from './ConservationStatus';
+import {IMediaGridProps, Animals, Enrichment} from './interfaces';
 
-interface Animals {
-    species:string,
-    interactivity:string,
-    social:Social,
-    reproduction:Reproduction,
-    habbitat:Habbitat,
-    id:number,
-    population:string,
-    edition:string,
-    shared_habitat:SharedHabitat[],
-    conversation_status:string,
-    continents:string
-}
-
-interface Social {
-    group_size:string,
-    male:string,
-    female: string
-}
-
-interface Reproduction {
-    maturity: number,
-    incubation: number,
-    interbirth:number
-}
-
-interface Habbitat {
-    land_area:string,
-    land_area_for_additional_animal:string,
-    water_area: string,
-    water_area_for_additional_animal:string,
-    climbing_area:string,
-    climbing_areay_for_additional_animal:string,
-    temperature:string,
-    humidity:string,
-    biomes: Biomes[]
-}
-
-interface Biomes {
-    biome: string
-}
-
-interface SharedHabitat {
-    animal:string
-}
-
-interface Enrichment{
-    name:string,
-    cost:string,
-    type:string,
-    animals:Species[]
-}
-
-interface Species{
-    species:string
-}
-
-interface IMediaGridProps {
-    SearchQuery: (string|null),
-    handleOnClick:(value:string)=> void;
-}
 
 function AnimalsInfo(props:IMediaGridProps) {
     var JSON_animals = require('../JSON components/animals.json');
@@ -163,20 +103,20 @@ function AnimalsInfo(props:IMediaGridProps) {
                         </div>
                         <div>
                             <p>Continents: {animalInformation[index].continents}</p>
-                            <p>Biomes:<div className='BiomesContainer'> {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/><Images list={biomesImages} height={"30"} name={item.biome}/>{item.biome.charAt(0).toUpperCase()+ item.biome.slice(1)}</li>)}</div></p>
+                            <p>Biomes:<div className='BiomesContainer'> {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/><Images list={biomesImages} height={"30"} name={item.biome}/> {item.biome.charAt(0).toUpperCase()+ item.biome.slice(1)}</li>)}</div></p>
                             <p>Population in wild: {fixPopulation(animalInformation[index].population)}</p>
                             <p>Temperature of Habitat: {animalInformation[index].habbitat.temperature} °C</p>
                         </div>
                     </div>
                     <div className="SharedAnimals">
-                        {animalInformation[index].shared_habitat.length?(<div><h3>Comptable Animals:</h3><ul>{animalInformation[index].shared_habitat.map((item,i) => <li key={i}><Images list={animalImages} height={"70"} name={item.animal}/>{item.animal}</li>)}</ul></div>):<p style={{textAlign:'center'}}>This animal <strong>does not benefit</strong> from sharing space with other species</p>}
+                        {animalInformation[index].shared_habitat.length?(<div><h3 style={{textAlign:"center"}}>Comptable Animals:</h3><ul>{animalInformation[index].shared_habitat.map((item,i) => <li key={i}><Images list={animalImages} height={"70"} name={item.animal}/>{item.animal}</li>)}</ul></div>):<p style={{textAlign:'center'}}>This animal <strong>does not benefit</strong> from sharing space with other species</p>}
                     </div>
                     <div className="DivToMakeSecondRow">
-                        <div className="ToyEnrichment">
-                            <h3>Toy Enrichments</h3> <div>{newToyList.map((item,i) => <li key={i}><br/><Images list={toyImages} height={"50"} name={item.name}/>{item.name}</li>)}</div>
+                        <div className="ToyEnrichment" >
+                            <h3 style={{textAlign:"center"}}>Toy Enrichments</h3> <div>{newToyList.map((item,i) => <li key={i}><br/><Images list={toyImages} height={"50"} name={item.name}/>{item.name}</li>)}</div>
                         </div>
                         <div className="FoodEnrichment">
-                            <h3>Food Enrichments</h3> <div>{newFoodList.map((item,i) => <li key={i}><br/><Images list={foodImages} height={"50"} name={item.name}/>{item.name}</li>)}</div>
+                            <h3 style={{textAlign:"center"}}>Food Enrichments</h3> <div>{newFoodList.map((item,i) => <li key={i}><br/><Images list={foodImages} height={"50"} name={item.name}/>{item.name}</li>)}</div>
                         </div>
                     </div>
                 </div>
@@ -198,12 +138,12 @@ function AnimalsInfo(props:IMediaGridProps) {
                             <p>Continents: {animalInformation[index].continents}</p>
                             <p>Temperature: {animalInformation[index].habbitat.temperature}</p>
                             <p>Humidity: {animalInformation[index].habbitat.humidity}</p>
-                            <p>Biomes: {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/>{item.biome}</li>)}</p>
+                            <p>Biomes:<div className='BiomesContainer'> {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/><Images list={biomesImages} height={"30"} name={item.biome}/> {item.biome.charAt(0).toUpperCase()+ item.biome.slice(1)}</li>)}</div></p>
                         </div>
                     </div>
                     <div className="DivToMakeSecondRow">
                         <div>
-                            {newExhibitList.map((item,i) => <li key={i}><br/><Images list={exhibitImages} height={"50"} name={item.name}/> {item.name}</li>)}
+                            <h3 style={{textAlign:"center"}}>Exhibit Enrichments</h3>{newExhibitList.map((item,i) => <li key={i}><br/><Images list={exhibitImages} height={"50"} name={item.name}/> {item.name}</li>)}
                         </div>
                     </div>
                 </div>
