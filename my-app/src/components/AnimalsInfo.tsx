@@ -8,17 +8,35 @@ import {IMediaGridProps, Animals, Enrichment} from './interfaces';
 
 function AnimalsInfo(props:IMediaGridProps) {
     var JSON_animals = require('../JSON components/animals.json');
-    const [animalInformation, setAnimalInformation] = useState<Animals[]>([{species:"", interactivity:"",social:{group_size:"", male:"", female:""},reproduction:{maturity:0,incubation:0,interbirth:0},continents:"", conversation_status:"",habbitat:{land_area:"", land_area_for_additional_animal:"", water_area:"", water_area_for_additional_animal:"", climbing_area:"", climbing_areay_for_additional_animal:"", temperature:"", humidity:"", biomes:[{biome:""}]}, id:0, population:"", edition:"", shared_habitat:[{animal:""}] }]);
+    const [animalInformation, setAnimalInformation] = useState<Animals[]>([{species:"", interactivity:"",social:{group_size:"", male:"", female:""},reproduction:{maturity:0,incubation:0,interbirth:0},continents:"", conservation_status:"",habitat:{land_area:"", land_area_for_additional_animal:"", water_area:"", water_area_for_additional_animal:"", climbing_area:"", climbing_areay_for_additional_animal:"", temperature:"", humidity:"", biomes:[{biome:""}]}, id:0, population:"", edition:"", shared_habitat:[{animal:""}] }]);
 
-    var JSON_habbitat = require('../JSON components/habitat.json');
+    var JSON_habitat = require('../JSON components/habitat.json');
     const [habitatInformation, setHabitatInformation] = useState<Enrichment[]>([{name:"", cost:"",type:"", animals:[{species:""}]}]);
     const [value, setValue] = useState("");
 
     useEffect(()=> {
-        setAnimalInformation(JSON_animals);
-        setHabitatInformation(JSON_habbitat);
+        fetch(`https://localhost:44380/api/HabitatEnrichments`)
+        .then(res => res.json())
+        .then(response => {
+            setHabitatInformation(response);
+        })
+        .catch(()=> {
+            console.log("website down");
+            setHabitatInformation(JSON_habitat);
+        });
+
+        fetch(`https://localhost:44380/api/Animals`)
+        .then(res => res.json())
+        .then(response => {
+            setAnimalInformation(response);
+        })
+        .catch(()=> {
+            console.log("website down");
+            setAnimalInformation(JSON_animals);
+        });
+        
     // eslint-disable-next-line
-    }, [JSON_animals,JSON_habbitat, value]); 
+    }, [JSON_animals,JSON_habitat, value]); 
 
     for(var i=0; i<animalInformation.length; i++){
         if(animalInformation[i].edition === "standard" ){
@@ -50,8 +68,7 @@ function AnimalsInfo(props:IMediaGridProps) {
     const animalImages = importAll(require.context('../Images/Animals', false,/.*\.PNG$/));    
     const exhibitImages = importAll(require.context('../Images/Exhibit', false,/.*\.PNG$/));  
     const biomesImages = importAll(require.context('../Images/Biomes',false, /.*\.PNG$/));
-    
-    console.log(biomesImages);
+
     function getResult(){
         var index = animalInformation.findIndex((item,i)=> {
             return item.species === props.SearchQuery
@@ -91,21 +108,21 @@ function AnimalsInfo(props:IMediaGridProps) {
                             <Images list={animalImages} height={"350"} name={animalInformation[index].species}/>
                             <div style={{marginLeft:"1em"}}>
                                 <h3>{animalInformation[index].species}</h3>
-                                {animalInformation[index].habbitat.land_area === "0"?null:<p>Land area: {animalInformation[index].habbitat.land_area} m<sup>2</sup> (Add'l sp: {animalInformation[index].habbitat.land_area_for_additional_animal} m<sup>2</sup>)</p>}
-                                {animalInformation[index].habbitat.climbing_area === "0"?null:<p>Climb area: {animalInformation[index].habbitat.climbing_area} m<sup>2</sup> (Add'l sp: {animalInformation[index].habbitat.climbing_areay_for_additional_animal} m<sup>2</sup>)</p>}
-                                {animalInformation[index].habbitat.water_area === "0"?null:<p>Water area: {animalInformation[index].habbitat.water_area} m<sup>2</sup> (Add'l sp: {animalInformation[index].habbitat.water_area_for_additional_animal} m<sup>2</sup>)</p>}
+                                {animalInformation[index].habitat.land_area === "0"?null:<p>Land area: {animalInformation[index].habitat.land_area} m<sup>2</sup> (Add'l sp: {animalInformation[index].habitat.land_area_for_additional_animal} m<sup>2</sup>)</p>}
+                                {animalInformation[index].habitat.climbing_area === "0"?null:<p>Climb area: {animalInformation[index].habitat.climbing_area} m<sup>2</sup> (Add'l sp: {animalInformation[index].habitat.climbing_areay_for_additional_animal} m<sup>2</sup>)</p>}
+                                {animalInformation[index].habitat.water_area === "0"?null:<p>Water area: {animalInformation[index].habitat.water_area} m<sup>2</sup> (Add'l sp: {animalInformation[index].habitat.water_area_for_additional_animal} m<sup>2</sup>)</p>}
                                 <p>Ratio (F:M): {animalInformation[index].social.female} : {animalInformation[index].social.male}</p>
                                 <p>Group Size: {animalInformation[index].social.group_size}</p>
                                 
-                                <ConservationStatus message="Conservation Status:" status={animalInformation[index].conversation_status}/>
+                                <ConservationStatus message="Conservation Status:" status={animalInformation[index].conservation_status}/>
                                 
                             </div>
                         </div>
                         <div>
                             <p>Continents: {animalInformation[index].continents}</p>
-                            <p>Biomes:<div className='BiomesContainer'> {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/><Images list={biomesImages} height={"30"} name={item.biome}/> {item.biome.charAt(0).toUpperCase()+ item.biome.slice(1)}</li>)}</div></p>
+                            <p>Biomes:<div className='BiomesContainer'> {animalInformation[index].habitat.biomes.map((item,i) => <li key={i}><br/><Images list={biomesImages} height={"30"} name={item.biome}/> {item.biome.charAt(0).toUpperCase()+ item.biome.slice(1)}</li>)}</div></p>
                             <p>Population in wild: {fixPopulation(animalInformation[index].population)}</p>
-                            <p>Temperature of Habitat: {animalInformation[index].habbitat.temperature} °C</p>
+                            <p>Temperature of Habitat: {animalInformation[index].habitat.temperature} °C</p>
                         </div>
                     </div>
                     <div className="SharedAnimals">
@@ -130,15 +147,15 @@ function AnimalsInfo(props:IMediaGridProps) {
                             <Images list={animalImages} height={"200"} name={animalInformation[index].species}/>
                             <div>
                                 <h3>{animalInformation[index].species}</h3>
-                                <ConservationStatus message="Conservation Status:" status={animalInformation[index].conversation_status}/>
+                                <ConservationStatus message="Conservation Status:" status={animalInformation[index].conservation_status}/>
                                 <p>Group Size: {animalInformation[index].social.group_size}</p>
                             </div>
                         </div>
                         <div>
                             <p>Continents: {animalInformation[index].continents}</p>
-                            <p>Temperature: {animalInformation[index].habbitat.temperature}</p>
-                            <p>Humidity: {animalInformation[index].habbitat.humidity}</p>
-                            <p>Biomes:<div className='BiomesContainer'> {animalInformation[index].habbitat.biomes.map((item,i) => <li key={i}><br/><Images list={biomesImages} height={"30"} name={item.biome}/> {item.biome.charAt(0).toUpperCase()+ item.biome.slice(1)}</li>)}</div></p>
+                            <p>Temperature: {animalInformation[index].habitat.temperature}</p>
+                            <p>Humidity: {animalInformation[index].habitat.humidity}</p>
+                            <p>Biomes:<div className='BiomesContainer'> {animalInformation[index].habitat.biomes.map((item,i) => <li key={i}><br/><Images list={biomesImages} height={"30"} name={item.biome}/> {item.biome.charAt(0).toUpperCase()+ item.biome.slice(1)}</li>)}</div></p>
                         </div>
                     </div>
                     <div className="DivToMakeSecondRow">

@@ -77,8 +77,8 @@ export const Table = (props:Props ) => {
           </th>
           <th>
             <Button
-              onClick={() => requestSort('conversation_status')}
-              className={getClassNamesFor('conversation_status')}
+              onClick={() => requestSort('conservation_status')}
+              className={getClassNamesFor('conservation_status')}
             >
               Conservation Status
             </Button>
@@ -113,7 +113,7 @@ export const Table = (props:Props ) => {
         {items.map((item) => (
           <tr key={item.species}>
             <td><Button color="primary" onClick={()=>props.handleOnClick(item.species)} style={{display:"block"}}>{item.species}</Button></td>
-            <td>  <ConservationStatus message="" status={item.conversation_status}/></td>
+            <td>  <ConservationStatus message="" status={item.conservation_status}/></td>
             <td>{item.continents}</td>
             <td>{item.edition}</td>
             <td>{fixPopulation(item.population)}</td>

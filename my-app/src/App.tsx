@@ -5,7 +5,6 @@ import AnimalsInfo from './components/AnimalsInfo';
 import { IUserInput } from './components/interfaces';
 import Search from './components/Search/Search';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
-import TemporaryDrawer from './components/Drawer/Drawer';
 import { ContinentMap } from './components/ContinentMap/ContinentMap';
 import PublicIcon from '@material-ui/icons/Public';
 
@@ -24,7 +23,6 @@ function App() {
     SearchQuery: "",
   });
 
-  const [show, setShow] = useState(false);
   function SetUserInput(a: IUserInput) {
     setUserInput(a);    
   }
@@ -53,13 +51,13 @@ function App() {
             size="small"
             className={classes.button}
             startIcon={<ArrowBackIcon />}
-            onClick={() => {changeValue(""); setShow(false) }}
+            onClick={() => changeValue("")}
             style={{width:"10%", height:"3em", marginTop:"2em"}}
             disabled={UserInput.SearchQuery===""}
           >
             Back
           </Button>
-          <Search SetUserInput={(a: IUserInput) => {SetUserInput(a); setShow(true)}} />
+          <Search SetUserInput={(a: IUserInput) => SetUserInput(a)} />
           <Button
               variant="contained"
               size="small"

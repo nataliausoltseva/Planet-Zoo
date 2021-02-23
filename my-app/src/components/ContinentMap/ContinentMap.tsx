@@ -1,6 +1,5 @@
 import { Button, createStyles, makeStyles, Theme } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
-import PublicIcon from '@material-ui/icons/Public';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import { Images } from '../Images';
 import { Animals } from '../interfaces';
@@ -24,11 +23,11 @@ export const ContinentMap = (props:Props) => {
     const classes = useStyles();
     var JSON_animals = require('../../JSON components/animals.json');
 
-    const [animalInformation, setAnimalInformation] = useState<Animals[]>([{species:"", interactivity:"",social:{group_size:"", male:"", female:""},reproduction:{maturity:0,incubation:0,interbirth:0},continents:"", conversation_status:"",habbitat:{land_area:"", land_area_for_additional_animal:"", water_area:"", water_area_for_additional_animal:"", climbing_area:"", climbing_areay_for_additional_animal:"", temperature:"", humidity:"", biomes:[{biome:""}]}, id:0, population:"", edition:"", shared_habitat:[{animal:""}] }]);
+    const [animalInformation, setAnimalInformation] = useState<Animals[]>([{species:"", interactivity:"",social:{group_size:"", male:"", female:""},reproduction:{maturity:0,incubation:0,interbirth:0},continents:"", conservation_status:"",habitat:{land_area:"", land_area_for_additional_animal:"", water_area:"", water_area_for_additional_animal:"", climbing_area:"", climbing_areay_for_additional_animal:"", temperature:"", humidity:"", biomes:[{biome:""}]}, id:0, population:"", edition:"", shared_habitat:[{animal:""}] }]);
 
     useEffect(()=> {
       setAnimalInformation(JSON_animals);
-    }, [animalInformation]);
+    }, [animalInformation, JSON_animals]);
 
     return(
         <div style={{marginLeft:"1em"}}>

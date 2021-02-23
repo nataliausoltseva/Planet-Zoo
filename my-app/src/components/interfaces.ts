@@ -7,12 +7,12 @@ export interface Animals {
     interactivity:string,
     social:Social,
     reproduction:Reproduction,
-    habbitat:Habbitat,
+    habitat:Habbitat,
     id:number,
     population:string,
     edition:string,
     shared_habitat:SharedHabitat[],
-    conversation_status:string,
+    conservation_status:string,
     continents:string
 }
 
